@@ -16,6 +16,8 @@ The utility is simple to set up because it doesn't require access to your Webflo
 
 ![Use this template](https://user-images.githubusercontent.com/2506014/134331253-501c4947-e66a-4066-b939-9a48ff001d60.png)
 
+> Please note that creating a repository from a template is different from creating a fork. Fork only if you plan to experiment with the code and contribute your changes back to this repository. [Here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) you can find more information about using templates.
+
 3. Name your new repository the same as your Webflow site domain (e.g. www.example.com). Alternatively, you can choose any repository name and specify the site domain in the [configuration file](#configuration):
 
 ![Repository name](https://user-images.githubusercontent.com/2506014/134332104-ee3c654d-6481-465f-b791-56a7dd2c50ca.png)
