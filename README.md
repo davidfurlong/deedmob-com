@@ -1,3 +1,5 @@
+***Please note that I no longer develop this project, since it may violate Webflow Terms & Conditions.***
+
 # Webflow Git
 
 > A utility to track changes to a Webflow site on GitHub. 
