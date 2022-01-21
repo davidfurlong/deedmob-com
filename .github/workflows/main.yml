@@ -24,6 +24,7 @@ jobs:
         with:
           repository: davidfurlong/webflow-get
           ref: refs/heads/v1
+          token: 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
 
       - name: Commit and Push
         uses: EndBug/add-and-commit@v7
