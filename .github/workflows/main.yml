@@ -6,7 +6,10 @@ on:
       force:
         description: ignore timestamp and force update
         required: false
-        default: ''
+        default: ''       
+ # publish blog using webhook
+  repository_dispatch:
+    types: [publish]
  # schedule:
  #   - cron:  '40 * * * *'
 
