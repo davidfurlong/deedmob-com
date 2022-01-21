@@ -6,9 +6,12 @@ on:
       force:
         description: ignore timestamp and force update
         required: false
-        default: ''
-  schedule:
-    - cron:  '40 * * * *'
+        default: ''       
+ # publish blog using webhook
+  repository_dispatch:
+    types: [publish]
+ # schedule:
+ #   - cron:  '40 * * * *'
 
 jobs:
   track:
@@ -21,7 +24,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Process Webflow Site
-        uses: loomchild/webflow-get@v1
+        uses: davidfurlong/webflow-get@v1
 
       - name: Commit and Push
         uses: EndBug/add-and-commit@v7

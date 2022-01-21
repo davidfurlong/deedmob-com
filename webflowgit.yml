@@ -1,4 +1,5 @@
 site: https://deedmob.webflow.io
+debug: true
 # pages: false
 # OR
 # pages:
