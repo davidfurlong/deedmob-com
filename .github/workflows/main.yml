@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - uses: loomchild/webflow-get@v1.2
+      - uses: actions/checkout@v2-beta
         with:
           repository: davidfurlong/webflow-get
           ref: refs/heads/v1
