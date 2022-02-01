@@ -5523,6 +5523,7 @@ figcaption {
   left: -50px;
   top: -130px;
   width: 14%;
+  margin-top: 46px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -9804,6 +9805,7 @@ figcaption {
     left: 4px;
     top: -84px;
     width: 15%;
+    margin-top: 32px;
   }
   .image.footer-shape-3 {
     top: auto;
@@ -11129,7 +11131,7 @@ figcaption {
     left: -14px;
     top: -18px;
     width: 16%;
-    margin-top: -39px;
+    margin-top: -3px;
   }
   .image.story-1 {
     margin-bottom: 20px;
@@ -12562,7 +12564,7 @@ figcaption {
     top: -19px;
     display: none;
     width: 19%;
-    margin-top: -21px;
+    margin-top: -6px;
     padding-top: 0;
   }
   .image.story-1 {
