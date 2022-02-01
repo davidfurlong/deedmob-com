@@ -5521,7 +5521,7 @@ figcaption {
 .image.footer-shape-1 {
   position: absolute;
   left: -50px;
-  top: -110px;
+  top: -130px;
   width: 14%;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
@@ -6908,10 +6908,10 @@ figcaption {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
