@@ -13057,6 +13057,9 @@ figcaption {
   .dropdown-nav-main-wrapper {
     padding-top: 30px;
   }
+  .dropdown-nav-main-wrapper.features.mobilenavdropdown {
+    padding-left: 0;
+  }
   .card-achievements-wrapper {
     display: -webkit-box;
     display: -webkit-flex;
