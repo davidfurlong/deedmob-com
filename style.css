@@ -4197,7 +4197,7 @@ figcaption {
 }
 .paragraph.text-color-neutral-100.footer-main-content {
   max-width: 416px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 .paragraph.text-color-neutral-400 {
   color: #d5d9e0;
@@ -6915,7 +6915,7 @@ figcaption {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
-  border-bottom: 1px solid #6f7f96;
+  border: 1px #000;
 }
 .footer-content {
   position: relative;
@@ -7024,7 +7024,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 25px;
+  padding: 20px;
   border-radius: 11px;
   background-color: #334d74;
   -webkit-transition-property: background-color;
@@ -7132,8 +7132,8 @@ figcaption {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 11px;
-  background-color: #73cfa8;
-  color: #193765;
+  background-color: #193765;
+  color: #fff;
   font-weight: 700;
   text-align: center;
 }
@@ -8974,6 +8974,9 @@ figcaption {
 .body-2,
 .bold-text-2 {
   font-family: "Open Sans", sans-serif;
+}
+.text-block-3 {
+  color: #fff;
 }
 @media screen and (min-width: 1920px) {
   .button-primary {
