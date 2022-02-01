@@ -1792,36 +1792,6 @@ textarea.w-select {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
-.w-pagination-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-.w-pagination-next,
-.w-pagination-previous {
-  display: block;
-  color: #333;
-  font-size: 14px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 9px 20px;
-  background-color: #fafafa;
-  border-width: 1px;
-  border-color: #ccc;
-  border-top: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  border-style: solid;
-  border-radius: 2px;
-}
 .w-commerce-commercecheckoutformcontainer {
   width: 100%;
   min-height: 100vh;
@@ -2904,6 +2874,36 @@ textarea.w-select {
   padding: 10px 16px;
   background-color: #ffdede;
 }
+.w-pagination-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.w-pagination-next,
+.w-pagination-previous {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 9px 20px;
+  background-color: #fafafa;
+  border-width: 1px;
+  border-color: #ccc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-style: solid;
+  border-radius: 2px;
+}
 .w-commerce-commerceaddtocartform {
   margin: 0 0 15px;
 }
@@ -3896,6 +3896,7 @@ figcaption {
   background-image: linear-gradient(180deg, #fff 50%, #f8feff 0);
 }
 .section.features-hero {
+  position: static;
   padding-top: 66px;
   padding-bottom: 100px;
 }
@@ -4235,6 +4236,7 @@ figcaption {
   color: #586577;
 }
 .paragraph.feature {
+  margin-top: 0;
   margin-bottom: 0;
   color: #6f7f96;
 }
@@ -5518,8 +5520,8 @@ figcaption {
 }
 .image.footer-shape-1 {
   position: absolute;
-  left: -19px;
-  top: -75px;
+  left: -50px;
+  top: -110px;
   width: 14%;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
@@ -7159,6 +7161,7 @@ figcaption {
 .empty-state.small {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: transparent;
   font-size: 18px;
 }
 .empty-state.dark {
@@ -12554,6 +12557,7 @@ figcaption {
   .image.footer-shape-1 {
     left: -4px;
     top: -19px;
+    display: none;
     width: 19%;
     margin-top: -21px;
     padding-top: 0;
