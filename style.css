@@ -9503,6 +9503,12 @@ figcaption {
     -o-object-fit: fill;
     object-fit: fill;
   }
+  .card.contact-form {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
   .split-content.header-left {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
@@ -9835,6 +9841,9 @@ figcaption {
     margin-top: -60px;
     padding-top: 54px;
     padding-bottom: 54px;
+  }
+  .card.value {
+    padding-top: 79px;
   }
   .card.press.last {
     padding-top: 65px;
@@ -11215,7 +11224,7 @@ figcaption {
   }
   .card.contact-form {
     min-height: 847px;
-    padding: 48px 35px;
+    padding: 0 35px;
   }
   .card.contact-link {
     padding: 33px 35px 56px;
