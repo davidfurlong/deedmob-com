@@ -4037,7 +4037,7 @@ figcaption {
 .section.contact {
   position: relative;
   overflow: hidden;
-  padding-top: 64px;
+  padding-top: 0;
   padding-bottom: 142px;
 }
 .section.contact-links {
