@@ -9357,6 +9357,9 @@ figcaption {
   display: none;
 }
 @media screen and (min-width: 1920px) {
+  .container-default {
+    padding-bottom: 0;
+  }
   .button-primary {
     margin-bottom: 50px;
   }
@@ -9455,7 +9458,7 @@ figcaption {
     padding-bottom: 180px;
   }
   .section.contact {
-    padding-top: 80px;
+    padding-top: 0;
     padding-bottom: 177px;
   }
   .section.category {
