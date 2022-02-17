@@ -3139,6 +3139,20 @@ textarea.w-select {
   padding: 10px 16px;
   background-color: #ffdede;
 }
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
 @media screen and (max-width: 767px) {
   .w-commerce-commercelayoutcontainer {
     -webkit-box-orient: vertical;
@@ -9480,6 +9494,10 @@ figcaption {
   color: #d5d9e0;
   font-size: 14px;
   line-height: 1.714em;
+}
+.text-span-12,
+.text-span-13 {
+  font-size: 12px;
 }
 @media screen and (min-width: 1920px) {
   .container-default {

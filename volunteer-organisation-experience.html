@@ -1,24 +1,15 @@
 <!DOCTYPE html>
-<html data-wf-domain="deedmob.webflow.io" data-wf-page="61dc11a06409c81cd68356e3" data-wf-site="61dc11a06409c8209f8356c7" lang="en">
+<html data-wf-domain="deedmob.webflow.io" data-wf-page="620e4216998cce59cd7c70a7" data-wf-site="61dc11a06409c8209f8356c7" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Order Confirmation - Saaslify X - Webflow Ecommerce website template</title>
-    <meta
-      content="Presenting Saaslify X, our new technology &amp; SaaS Webflow Template. If you want to launch an amazing website for your modern SaaS company, this is the template for you."
-      name="description"
-    />
-    <meta content="Order Confirmation - Saaslify X - Webflow Ecommerce website template" property="og:title" />
-    <meta
-      content="Presenting Saaslify X, our new technology &amp; SaaS Webflow Template. If you want to launch an amazing website for your modern SaaS company, this is the template for you."
-      property="og:description"
-    />
-    <meta content="https://assets.website-files.com/610342b3dbc0773f41f900ef/612da143592f6f870c4fa8fe_saaslify-featured-image.png" property="og:image" />
-    <meta content="Order Confirmation - Saaslify X - Webflow Ecommerce website template" property="twitter:title" />
-    <meta
-      content="Presenting Saaslify X, our new technology &amp; SaaS Webflow Template. If you want to launch an amazing website for your modern SaaS company, this is the template for you."
-      property="twitter:description"
-    />
-    <meta content="https://assets.website-files.com/610342b3dbc0773f41f900ef/612da143592f6f870c4fa8fe_saaslify-featured-image.png" property="twitter:image" />
+    <title>Volunteer and Organisation Experience | Deedmob</title>
+    <meta content="This video shows the Volunteer and Organisation Experience from Deedmob&#x27;s partner GoVolHerts" name="description" />
+    <meta content="Volunteer and Organisation Experience | Deedmob" property="og:title" />
+    <meta content="This video shows the Volunteer and Organisation Experience from Deedmob&#x27;s partner GoVolHerts" property="og:description" />
+    <meta content="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e16d9d5d9e3379d116c898_Your%20partner%20to%20mobilize%20volunteering.png" property="og:image" />
+    <meta content="Volunteer and Organisation Experience | Deedmob" property="twitter:title" />
+    <meta content="This video shows the Volunteer and Organisation Experience from Deedmob&#x27;s partner GoVolHerts" property="twitter:description" />
+    <meta content="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e16d9d5d9e3379d116c898_Your%20partner%20to%20mobilize%20volunteering.png" property="twitter:image" />
     <meta property="og:type" content="website" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -67,6 +58,8 @@
       src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js"
       fs-cc-mode="opt-in"
     ></script>
+    <link rel="alternate" hreflang="en" href="https://www.deedmob.com/volunteer-organisation-experience" />
+    <link rel="alternate" hreflang="nl" href="https://nl.deedmob.com/volunteer-organisation-experience" />
     <script type="text/javascript">
       window.__WEBFLOW_CURRENCY_SETTINGS = {
         currencyCode: "USD",
@@ -272,469 +265,33 @@
       </div>
       <div class="header-bg"></div>
       <section class="section utility-page wf-section">
-        <div class="container-default w-container">
-          <div
-            data-w-id="6f24c486-870b-928a-fac6-fc4c37e756d1"
-            style="
-              -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              -moz-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              -ms-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              opacity: 0;
-            "
-            class="checkout-hero-wrapper"
-          >
-            <h1 class="title utility-page">Order Confirmation</h1>
-            <p class="paragraph utility-page">Thanks for placing your order. You will be receiving more information via email.</p>
-          </div>
-        </div>
-      </section>
-      <div
-        data-node-type="commerce-order-confirmation-wrapper"
-        data-wf-order-query="query Dynamo2($finalizedOrder: commerce_order_finalized_order_args) {
-  database {
-    id
-    commerceOrder(finalizedOrder: $finalizedOrder) {
-      availableShippingMethods {
-        description
-        id
-        mode
-        name
-        price {
-          value
-          unit
-          decimalValue
-          string
-        }
-        selected
-      }
-      comment
-      customData {
-        checkbox
-        name
-        textArea
-        textInput
-      }
-      customerInfo {
-        billingAddress {
-          addressee
-          city
-          country
-          japanType
-          line1
-          line2
-          postalCode
-          state
-          type
-        }
-        identity {
-          email
-          fullName
-        }
-        shippingAddress {
-          addressee
-          city
-          country
-          japanType
-          line1
-          line2
-          postalCode
-          state
-          type
-        }
-        stripePayment {
-          card {
-            expires {
-              month
-              year
-            }
-            last4
-            provided
-            provider
-          }
-        }
-      }
-      downloadFiles {
-        id
-        name
-        url
-      }
-      extraItems {
-        name
-        pluginId
-        pluginName
-        price {
-          value
-          unit
-          decimalValue
-          string
-        }
-      }
-      id
-      paymentProcessor
-      startedOn
-      statusFlags {
-        billingAddressRequiresPostalCode
-        hasDownloads
-        hasSubscription
-        isFreeOrder
-        needAddress
-        needIdentity
-        needItems
-        needPayment
-        requiresShipping
-        shippingAddressRequiresPostalCode
-        shouldRecalc
-      }
-      subtotal {
-        value
-        unit
-        decimalValue
-        string
-      }
-      total {
-        value
-        unit
-        decimalValue
-        string
-      }
-      updatedOn
-      userItems {
-        rowTotal {
-          value
-          unit
-          decimalValue
-          string
-        }
-        sku {
-          f__draft_0ht
-          f__archived_0ht
-          f_main_image_4dr {
-            url
-            file {
-              size
-              origFileName
-              createdOn
-              updatedOn
-              mimeType
-              width
-              height
-              variants {
-                origFileName
-                quality
-                height
-                width
-                s3Url
-                error
-                size
-              }
-            }
-            alt
-          }
-          f_sku_values_3dr {
-            property {
-              id
-            }
-            value {
-              id
-            }
-          }
-          id
-        }
-        count
-        product {
-          id
-          f__draft_0ht
-          f__archived_0ht
-          f_name_
-          f_sku_properties_3dr {
-            id
-            name
-            enum {
-              id
-              name
-              slug
-            }
-          }
-          f_slug_
-        }
-        id
-      }
-      userItemsCount
-    }
-  }
-  site {
-    id
-    commerce {
-      businessAddress {
-        country
-      }
-      defaultCountry
-      defaultCurrency
-      quickCheckoutEnabled
-    }
-  }
-}
-"
-        data-wf-page-link-href-prefix=""
-        class="w-commerce-commerceorderconfirmationcontainer section checkout"
-      >
         <div
-          data-w-id="60130abb2fe6f0e2caaf170e00000000000b"
+          data-w-id="c852c6e1-2e20-22c3-c517-ec15a37acfda"
           style="
-            -webkit-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-            -moz-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-            -ms-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-            transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            -moz-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            -ms-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
             opacity: 0;
           "
-          class="w-commerce-commercelayoutcontainer container-default w-container"
+          class="container-medium-761px utility-page"
         >
-          <div class="w-commerce-commercelayoutmain split-content checkout-left">
-            <div class="w-commerce-commercecheckoutcustomerinfosummarywrapper card checkout">
-              <div class="w-commerce-commercecheckoutsummaryblockheader checkout-block-header"><h4 class="title checkout">Customer Information</h4></div>
-              <fieldset class="w-commerce-commercecheckoutblockcontent checkout-block-content">
-                <div class="w-commerce-commercecheckoutrow checkout-row">
-                  <div class="w-commerce-commercecheckoutcolumn">
-                    <div class="w-commerce-commercecheckoutsummaryitem">
-                      <label class="w-commerce-commercecheckoutsummarylabel checkout-field-label">Email</label>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.customerEmail%22%7D%7D%5D"
-                      ></div>
-                    </div>
-                  </div>
-                  <div
-                    data-wf-bindings="%5B%5D"
-                    data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22requiresShipping%22%3A%7B%22eq%22%3A%22true%22%2C%22type%22%3A%22Bool%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D"
-                    class="w-commerce-commercecheckoutcolumn"
-                  >
-                    <div class="w-commerce-commercecheckoutsummaryitem">
-                      <label class="w-commerce-commercecheckoutsummarylabel checkout-field-label">Shipping Address</label>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressAddressee%22%7D%7D%5D"
-                      ></div>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressLine1%22%7D%7D%5D"
-                      ></div>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressLine2%22%7D%7D%5D"
-                      ></div>
-                      <div class="w-commerce-commercecheckoutsummaryflexboxdiv wrap">
-                        <div
-                          data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressCity%22%7D%7D%5D"
-                          class="w-commerce-commercecheckoutsummarytextspacingondiv"
-                        ></div>
-                        <div
-                          data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressState%22%7D%7D%5D"
-                          class="w-commerce-commercecheckoutsummarytextspacingondiv"
-                        ></div>
-                        <div
-                          data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressPostalCode%22%7D%7D%5D"
-                          class="w-commerce-commercecheckoutsummarytextspacingondiv"
-                        ></div>
-                      </div>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressCountry%22%7D%7D%5D"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </fieldset>
-            </div>
-            <div
-              data-wf-bindings="%5B%5D"
-              data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22requiresShipping%22%3A%7B%22eq%22%3A%22true%22%2C%22type%22%3A%22Bool%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D"
-              class="w-commerce-commercecheckoutshippingsummarywrapper card checkout"
-            >
-              <div class="w-commerce-commercecheckoutsummaryblockheader checkout-block-header"><h4 class="title checkout">Shipping Method</h4></div>
-              <fieldset class="w-commerce-commercecheckoutblockcontent checkout-block-content">
-                <div class="w-commerce-commercecheckoutrow checkout-row">
-                  <div class="w-commerce-commercecheckoutcolumn">
-                    <div class="w-commerce-commercecheckoutsummaryitem">
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingMethodName%22%7D%7D%5D"
-                      ></div>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingMethodDescription%22%7D%7D%5D"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </fieldset>
-            </div>
-            <div class="w-commerce-commercecheckoutpaymentsummarywrapper card checkout">
-              <div class="w-commerce-commercecheckoutsummaryblockheader checkout-block-header"><h4 class="title checkout">Payment Info</h4></div>
-              <fieldset class="w-commerce-commercecheckoutblockcontent checkout-block-content">
-                <div class="w-commerce-commercecheckoutrow checkout-row">
-                  <div class="w-commerce-commercecheckoutcolumn">
-                    <div class="w-commerce-commercecheckoutsummaryitem">
-                      <label class="w-commerce-commercecheckoutsummarylabel checkout-field-label">Payment Info</label>
-                      <div class="w-commerce-commercecheckoutsummaryflexboxdiv">
-                        <div
-                          data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.cardProvider%22%7D%7D%5D"
-                          class="w-commerce-commercecheckoutsummarytextspacingondiv"
-                        ></div>
-                        <div
-                          data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.cardLastFour%22%7D%7D%5D"
-                          class="w-commerce-commercecheckoutsummarytextspacingondiv"
-                        ></div>
-                      </div>
-                      <div class="w-commerce-commercecheckoutsummaryflexboxdiv">
-                        <div
-                          data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.cardExpiresMonth%22%7D%7D%5D"
-                        ></div>
-                        <div
-                          data-wf-bindings="%5B%5D"
-                          data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22cardExpiresMonth%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22PlainText%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D"
-                        >
-                          /
-                        </div>
-                        <div
-                          data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.cardExpiresYear%22%7D%7D%5D"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-commerce-commercecheckoutcolumn">
-                    <div class="w-commerce-commercecheckoutsummaryitem">
-                      <label class="w-commerce-commercecheckoutsummarylabel checkout-field-label">Billing Address</label>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressAddressee%22%7D%7D%5D"
-                      ></div>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressLine1%22%7D%7D%5D"
-                      ></div>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressLine2%22%7D%7D%5D"
-                      ></div>
-                      <div class="w-commerce-commercecheckoutsummaryflexboxdiv wrap">
-                        <div
-                          data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressCity%22%7D%7D%5D"
-                          class="w-commerce-commercecheckoutsummarytextspacingondiv"
-                        ></div>
-                        <div
-                          data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressState%22%7D%7D%5D"
-                          class="w-commerce-commercecheckoutsummarytextspacingondiv"
-                        ></div>
-                        <div
-                          data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressPostalCode%22%7D%7D%5D"
-                          class="w-commerce-commercecheckoutsummarytextspacingondiv"
-                        ></div>
-                      </div>
-                      <div
-                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressCountry%22%7D%7D%5D"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </fieldset>
-            </div>
-            <div class="w-commerce-commercecheckoutorderitemswrapper card checkout last">
-              <div class="w-commerce-commercecheckoutsummaryblockheader checkout-block-header"><h4 class="title checkout">Items in Order</h4></div>
-              <fieldset class="w-commerce-commercecheckoutblockcontent checkout-block-content">
-                <script type="text/x-wf-template" id="wf-template-60130abb2fe6f0e2caaf170e000000000051">
-                  %3Cdiv%20class%3D%22w-commerce-commercecheckoutorderitem%20order-item%22%3E%3Cdiv%20class%3D%22order-item-wrapper%22%3E%3Ca%20data-wf-bindings%3D%22%255B%257B%2522dataWHref%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522detailPage%2522%252C%2522params%2522%253A%255B%252261dc11a06409c82fc88356ee%2522%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_slug_%2522%252C%2522collectionSlugMap%2522%253A%257B%252261dc11a06409c8af308356ed%2522%253A%2522category%2522%252C%252261dc11a06409c8583d8356f3%2522%253A%2522career-category%2522%252C%252261dc11a06409c84eef8356f5%2522%253A%2522integration-category%2522%252C%252261dc11a06409c850208356f2%2522%253A%2522career%2522%252C%252261dc11a06409c82fc88356ee%2522%253A%2522product%2522%252C%252261dc11a06409c853898356f1%2522%253A%2522blog%2522%252C%252261dc11a06409c8aaae8356f0%2522%253A%2522team%2522%252C%252261dc11a06409c84ce98356f4%2522%253A%2522integration%2522%252C%2522COMMERCE_ORDER_ROOT_COLLECTION_ID%2522%253A%2522order%2522%252C%252261dc11a06409c8dff88356ef%2522%253A%2522blog-category%2522%252C%252261dc11a06409c802418356ec%2522%253A%2522sku%2522%252C%2522COMMERCE_ORDER_USER_ITEMS_COLLECTION_ID%2522%253A%2522userItems%2522%257D%257D%257D%255D%22%20href%3D%22%23%22%20class%3D%22image-wrapper%20order-item-image%20w-inline-block%22%3E%3Cimg%20loading%3D%22eager%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20src%3D%22%22%20alt%3D%22%22%20class%3D%22w-commerce-commercecartitemimage%20image%20order-item-image%20w-dyn-bind-empty%22%2F%3E%3C%2Fa%3E%3Cdiv%20class%3D%22w-commerce-commercecheckoutorderitemdescriptionwrapper%20order-item-content%22%3E%3Ca%20data-wf-bindings%3D%22%255B%257B%2522dataWHref%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522detailPage%2522%252C%2522params%2522%253A%255B%252261dc11a06409c82fc88356ee%2522%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_slug_%2522%252C%2522collectionSlugMap%2522%253A%257B%252261dc11a06409c8af308356ed%2522%253A%2522category%2522%252C%252261dc11a06409c8583d8356f3%2522%253A%2522career-category%2522%252C%252261dc11a06409c84eef8356f5%2522%253A%2522integration-category%2522%252C%252261dc11a06409c850208356f2%2522%253A%2522career%2522%252C%252261dc11a06409c82fc88356ee%2522%253A%2522product%2522%252C%252261dc11a06409c853898356f1%2522%253A%2522blog%2522%252C%252261dc11a06409c8aaae8356f0%2522%253A%2522team%2522%252C%252261dc11a06409c84ce98356f4%2522%253A%2522integration%2522%252C%2522COMMERCE_ORDER_ROOT_COLLECTION_ID%2522%253A%2522order%2522%252C%252261dc11a06409c8dff88356ef%2522%253A%2522blog-category%2522%252C%252261dc11a06409c802418356ec%2522%253A%2522sku%2522%252C%2522COMMERCE_ORDER_USER_ITEMS_COLLECTION_ID%2522%253A%2522userItems%2522%257D%257D%257D%252C%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_name_%2522%257D%257D%255D%22%20href%3D%22%23%22%20class%3D%22title%20order-item-title%20w-dyn-bind-empty%22%3E%3C%2Fa%3E%3Cscript%20type%3D%22text%2Fx-wf-template%22%20id%3D%22wf-template-60130abb2fe6f0e2caaf170e00000000005a%22%3E%253Cli%253E%253Cspan%2520data-wf-bindings%253D%2522%25255B%25257B%252522innerHTML%252522%25253A%25257B%252522type%252522%25253A%252522PlainText%252522%25252C%252522filter%252522%25253A%25257B%252522type%252522%25253A%252522identity%252522%25252C%252522params%252522%25253A%25255B%25255D%25257D%25252C%252522dataPath%252522%25253A%252522database.commerceOrder.userItems%25255B%25255D.product.f_sku_properties_3dr%25255B%25255D.name%252522%25257D%25257D%25255D%2522%253E%253C%252Fspan%253E%253Cspan%253E%253A%2520%253C%252Fspan%253E%253Cspan%2520class%253D%2522order-item-result%2522%2520data-wf-bindings%253D%2522%25255B%25257B%252522innerHTML%252522%25253A%25257B%252522type%252522%25253A%252522CommercePropValues%252522%25252C%252522filter%252522%25253A%25257B%252522type%252522%25253A%252522identity%252522%25252C%252522params%252522%25253A%25255B%25255D%25257D%25252C%252522dataPath%252522%25253A%252522database.commerceOrder.userItems%25255B%25255D.product.f_sku_properties_3dr%25255B%25255D%252522%25257D%25257D%25255D%2522%253E%253C%252Fspan%253E%253C%252Fli%253E%3C%2Fscript%3E%3Cul%20data-wf-bindings%3D%22%255B%257B%2522optionSets%2522%253A%257B%2522type%2522%253A%2522CommercePropTable%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%5B%5D%2522%257D%257D%252C%257B%2522optionValues%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_sku_values_3dr%2522%257D%257D%255D%22%20class%3D%22w-commerce-commercecheckoutorderitemoptionlist%22%20data-wf-collection%3D%22database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%22%20data-wf-template-id%3D%22wf-template-60130abb2fe6f0e2caaf170e00000000005a%22%3E%3Cli%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D.name%2522%257D%257D%255D%22%3E%3C%2Fspan%3E%3Cspan%3E%3A%20%3C%2Fspan%3E%3Cspan%20class%3D%22order-item-result%22%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D%2522%257D%257D%255D%22%3E%3C%2Fspan%3E%3C%2Fli%3E%3C%2Ful%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePrice%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522price%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.rowTotal%2522%257D%257D%255D%22%20class%3D%22order-item-price%22%3E%24%C2%A00.00%C2%A0USD%3C%2Fdiv%3E%3C%2Fdiv%3E
-                </script>
-                <div
-                  class="w-commerce-commercecheckoutorderitemslist order-item-list"
-                  data-wf-collection="database.commerceOrder.userItems"
-                  data-wf-template-id="wf-template-60130abb2fe6f0e2caaf170e000000000051"
-                >
-                  <div class="w-commerce-commercecheckoutorderitem order-item">
-                    <div class="order-item-wrapper">
-                      <a
-                        data-wf-bindings="%5B%7B%22dataWHref%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22detailPage%22%2C%22params%22%3A%5B%2261dc11a06409c82fc88356ee%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_slug_%22%2C%22collectionSlugMap%22%3A%7B%2261dc11a06409c8af308356ed%22%3A%22category%22%2C%2261dc11a06409c8583d8356f3%22%3A%22career-category%22%2C%2261dc11a06409c84eef8356f5%22%3A%22integration-category%22%2C%2261dc11a06409c850208356f2%22%3A%22career%22%2C%2261dc11a06409c82fc88356ee%22%3A%22product%22%2C%2261dc11a06409c853898356f1%22%3A%22blog%22%2C%2261dc11a06409c8aaae8356f0%22%3A%22team%22%2C%2261dc11a06409c84ce98356f4%22%3A%22integration%22%2C%22COMMERCE_ORDER_ROOT_COLLECTION_ID%22%3A%22order%22%2C%2261dc11a06409c8dff88356ef%22%3A%22blog-category%22%2C%2261dc11a06409c802418356ec%22%3A%22sku%22%2C%22COMMERCE_ORDER_USER_ITEMS_COLLECTION_ID%22%3A%22userItems%22%7D%7D%7D%5D"
-                        href="#"
-                        class="image-wrapper order-item-image w-inline-block"
-                        ><img
-                          loading="eager"
-                          data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D"
-                          src=""
-                          alt=""
-                          class="w-commerce-commercecartitemimage image order-item-image w-dyn-bind-empty"
-                      /></a>
-                      <div class="w-commerce-commercecheckoutorderitemdescriptionwrapper order-item-content">
-                        <a
-                          data-wf-bindings="%5B%7B%22dataWHref%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22detailPage%22%2C%22params%22%3A%5B%2261dc11a06409c82fc88356ee%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_slug_%22%2C%22collectionSlugMap%22%3A%7B%2261dc11a06409c8af308356ed%22%3A%22category%22%2C%2261dc11a06409c8583d8356f3%22%3A%22career-category%22%2C%2261dc11a06409c84eef8356f5%22%3A%22integration-category%22%2C%2261dc11a06409c850208356f2%22%3A%22career%22%2C%2261dc11a06409c82fc88356ee%22%3A%22product%22%2C%2261dc11a06409c853898356f1%22%3A%22blog%22%2C%2261dc11a06409c8aaae8356f0%22%3A%22team%22%2C%2261dc11a06409c84ce98356f4%22%3A%22integration%22%2C%22COMMERCE_ORDER_ROOT_COLLECTION_ID%22%3A%22order%22%2C%2261dc11a06409c8dff88356ef%22%3A%22blog-category%22%2C%2261dc11a06409c802418356ec%22%3A%22sku%22%2C%22COMMERCE_ORDER_USER_ITEMS_COLLECTION_ID%22%3A%22userItems%22%7D%7D%7D%2C%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_name_%22%7D%7D%5D"
-                          href="#"
-                          class="title order-item-title w-dyn-bind-empty"
-                        ></a>
-                        <script type="text/x-wf-template" id="wf-template-60130abb2fe6f0e2caaf170e00000000005a">
-                          %3Cli%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D.name%2522%257D%257D%255D%22%3E%3C%2Fspan%3E%3Cspan%3E%3A%20%3C%2Fspan%3E%3Cspan%20class%3D%22order-item-result%22%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D%2522%257D%257D%255D%22%3E%3C%2Fspan%3E%3C%2Fli%3E
-                        </script>
-                        <ul
-                          data-wf-bindings="%5B%7B%22optionSets%22%3A%7B%22type%22%3A%22CommercePropTable%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr[]%22%7D%7D%2C%7B%22optionValues%22%3A%7B%22type%22%3A%22CommercePropValues%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_sku_values_3dr%22%7D%7D%5D"
-                          class="w-commerce-commercecheckoutorderitemoptionlist"
-                          data-wf-collection="database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr"
-                          data-wf-template-id="wf-template-60130abb2fe6f0e2caaf170e00000000005a"
-                        >
-                          <li>
-                            <span
-                              data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr%5B%5D.name%22%7D%7D%5D"
-                            ></span
-                            ><span>: </span
-                            ><span
-                              class="order-item-result"
-                              data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePropValues%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr%5B%5D%22%7D%7D%5D"
-                            ></span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div
-                      data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.rowTotal%22%7D%7D%5D"
-                      class="order-item-price"
-                    >
-                      $ 0.00 USD
-                    </div>
-                  </div>
-                </div>
-              </fieldset>
-            </div>
+          <h1 data-w-id="55c57951-f068-0dff-64d7-7663bc0ec7b8" class="title utility-page">Deedmob Experience</h1>
+          <div style="padding-top: 56.17021276595745%" class="w-video w-embed">
+            <iframe
+              class="embedly-embed"
+              src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FAfkmwfhwQUQ%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAfkmwfhwQUQ&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FAfkmwfhwQUQ%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube"
+              scrolling="no"
+              title="Introducing GoVolHerts, the digital home of volunteering in Hertfordshire."
+            ></iframe>
           </div>
-          <div class="w-commerce-commercelayoutsidebar split-content checkout-right">
-            <div class="w-commerce-commercecheckoutordersummarywrapper card checkout last">
-              <div class="w-commerce-commercecheckoutsummaryblockheader checkout-block-header"><h4 class="title checkout">Order Summary</h4></div>
-              <fieldset class="w-commerce-commercecheckoutblockcontent checkout-block-content">
-                <div class="w-commerce-commercecheckoutsummarylineitem checkout-line-item">
-                  <div>Subtotal</div>
-                  <div
-                    data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.subtotal%22%7D%7D%5D"
-                    class="order-summary-subtotal"
-                  ></div>
-                </div>
-                <script type="text/x-wf-template" id="wf-template-60130abb2fe6f0e2caaf170e00000000006b">
-                  %3Cdiv%20class%3D%22w-commerce-commercecheckoutordersummaryextraitemslistitem%22%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.extraItems%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22w-dyn-bind-empty%22%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePrice%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522price%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.extraItems%255B%255D.price%2522%257D%257D%255D%22%3E%24%C2%A00.00%C2%A0USD%3C%2Fdiv%3E%3C%2Fdiv%3E
-                </script>
-                <div
-                  class="w-commerce-commercecheckoutordersummaryextraitemslist"
-                  data-wf-collection="database.commerceOrder.extraItems"
-                  data-wf-template-id="wf-template-60130abb2fe6f0e2caaf170e00000000006b"
-                >
-                  <div class="w-commerce-commercecheckoutordersummaryextraitemslistitem">
-                    <div
-                      data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.extraItems%5B%5D.name%22%7D%7D%5D"
-                      class="w-dyn-bind-empty"
-                    ></div>
-                    <div
-                      data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.extraItems%5B%5D.price%22%7D%7D%5D"
-                    >
-                      $ 0.00 USD
-                    </div>
-                  </div>
-                </div>
-                <div class="w-commerce-commercecheckoutsummarylineitem checkout-line-item">
-                  <div>Total</div>
-                  <div
-                    data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.total%22%7D%7D%5D"
-                    class="w-commerce-commercecheckoutsummarytotal order-summary-total"
-                  ></div>
-                </div>
-              </fieldset>
-            </div>
-          </div>
+          <p class="paragraph utility-page">
+            This short video explains how one of our partners, GoVolHerts, uses Deedmob&#x27;s solution in Hertfordshire.<br /><br /><br /><br /><br /><strong>Videographer details:<br /></strong
+            >Bradley Martin Films <br />‍<a href="https://www.bradleymartinfilms.co/about" target="_blank">https://www.bradleymartinfilms.co/about<br /></a>
+            <a href="https://www.instagram.com/bradleymartinfilms/?hl=en" target="_blank">https://www.instagram.com/bradleymartinfilms/?hl=en</a>
+          </p>
         </div>
-      </div>
+      </section>
       <footer class="footer">
         <img
           src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8ff4e835780_shape-3-footer-saaslify-template.svg"
