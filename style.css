@@ -14173,6 +14173,14 @@ figcaption {
     -ms-grid-row-align: center;
     align-self: center;
   }
+  #w-node-_4f3b094c-42ce-2e5a-4ee3-7bfb8827b3a9-a7cb838b {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
 }
 @media screen and (max-width: 767px) {
   #w-node-a2bd8863-b77d-9869-e2f6-bd1bba69ee7c-848356d5,
