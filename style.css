@@ -9758,6 +9758,9 @@ figcaption {
   -ms-flex: 0 auto;
   flex: 0 auto;
 }
+.heading-13-copy {
+  position: static;
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     display: block;
