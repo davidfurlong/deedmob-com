@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-domain="deedmob.webflow.io" data-wf-page="622f559422db9b73c429bb1d" data-wf-site="61dc11a06409c8209f8356c7" lang="en">
+<html data-wf-domain="deedmob.webflow.io" data-wf-page="63c7e46881ac42e5b1f40d0c" data-wf-site="61dc11a06409c8209f8356c7" lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Deedmob - Websites with built-in volunteer vacancy banks</title>
@@ -23,9 +23,21 @@
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="./style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <script type="text/javascript">
-      WebFont.load({ google: { families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Domine:regular,600:latin,latin-ext"] } });
+      WebFont.load({
+        google: {
+          families: [
+            "Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic",
+            "Droid Sans:400,700",
+            "Inconsolata:400,700",
+            "Domine:regular,600:latin,latin-ext",
+            "Outfit:200,300,regular,500,600,700,800",
+          ],
+        },
+      });
     </script>
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
     <script type="text/javascript">
@@ -37,6 +49,26 @@
     </script>
     <link href="https://assets.website-files.com/61dc11a06409c8209f8356c7/61debbdce86f136a9f406a53_favicon-32x32.png" rel="shortcut icon" type="image/x-icon" />
     <link href="https://assets.website-files.com/61dc11a06409c8209f8356c7/61debc1be5669c94d0eb5b6c_favicon-512x512%20copy.png" rel="apple-touch-icon" />
+    <style>
+      .anti-flicker-hide {
+        opacity: 0 !important;
+      }
+    </style>
+    <script type="text/javascript">
+      (function (a, s, y, n, c, h, i, d, e) {
+        s.className += " " + y;
+        h.start = 1 * new Date();
+        h.end = i = function () {
+          s.className = s.className.replace(RegExp(" ?" + y), "");
+        };
+        (a[n] = a[n] || []).hide = h;
+        setTimeout(function () {
+          i();
+          h.end = null;
+        }, c);
+        h.timeout = c;
+      })(window, document.documentElement, "anti-flicker-hide", "dataLayer", 4000, { "OPT-NRZTZ66": true });
+    </script>
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -69,6 +101,23 @@
     ></script>
     <link rel="alternate" hreflang="en" href="https://www.deedmob.com" />
     <link rel="alternate" hreflang="nl" href="https://nl.deedmob.com" />
+
+    <style>
+      .w-slider-dot {
+        height: 6px;
+        background: white;
+        top: 3px;
+      }
+      .w-slider-dot.w-active {
+        height: 6px;
+        background: #2c3e50;
+        top: 3px;
+      }
+      .w-slider-nav.w-round > div {
+        width: 36px;
+        border-radius: 0px;
+      }
+    </style>
     <script type="text/javascript">
       window.__WEBFLOW_CURRENCY_SETTINGS = {
         currencyCode: "USD",
@@ -82,217 +131,315 @@
       };
     </script>
   </head>
-  <body class="body">
+  <body class="a-body">
     <div class="page-wrapper">
-      <div
-        data-collapse="medium"
-        data-animation="default"
-        data-duration="400"
-        data-w-id="58db7844-5919-d71b-dd74-2323ed8dffe9"
-        data-easing="ease"
-        data-easing2="ease"
-        role="banner"
-        class="header w-nav"
-      >
-        <div class="div-block-4">
-          <a href="https://volunteer.deedmob.com" target="_blank" class="link">Looking to find or post volunteering opportunities? Click here to go to volunteer.deedmob.com</a>
-        </div>
-        <div class="container-default w-container">
-          <div class="header-wrapper">
-            <div class="split-content header-right">
-              <a href="/" aria-current="page" class="brand w-nav-brand w--current"
-                ><img src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc169444daed530fe32d66_Copy%20of%20logo_png%20(1).png" alt="deedmob logo" class="header-logo"
-              /></a>
-              <nav role="navigation" class="nav-menu w-nav-menu">
-                <ul role="list" class="header-navigation">
-                  <li class="nav-item-wrapper">
-                    <div data-hover="false" data-delay="0" data-w-id="13335f68-7f8f-65ef-9b5d-bfa880f4dd01" class="nav-link-dropdown w-dropdown">
-                      <div class="nav-link dropdown w-dropdown-toggle">
-                        <div class="text-block">Solutions <span class="dropdown-arrow"></span></div>
-                      </div>
-                      <nav class="dropdown-list features w-dropdown-list">
-                        <div class="dropdown-nav-main-wrapper features mobilenavdropdown">
-                          <div class="features-dropdown-main-wrapper">
-                            <div class="features-dropdown-wrapper">
-                              <ul role="list" class="features-dropdown-list w-list-unstyled">
-                                <li data-w-id="13335f68-7f8f-65ef-9b5d-bfa880f4dd0c" class="features-dropdown-list-item">
-                                  <a href="/volunteer-centres" class="feature-dropdown-wrapper yellow w-inline-block"
-                                    ><img
-                                      sizes="100vw"
-                                      srcset="
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-500.png   500w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-800.png   800w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-1080.png 1080w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-1600.png 1600w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government.png        3240w
-                                      "
-                                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government.png"
-                                      loading="eager"
-                                      alt="Volunteer Centres"
-                                      class="image feature-dropdown"
-                                    />
-                                    <div class="feature-dropdown-content"><div class="title feature-dropdown">Volunteer Centres</div></div></a
-                                  >
-                                </li>
-                                <li class="features-dropdown-list-item">
-                                  <a href="/companies" class="feature-dropdown-wrapper yellow w-inline-block"
-                                    ><img
-                                      sizes="100vw"
-                                      srcset="
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-500.png   500w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-800.png   800w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-1080.png 1080w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-1600.png 1600w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-2000.png 2000w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-2600.png 2600w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-3200.png 3200w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17).png        3240w
-                                      "
-                                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17).png"
-                                      loading="eager"
-                                      alt="Companies"
-                                      class="image feature-dropdown"
-                                    />
-                                    <div class="feature-dropdown-content"><div class="title feature-dropdown">Companies</div></div></a
-                                  >
-                                </li>
-                                <li class="features-dropdown-list-item">
-                                  <a href="/education" class="feature-dropdown-wrapper yellow w-inline-block"
-                                    ><img
-                                      sizes="100vw"
-                                      srcset="
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-500.png   500w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-800.png   800w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-1080.png 1080w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-1600.png 1600w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-2000.png 2000w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-2600.png 2600w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-3200.png 3200w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1).png        3240w
-                                      "
-                                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1).png"
-                                      loading="eager"
-                                      alt="Education"
-                                      class="image feature-dropdown"
-                                    />
-                                    <div class="feature-dropdown-content"><div class="title feature-dropdown">Education</div></div></a
-                                  >
-                                </li>
-                              </ul>
-                            </div>
-                            <div class="features-dropdown-wrapper">
-                              <ul role="list" class="features-dropdown-list w-list-unstyled">
-                                <li class="features-dropdown-list-item">
-                                  <a href="/governments-emergency-response" class="feature-dropdown-wrapper blue w-inline-block"
-                                    ><img
-                                      sizes="100vw"
-                                      srcset="
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-500.png   500w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-800.png   800w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-1080.png 1080w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-1600.png 1600w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-2000.png 2000w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-2600.png 2600w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-3200.png 3200w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2).png        3240w
-                                      "
-                                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2).png"
-                                      loading="eager"
-                                      alt="Government &amp; Emergency Response"
-                                      class="image feature-dropdown"
-                                    />
-                                    <div class="feature-dropdown-content"><div class="title feature-dropdown">Government &amp; Emergency</div></div></a
-                                  >
-                                </li>
-                                <li class="features-dropdown-list-item">
-                                  <a href="/public-private-partnerships" class="feature-dropdown-wrapper blue w-inline-block"
-                                    ><img
-                                      sizes="100vw"
-                                      srcset="
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-500.png   500w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-800.png   800w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-1080.png 1080w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-1600.png 1600w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-2000.png 2000w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-2600.png 2600w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-3200.png 3200w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private.png        3240w
-                                      "
-                                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private.png"
-                                      loading="eager"
-                                      alt="Public-Private Partnerships"
-                                      class="image feature-dropdown"
-                                    />
-                                    <div class="feature-dropdown-content"><div class="title feature-dropdown">Public-Private Partnerships</div></div></a
-                                  >
-                                </li>
-                                <li class="features-dropdown-list-item">
-                                  <a href="/charities" class="feature-dropdown-wrapper blue w-inline-block"
-                                    ><img
-                                      sizes="100vw"
-                                      srcset="
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd889dfd38e94795bdc9e6_Charities%20(3)-p-500.png   500w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd889dfd38e94795bdc9e6_Charities%20(3)-p-800.png   800w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd889dfd38e94795bdc9e6_Charities%20(3)-p-1080.png 1080w,
-                                        https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd889dfd38e94795bdc9e6_Charities%20(3).png        3240w
-                                      "
-                                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd889dfd38e94795bdc9e6_Charities%20(3).png"
-                                      loading="eager"
-                                      alt=""
-                                      class="image feature-dropdown"
-                                    />
-                                    <div class="feature-dropdown-content"><div class="title feature-dropdown">Charities</div></div></a
-                                  >
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
-                  </li>
-                  <li class="nav-item-wrapper"><a href="/about" class="nav-link">About</a></li>
-                  <li class="nav-item-wrapper"><a href="/blog" class="nav-link">Blog</a></li>
-                  <li class="nav-item-wrapper"><a href="/news" class="nav-link">News</a></li>
-                </ul>
-              </nav>
-            </div>
-            <div class="split-content header-left">
-              <a href="/request-a-demo" class="button-primary small header-button w-button">Request a demo</a>
-              <div class="menu-button w-nav-button">
-                <div class="header-menu-button-icon-wrapper">
-                  <div class="icon-wrapper">
-                    <div class="header-menu-button-icon-top"></div>
-                    <div class="header-menu-button-icon-medium"></div>
-                    <div class="header-menu-button-icon-bottom"></div>
-                  </div>
+      <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="a-navbar w-nav">
+        <div class="a-container-navbar w-container">
+          <a href="/" aria-current="page" class="a-brand w-nav-brand w--current"
+            ><img src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fb1d39d306e7acbe4ae_IMAGE.webp" loading="lazy" alt="deedmob logo" class="a-logo-navbar"
+          /></a>
+          <nav role="navigation" class="a-nav-menu w-nav-menu">
+            <div class="a-flex-menu">
+              <div data-hover="true" data-delay="0" class="a-dropdown w-dropdown">
+                <div class="a-dropdown-toggle w-dropdown-toggle">
+                  <div class="a-dropdown-icon w-icon-dropdown-toggle"></div>
+                  <div class="a-navlink">Solutions</div>
                 </div>
+                <nav class="a-dropdown-list w-dropdown-list">
+                  <div class="a-sloution-dropdown-content">
+                    <div class="a-features-dropdown-wrapper">
+                      <ul role="list" class="features-dropdown-list w-list-unstyled">
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/volunteer-centres" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-500.png   500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-800.png   800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-1080.png 1080w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-1600.png 1600w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government.png        3240w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government.png"
+                              loading="eager"
+                              alt="Volunteer Centres"
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Volunteer Centres</div></div></a
+                          >
+                        </li>
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/companies" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-500.png   500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-800.png   800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-1080.png 1080w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-1600.png 1600w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-2000.png 2000w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-2600.png 2600w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-3200.png 3200w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17).png        3240w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17).png"
+                              loading="eager"
+                              alt="Companies"
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Companies</div></div></a
+                          >
+                        </li>
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/education" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-500.png   500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-800.png   800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-1080.png 1080w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-1600.png 1600w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-2000.png 2000w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-2600.png 2600w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1)-p-3200.png 3200w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1).png        3240w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd8f0584207f272266995d_Education%20(1).png"
+                              loading="eager"
+                              alt="Education"
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Education</div></div></a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="a-features-dropdown-wrapper">
+                      <ul role="list" class="a-features-dropdown-list w-list-unstyled">
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/governments-emergency-response" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-500.png   500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-800.png   800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-1080.png 1080w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-1600.png 1600w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-2000.png 2000w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-2600.png 2600w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2)-p-3200.png 3200w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2).png        3240w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd904c6f843c4a23dbc059_Education%20(2).png"
+                              loading="eager"
+                              alt="Government &amp; Emergency Response"
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Government &amp; Emergency</div></div></a
+                          >
+                        </li>
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/public-private-partnerships" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-500.png   500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-800.png   800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-1080.png 1080w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-1600.png 1600w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-2000.png 2000w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-2600.png 2600w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private-p-3200.png 3200w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private.png        3240w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd89d6e234b85baad149b3_Public-Private.png"
+                              loading="eager"
+                              alt="Public-Private Partnerships"
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Public-Private Partnerships</div></div></a
+                          >
+                        </li>
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/charities" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd889dfd38e94795bdc9e6_Charities%20(3)-p-500.png   500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd889dfd38e94795bdc9e6_Charities%20(3)-p-800.png   800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd889dfd38e94795bdc9e6_Charities%20(3)-p-1080.png 1080w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd889dfd38e94795bdc9e6_Charities%20(3).png        3240w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd889dfd38e94795bdc9e6_Charities%20(3).png"
+                              loading="eager"
+                              alt=""
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Charities</div></div></a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div data-hover="true" data-delay="0" class="a-dropdown w-dropdown">
+                <div class="a-dropdown-toggle w-dropdown-toggle">
+                  <div class="a-dropdown-icon w-icon-dropdown-toggle"></div>
+                  <div class="a-navlink">About</div>
+                </div>
+                <nav class="a-dropdown-list w-dropdown-list">
+                  <div class="a-sloution-dropdown-content">
+                    <div class="a-features-dropdown-wrapper">
+                      <ul role="list" class="features-dropdown-list w-list-unstyled">
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/about/about-deedmob" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f24d48f400f99de0baf2_Icons%20(3)-p-500.png  500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f24d48f400f99de0baf2_Icons%20(3)-p-800.png  800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f24d48f400f99de0baf2_Icons%20(3).png       1080w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f24d48f400f99de0baf2_Icons%20(3).png"
+                              loading="eager"
+                              alt="About Deedmob"
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">About Deedmob</div></div></a
+                          >
+                        </li>
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/about/team" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f3fb84517adf1567f4b2_Icons%20(6)-p-500.png  500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f3fb84517adf1567f4b2_Icons%20(6)-p-800.png  800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f3fb84517adf1567f4b2_Icons%20(6).png       1080w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f3fb84517adf1567f4b2_Icons%20(6).png"
+                              loading="eager"
+                              alt="Team"
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Team</div></div></a
+                          >
+                        </li>
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/about/impact" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f33834aa8b264ecf18e1_Icons%20(4)-p-500.png  500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f33834aa8b264ecf18e1_Icons%20(4)-p-800.png  800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f33834aa8b264ecf18e1_Icons%20(4).png       1080w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f33834aa8b264ecf18e1_Icons%20(4).png"
+                              loading="eager"
+                              alt=""
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Impact</div></div></a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div data-hover="true" data-delay="0" class="a-dropdown w-dropdown">
+                <div class="a-dropdown-toggle w-dropdown-toggle">
+                  <div class="a-dropdown-icon w-icon-dropdown-toggle"></div>
+                  <div class="a-navlink">Community</div>
+                </div>
+                <nav class="a-dropdown-list w-dropdown-list">
+                  <div class="a-sloution-dropdown-content">
+                    <div class="a-features-dropdown-wrapper">
+                      <ul role="list" class="features-dropdown-list w-list-unstyled">
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/community/blog" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267ef5569d7b43b95291936_Icons-p-500.png  500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267ef5569d7b43b95291936_Icons-p-800.png  800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267ef5569d7b43b95291936_Icons.png       1080w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/6267ef5569d7b43b95291936_Icons.png"
+                              loading="eager"
+                              alt="Blog"
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Blog</div></div></a
+                          >
+                        </li>
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/community/customer-cases" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/62bdbf75d75281514dd16e06_Icons%20(8)-p-500.png 500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/62bdbf75d75281514dd16e06_Icons%20(8).png       540w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/62bdbf75d75281514dd16e06_Icons%20(8).png"
+                              loading="eager"
+                              alt=""
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Customer Stories</div></div></a
+                          >
+                        </li>
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/community/news" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f06ac76451fea073a052_Icons%20(1)-p-500.png  500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f06ac76451fea073a052_Icons%20(1)-p-800.png  800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f06ac76451fea073a052_Icons%20(1).png       1080w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/6267f06ac76451fea073a052_Icons%20(1).png"
+                              loading="eager"
+                              alt=""
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">News</div></div></a
+                          >
+                        </li>
+                        <li class="a-features-dropdown-list-item">
+                          <a href="/community/events" class="a-feature-dropdown-wrapper w-inline-block"
+                            ><img
+                              sizes="100vw"
+                              srcset="
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/627d129ed0f5d76731ff2cba_Icons%20(7)-p-500.png  500w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/627d129ed0f5d76731ff2cba_Icons%20(7)-p-800.png  800w,
+                                https://assets.website-files.com/61dc11a06409c8209f8356c7/627d129ed0f5d76731ff2cba_Icons%20(7).png       1080w
+                              "
+                              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/627d129ed0f5d76731ff2cba_Icons%20(7).png"
+                              loading="eager"
+                              alt=""
+                              class="a-dropdown-image"
+                            />
+                            <div class="a-feature-dropdown-content"><div class="a-navlink dropdown">Events</div></div></a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
               </div>
             </div>
-          </div>
+            <div class="a-navbar-space"></div>
+            <a href="/request-a-demo" class="a-button small w-button">Request a demo</a>
+          </nav>
+          <div class="a-manu-button w-nav-button"><div class="w-icon-nav-menu"></div></div>
         </div>
       </div>
-      <div class="header-bg"></div>
-      <section data-w-id="e8f0958a-62ff-e434-99b8-28755d095886" class="section home-hero wf-section">
-        <div
-          style="
-            -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-            -moz-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-            -ms-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-            transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-            opacity: 0;
-          "
-          class="container-medium-739px home-hero"
-        >
-          <h1 class="title home-hero"><strong class="bold-text">Explore our award-winning volunteer engagement &amp; community tools</strong></h1>
-          <p class="paragraph home-hero">Deedmob, your partner to modernise volunteering<br /></p>
-          <div class="_2-buttons-wrapper">
-            <a href="/request-a-demo" class="button-primary _2-buttons w-button">Request a demo</a
-            ><a href="https://volunteer.deedmob.com" rel="noopener noreferrer" target="_blank" class="button-secondary _2-buttons w-button">Discover volunteering</a>
-          </div>
-        </div>
-        <div
-          data-w-id="ab29be5b-af89-6a7c-9c06-d9819eb74a3c"
+      <header class="section a-hero wf-section">
+        <img
+          src="https://assets.website-files.com/61dc11a06409c8209f8356c7/6376177761d89574f28a84a2_hero%20a.webp"
+          loading="lazy"
           style="
             -webkit-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
             -moz-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
@@ -300,151 +447,46 @@
             transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
             opacity: 0;
           "
-          class="card achievements"
-        >
-          <div class="card-achievements-wrapper">
-            <div class="card-achievement-wrapper">
-              <div class="number-large card-achievement-number">75K<span class="text-color-secondary-5">+</span></div>
-              <div class="card-achievement-text">First-time volunteers<br />via Deedmob</div>
-            </div>
-            <div class="card-achievement-wrapper">
-              <div class="number-large card-achievement-number">12.5k<span class="text-color-secondary-6">+</span></div>
-              <div class="card-achievement-text">Organisations <br />using Deedmob</div>
-            </div>
-            <div class="card-achievement-wrapper">
-              <div class="number-large card-achievement-number">3M<span class="text-color-secondary-7">+</span></div>
-              <div class="card-achievement-text">Represented<br />Volunteers</div>
-            </div>
-            <div class="card-achievement-wrapper">
-              <div class="number-large card-achievement-number">42K<span class="text-color-secondary-8">+</span></div>
-              <div class="card-achievement-text">Matches during <br />Covid-19</div>
-            </div>
-          </div>
-        </div>
-        <div class="container-default home-hero w-container">
-          <div data-w-id="4af0ef65-981c-0c2c-af85-a368e9db50e0" class="home-hero-images-wrapper">
-            <img
-              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9a9a3fa2dd435f466e40_Untitled%20design%20(22).png"
-              loading="lazy"
-              style="
-                opacity: 0;
-                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(10deg) rotateY(0) rotateZ(0) skew(0, 0);
-                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(10deg) rotateY(0) rotateZ(0) skew(0, 0);
-                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(10deg) rotateY(0) rotateZ(0) skew(0, 0);
-                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(10deg) rotateY(0) rotateZ(0) skew(0, 0);
-                transform-style: preserve-3d;
-              "
-              sizes="(max-width: 479px) 88vw, (max-width: 767px) 75vw, (max-width: 991px) 76vw, 845px"
-              srcset="
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9a9a3fa2dd435f466e40_Untitled%20design%20(22)-p-500.png   500w,
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9a9a3fa2dd435f466e40_Untitled%20design%20(22)-p-800.png   800w,
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9a9a3fa2dd435f466e40_Untitled%20design%20(22)-p-1080.png 1080w,
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9a9a3fa2dd435f466e40_Untitled%20design%20(22)-p-1600.png 1600w,
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9a9a3fa2dd435f466e40_Untitled%20design%20(22).png        1880w
-              "
-              alt="Volunteer the hague homepage screenshot"
-              class="image home-hero-1"
-            /><img
-              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e03c800bd7698837f19772_Homepage%20left%20of%20Volunteer%20(2).png"
-              loading="lazy"
-              style="
-                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(10deg) rotateY(0) rotateZ(0) skew(0, 0);
-                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(10deg) rotateY(0) rotateZ(0) skew(0, 0);
-                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(10deg) rotateY(0) rotateZ(0) skew(0, 0);
-                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(10deg) rotateY(0) rotateZ(0) skew(0, 0);
-                transform-style: preserve-3d;
-                opacity: 0;
-              "
-              sizes="(max-width: 479px) 99.14772033691406px, (max-width: 991px) 22vw, 311.9957275390625px"
-              srcset="
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61e03c800bd7698837f19772_Homepage%20left%20of%20Volunteer%20(2)-p-500.png   500w,
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61e03c800bd7698837f19772_Homepage%20left%20of%20Volunteer%20(2)-p-800.png   800w,
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61e03c800bd7698837f19772_Homepage%20left%20of%20Volunteer%20(2)-p-1080.png 1080w,
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61e03c800bd7698837f19772_Homepage%20left%20of%20Volunteer%20(2).png        1248w
-              "
-              alt="Deedmob use profile page screenshot"
-              class="image home-hero-2"
-            /><img
-              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61df0a8565a1a63598c07c63_Untitled%20design%20(34).png"
-              loading="lazy"
-              sizes="(max-width: 479px) 86.21448516845703px, (max-width: 991px) 19vw, 283.9985656738281px"
-              srcset="
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61df0a8565a1a63598c07c63_Untitled%20design%20(34)-p-500.png   500w,
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61df0a8565a1a63598c07c63_Untitled%20design%20(34)-p-800.png   800w,
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61df0a8565a1a63598c07c63_Untitled%20design%20(34)-p-1080.png 1080w,
-                https://assets.website-files.com/61dc11a06409c8209f8356c7/61df0a8565a1a63598c07c63_Untitled%20design%20(34).png        1136w
-              "
-              alt="Volunteering opportunity cards"
-              class="image home-hero-3 mobileimagehidden"
-            /><img
-              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8327b835774_shape-2-hero-home-saaslify-template.svg"
-              loading="lazy"
-              style="opacity: 0"
-              alt=""
-              class="image home-hero-shape-2"
-            /><img
-              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8365e835782_shape-1-footer-saaslify-template.svg"
-              loading="lazy"
-              style="
-                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                opacity: 0;
-              "
-              data-w-id="daa73ab1-ff0b-0e43-2629-4ac8f7536dfd"
-              alt=""
-              class="image footer-shape-1"
-            /><img
-              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c82332835773_shape-3-hero-home-saaslify-template.svg"
-              loading="lazy"
-              style="
-                opacity: 0;
-                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-              "
-              data-w-id="8b21f0ea-f066-ebd9-67ed-82b152c39327"
-              alt=""
-              class="image home-hero-shape-3"
-            />
-          </div>
-          <div class="home-hero-logos-wrapper">
-            <div class="title h4-size home-hero-logos-title">Awarded by</div>
-            <div class="div-block-3">
-              <img
-                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e6f2593a651c1e151cc2c7_61e03efea9775c6158b12fcf_6f7f96.png"
-                loading="lazy"
-                width="225"
-                alt="Bill and melinda gates foundation logo"
-                class="image home-hero-logo"
-              /><img
-                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e6f258dc01609d530b044d_61e05116501f6ae6d7920db7_6f7f96%20(2).png"
-                loading="lazy"
-                width="216"
-                alt="RW Institute logo"
-                class="image home-hero-logo"
-              /><img
-                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e6f2583a651c56fc1cc2c2_61e0457b389781b353b350a2_6f7f96%20(1).png"
-                loading="lazy"
-                width="202"
-                alt="Forbes logo"
-                class="image home-hero-logo"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="bg home-hero">
-          <h1 id="Our-solutions">Heading</h1>
-          <h1>Heading</h1>
-          <header class="w-container"></header>
-        </div>
-      </section>
-      <section id="home-about" class="section award-winning-solutions wf-section">
-        <div class="container-medium-668px home-about">
-          <h2
-            data-w-id="1a581783-c69a-f055-075f-8f677df97650"
+          data-w-id="14bfd2c0-d083-d498-1228-b72ad40c9117"
+          srcset="
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/6376177761d89574f28a84a2_hero%20a-p-500.webp   500w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/6376177761d89574f28a84a2_hero%20a-p-800.webp   800w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/6376177761d89574f28a84a2_hero%20a-p-1080.webp 1080w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/6376177761d89574f28a84a2_hero%20a-p-1600.webp 1600w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/6376177761d89574f28a84a2_hero%20a-p-2000.webp 2000w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/6376177761d89574f28a84a2_hero%20a-p-2600.webp 2600w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/6376177761d89574f28a84a2_hero%20a.webp        2880w
+          "
+          sizes="100vw"
+          alt=""
+          class="a-hero-image"
+        /><img
+          src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63761775e6d17607f4075168_hero%20b.webp"
+          loading="lazy"
+          style="
+            -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            -moz-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            -ms-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            opacity: 0;
+          "
+          data-w-id="2fdb64af-edc6-8ece-bd08-789d8026cdda"
+          srcset="
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/63761775e6d17607f4075168_hero%20b-p-500.webp   500w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/63761775e6d17607f4075168_hero%20b-p-800.webp   800w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/63761775e6d17607f4075168_hero%20b-p-1080.webp 1080w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/63761775e6d17607f4075168_hero%20b-p-1600.webp 1600w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/63761775e6d17607f4075168_hero%20b-p-2000.webp 2000w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/63761775e6d17607f4075168_hero%20b-p-2600.png  2600w,
+            https://assets.website-files.com/61dc11a06409c8209f8356c7/63761775e6d17607f4075168_hero%20b.webp        2880w
+          "
+          sizes="100vw"
+          alt=""
+          class="a-hero-image-2"
+        />
+        <div class="a-container w-container">
+          <div
+            data-w-id="fb95c985-5c81-63e7-de49-67e1a0d6da8e"
             style="
               -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
               -moz-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
@@ -452,199 +494,619 @@
               transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
               opacity: 0;
             "
-            class="title home-about"
+            class="a-hero-content"
           >
-            Award Winning Volunteering Technology: <span class="text-accent">Our Solutions</span>
-          </h2>
-          <div class="text-block-2">Our technology helps your organisation activate, manage and measure the impact of your volunteering communities via your own styled Deedmob platform</div>
+            <h1 class="a-h2 a-white-text">Custom volunteer management platform for true impact</h1>
+            <div class="padding-25"></div>
+            <div class="a-text-20 a-white-text">Activate, empower and scale the impact of volunteering communities</div>
+            <div class="padding-40"></div>
+            <div class="a-buttons-wrapper">
+              <a href="/request-a-demo" class="a-button w-button">Request a demo</a
+              ><a href="https://volunteer.deedmob.com" target="_blank" class="a-button secondary w-button">Discover volunteering</a>
+            </div>
+          </div>
         </div>
-        <div class="container-default w-container">
+      </header>
+      <section class="section logo-carousel wf-section">
+        <div data-w-id="4a13e731-c645-096e-00b4-0a355152a4f3" class="a-carousel-wrapper">
+          <div class="a-carousel-block no-ladscape">
+            <img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcee7b379f84460694d_Group%202473.webp"
+              loading="lazy"
+              id="w-node-_2caf46a2-3eaa-85f4-601e-4bb507a41ea3-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c0506bb26de_Group%202474.webp"
+              loading="lazy"
+              id="w-node-_4fbe33d3-3e9a-b802-0cba-22a28b1321c9-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece46682ad9100f3ee4379_Untitled%20design%20-%202023-02-15T145118.878.png"
+              loading="lazy"
+              id="w-node-_9c29eec5-b813-e7e7-b5e6-f81a4a22b215-b1f40d0c"
+              alt="Rabobank"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcd76342c056bbb26c3_Group%202475.webp"
+              loading="lazy"
+              id="w-node-_40ac071f-07c6-fc67-ec39-e95dc914d9b3-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcee7b3794f9a60694e_Group%202476.webp"
+              loading="lazy"
+              id="w-node-b36b76c5-5f7d-1b6f-c1f6-4ce2edcd402f-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece444b9c8ab45fbcfe2d7_Untitled%20design%20-%202023-02-15T145233.890.png"
+              loading="lazy"
+              id="w-node-_2fab9b65-6395-be75-610f-dfe2b5a0361a-b1f40d0c"
+              alt="ANWB"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c76a9bb26dc_Group%202477.webp"
+              loading="lazy"
+              id="w-node-bf542271-20ac-c594-5c72-9c00c44461ee-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c93edbb26dd_Group%202478.webp"
+              loading="lazy"
+              id="w-node-_67aaccb4-a980-c2aa-da99-57cec037562a-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce73e09325917b75dc_Group%202479.webp"
+              loading="lazy"
+              id="w-node-_2385226b-d1e4-dd60-3a91-ca63974ef351-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce51929612b245b319_Group%202480.webp"
+              loading="lazy"
+              id="w-node-a4fbbf86-3c49-b47b-98b7-82b2d923a4b1-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcfcfaef29f68039f82_Group%202481.webp"
+              loading="lazy"
+              id="w-node-cf478bdd-b724-edc2-d212-cc9ee5fb7cca-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece426fd045859fb35925b_Untitled%20design%20-%202023-02-15T144924.470.png"
+              loading="lazy"
+              id="w-node-_0f8cc3e3-6d42-f460-5910-01f19c1765a1-b1f40d0c"
+              alt="Ahold"
+              class="a-image-carousel"
+            />
+          </div>
+          <div class="a-carousel-block no-ladscape">
+            <img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcee7b379f84460694d_Group%202473.webp"
+              loading="lazy"
+              id="w-node-c19043fb-3657-90b2-ea7b-eeec8c64da32-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c0506bb26de_Group%202474.webp"
+              loading="lazy"
+              id="w-node-c19043fb-3657-90b2-ea7b-eeec8c64da33-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece46682ad9100f3ee4379_Untitled%20design%20-%202023-02-15T145118.878.png"
+              loading="lazy"
+              id="w-node-_17cea1f4-c38e-4682-f915-2706ea5fbd79-b1f40d0c"
+              alt="Rabobank"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcd76342c056bbb26c3_Group%202475.webp"
+              loading="lazy"
+              id="w-node-c19043fb-3657-90b2-ea7b-eeec8c64da34-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcee7b3794f9a60694e_Group%202476.webp"
+              loading="lazy"
+              id="w-node-c19043fb-3657-90b2-ea7b-eeec8c64da35-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c76a9bb26dc_Group%202477.webp"
+              loading="lazy"
+              id="w-node-c19043fb-3657-90b2-ea7b-eeec8c64da36-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece444b9c8ab45fbcfe2d7_Untitled%20design%20-%202023-02-15T145233.890.png"
+              loading="lazy"
+              id="w-node-_39251b88-42e3-90a7-98fe-2fa4025841a9-b1f40d0c"
+              alt="ANWB"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c93edbb26dd_Group%202478.webp"
+              loading="lazy"
+              id="w-node-c19043fb-3657-90b2-ea7b-eeec8c64da37-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce73e09325917b75dc_Group%202479.webp"
+              loading="lazy"
+              id="w-node-c19043fb-3657-90b2-ea7b-eeec8c64da38-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce51929612b245b319_Group%202480.webp"
+              loading="lazy"
+              id="w-node-c19043fb-3657-90b2-ea7b-eeec8c64da39-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcfcfaef29f68039f82_Group%202481.webp"
+              loading="lazy"
+              id="w-node-c19043fb-3657-90b2-ea7b-eeec8c64da3a-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece426fd045859fb35925b_Untitled%20design%20-%202023-02-15T144924.470.png"
+              loading="lazy"
+              id="w-node-b97277ba-521b-e03e-ca64-15921f41b0a3-b1f40d0c"
+              alt="Ahold"
+              class="a-image-carousel"
+            />
+          </div>
+          <div class="a-carousel-block landscape">
+            <img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcee7b379f84460694d_Group%202473.webp"
+              loading="lazy"
+              id="w-node-_403c7cc7-e75b-210d-009e-27ff0bc363f1-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c0506bb26de_Group%202474.webp"
+              loading="lazy"
+              id="w-node-_403c7cc7-e75b-210d-009e-27ff0bc363f2-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece46682ad9100f3ee4379_Untitled%20design%20-%202023-02-15T145118.878.png"
+              loading="lazy"
+              alt=""
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcd76342c056bbb26c3_Group%202475.webp"
+              loading="lazy"
+              id="w-node-_403c7cc7-e75b-210d-009e-27ff0bc363f3-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcee7b3794f9a60694e_Group%202476.webp"
+              loading="lazy"
+              id="w-node-_403c7cc7-e75b-210d-009e-27ff0bc363f4-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece444b9c8ab45fbcfe2d7_Untitled%20design%20-%202023-02-15T145233.890.png"
+              loading="lazy"
+              alt=""
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c76a9bb26dc_Group%202477.webp"
+              loading="lazy"
+              id="w-node-_403c7cc7-e75b-210d-009e-27ff0bc363f5-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c93edbb26dd_Group%202478.webp"
+              loading="lazy"
+              id="w-node-_403c7cc7-e75b-210d-009e-27ff0bc363f6-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce73e09325917b75dc_Group%202479.webp"
+              loading="lazy"
+              id="w-node-_403c7cc7-e75b-210d-009e-27ff0bc363f7-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce51929612b245b319_Group%202480.webp"
+              loading="lazy"
+              id="w-node-_403c7cc7-e75b-210d-009e-27ff0bc363f8-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcfcfaef29f68039f82_Group%202481.webp"
+              loading="lazy"
+              id="w-node-_403c7cc7-e75b-210d-009e-27ff0bc363f9-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece426fd045859fb35925b_Untitled%20design%20-%202023-02-15T144924.470.png"
+              loading="lazy"
+              alt=""
+              class="a-image-carousel"
+            />
+          </div>
+          <div class="a-carousel-block landscape">
+            <img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcee7b379f84460694d_Group%202473.webp"
+              loading="lazy"
+              id="w-node-d6c85fa0-3920-2336-de0a-81105d1ef86f-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c0506bb26de_Group%202474.webp"
+              loading="lazy"
+              id="w-node-d6c85fa0-3920-2336-de0a-81105d1ef870-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece46682ad9100f3ee4379_Untitled%20design%20-%202023-02-15T145118.878.png"
+              loading="lazy"
+              alt=""
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcd76342c056bbb26c3_Group%202475.webp"
+              loading="lazy"
+              id="w-node-d6c85fa0-3920-2336-de0a-81105d1ef871-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcee7b3794f9a60694e_Group%202476.webp"
+              loading="lazy"
+              id="w-node-d6c85fa0-3920-2336-de0a-81105d1ef872-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece426fd045859fb35925b_Untitled%20design%20-%202023-02-15T144924.470.png"
+              loading="lazy"
+              alt=""
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c76a9bb26dc_Group%202477.webp"
+              loading="lazy"
+              id="w-node-d6c85fa0-3920-2336-de0a-81105d1ef873-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce76342c93edbb26dd_Group%202478.webp"
+              loading="lazy"
+              id="w-node-d6c85fa0-3920-2336-de0a-81105d1ef874-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce73e09325917b75dc_Group%202479.webp"
+              loading="lazy"
+              id="w-node-d6c85fa0-3920-2336-de0a-81105d1ef875-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fce51929612b245b319_Group%202480.webp"
+              loading="lazy"
+              id="w-node-d6c85fa0-3920-2336-de0a-81105d1ef876-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fcfcfaef29f68039f82_Group%202481.webp"
+              loading="lazy"
+              id="w-node-d6c85fa0-3920-2336-de0a-81105d1ef877-b1f40d0c"
+              alt="partner logo"
+              class="a-image-carousel"
+            /><img
+              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/63ece444b9c8ab45fbcfe2d7_Untitled%20design%20-%202023-02-15T145233.890.png"
+              loading="lazy"
+              alt=""
+              class="a-image-carousel"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section a-numbers wf-section">
+        <div class="a-container">
           <div
-            data-w-id="85ebbeda-1f88-b9d4-cf34-1524d899c840"
+            data-w-id="664aed70-2994-580e-b92e-6198dc8f67fb"
             style="
-              -webkit-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              -moz-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              -ms-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+              -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+              -moz-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+              -ms-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+              transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
               opacity: 0;
             "
-            class="w-layout-grid home-about-grid"
+            class="w-layout-grid a-numbers-component"
           >
-            <div class="home-about-item-wrapper">
+            <div id="w-node-af360cb4-9049-ee82-41a3-e2dab3b35af6-b1f40d0c" class="a-numbers-block">
+              <div class="a-h2">
+                <strong class="bold-text-5">75K</strong><span><strong class="a-yellow-text">+</strong></span>
+              </div>
+              <div class="a-text-18">First-time volunteers via<br />Deedmob</div>
+            </div>
+            <div id="w-node-_0302cfef-1324-4cc5-be7b-cb208a857ec9-b1f40d0c" class="a-numbers-block">
+              <div class="a-h2">
+                <strong class="bold-text-6">12.5k</strong><span><strong class="a-blue-text">+</strong></span>
+              </div>
+              <div class="a-text-18">Organisations using<br />Deedmob</div>
+            </div>
+            <div id="w-node-_179dcc7a-b200-b081-19aa-1a86b95bd7f4-b1f40d0c" class="a-numbers-block">
+              <div class="a-h2">
+                <strong class="bold-text-7">3M</strong><span><strong class="a-yellow-text">+</strong></span>
+              </div>
+              <div class="a-text-18">Represented Volunteers</div>
+            </div>
+            <div id="w-node-be8cb70a-8b35-c5d6-a705-2ee2e21e1d1c-b1f40d0c" class="a-numbers-block">
+              <div class="a-h2">
+                <strong class="bold-text-8">42K</strong><span><strong class="a-blue-text">+</strong></span>
+              </div>
+              <div class="a-text-18">Matches during<br />Covid-19</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section a-technology wf-section">
+        <div class="a-container _1300">
+          <div class="a-technology-component">
+            <div class="a-technology-content">
+              <h2 class="a-h3">Connect volunteers and organisations to build resilient communities</h2>
+              <div class="padding-25"></div>
+              <div class="a-text-18 a-grey-text">
+                Activate, manage and measure the impact of volunteering communities via your own Deedmob platform, custom set up in your look and feel. <br /><br />Easy matchmaking, reporting, project
+                and event management empowers you to enable social action at scale. Fully supported by Deedmob and our expert community.
+              </div>
+            </div>
+            <div class="a-technology-image-wrapper">
               <img
-                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e6eece3bbb53fbea3301d3_61dd9130788f6347ea92e8c7_Government.png"
+                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636baf2b13f591b711a01fe6_tech%201.webp"
                 loading="lazy"
-                width="139"
-                height="139"
+                style="opacity: 0"
+                data-w-id="3d4b50df-80e3-d35d-52f2-e7480a99ad29"
+                srcset="
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/636baf2b13f591b711a01fe6_tech%201-p-500.png   500w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/636baf2b13f591b711a01fe6_tech%201-p-800.png   800w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/636baf2b13f591b711a01fe6_tech%201-p-1080.png 1080w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/636baf2b13f591b711a01fe6_tech%201.webp       1200w
+                "
+                sizes="(max-width: 479px) 82vw, (max-width: 767px) 43vw, (max-width: 991px) 42vw, (max-width: 1919px) 41vw, 739.00390625px"
+                alt=""
+                class="a-image-technology"
+              /><img
+                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/6376182661d895a3a58a93b7_tech%203.webp"
+                loading="lazy"
+                style="
+                  -webkit-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -moz-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -ms-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  opacity: 0;
+                "
+                data-w-id="de4ae17b-f9e8-e4b7-6d93-593948b9a4c6"
+                srcset="
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376182661d895a3a58a93b7_tech%203-p-500.webp   500w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376182661d895a3a58a93b7_tech%203-p-800.webp   800w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376182661d895a3a58a93b7_tech%203-p-1080.webp 1080w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376182661d895a3a58a93b7_tech%203.webp        1501w
+                "
+                sizes="(max-width: 479px) 82vw, (max-width: 767px) 43vw, (max-width: 991px) 42vw, (max-width: 1919px) 41vw, 739.00390625px"
+                alt=""
+                class="a-image-technology _2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section a-solutions wf-section">
+        <div class="a-container w-container">
+          <div class="center-align">
+            <h2
+              data-w-id="fe28c86a-4635-fba5-3b97-974ec900c840"
+              style="
+                -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="a-h3"
+            >
+              Tailor-made solutions for doing good, better
+            </h2>
+            <div class="padding-60"></div>
+          </div>
+          <div class="w-layout-grid a-solutions-component">
+            <div id="w-node-_7b02b621-f7f0-60a5-62a3-a63a667f712a-b1f40d0c" class="a-solution-card">
+              <img
+                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government.png"
+                loading="lazy"
+                sizes="(max-width: 767px) 50px, (max-width: 991px) 8vw, (max-width: 1919px) 83.994140625px, 111.9921875px"
+                srcset="
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-500.png   500w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-800.png   800w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-1080.png 1080w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government-p-1600.png 1600w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd9130788f6347ea92e8c7_Government.png        3240w
+                "
                 alt="Volunteer Centres"
-                class="image home-about-item-icon"
+                class="a-solution-image"
               />
-              <div class="home-about-item-content">
-                <h3 class="title home-about-item">Volunteer centres</h3>
-                <p class="paragraph home-about-item">
-                  Many volunteer centres around the world use a Deedmob platform. Our partners connect volunteers to charities, social organisations and much more. Find out more about Deedmob&#x27;s
-                  solutions for your volunteer centre via the button below!
-                </p>
-              </div>
-              <a href="/volunteer-centres" class="button-secondary _2-buttons solution-button w-button">More information</a>
+              <div class="padding-25"></div>
+              <h3 class="a-h6">Volunteer centres</h3>
+              <div class="padding-25"></div>
+              <p class="a-text-18">
+                Find, match, recruit, retain and inspire (young) volunteers at scale. Empower and connect (corporate) volunteers to charities, non-profits and social organisations with your all-in-one
+                platform.
+              </p>
+              <div class="padding-25"></div>
+              <div class="a-solution-button-wrapper"><a href="/volunteer-centres" class="a-button-arrow w-button">More Information</a></div>
             </div>
-            <div class="home-about-item-wrapper">
+            <div id="w-node-_801bd570-edee-b3be-8209-531b8864e791-b1f40d0c" class="a-solution-card">
               <img
-                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e6f01dc0303903296202de_61dd870110473a4a16606b05_Untitled%20design%20(17).png"
+                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17).png"
                 loading="lazy"
-                width="139"
-                height="139"
+                sizes="(max-width: 767px) 50px, (max-width: 991px) 8vw, (max-width: 1919px) 83.994140625px, 111.9921875px"
+                srcset="
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-500.png   500w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-800.png   800w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-1080.png 1080w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-1600.png 1600w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-2000.png 2000w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-2600.png 2600w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17)-p-3200.png 3200w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/61dd870110473a4a16606b05_Untitled%20design%20(17).png        3240w
+                "
                 alt="Companies"
-                class="image home-about-item-icon"
+                class="a-solution-image"
               />
-              <div class="home-about-item-content">
-                <h3 class="title home-about-item">Companies</h3>
-                <p class="paragraph home-about-item">
-                  Deedmob enables companies to make a corporate volunteering impact that is measured against the SDGs. The platform enables them to activate their employees to do good and to use their
-                  professional skills. This button shows our solutions for corporates.
-                </p>
-                <a href="/companies" class="button-secondary _2-buttons solution-button w-button">More information</a>
-              </div>
+              <div class="padding-25"></div>
+              <h3 class="a-h6">Companies</h3>
+              <div class="padding-25"></div>
+              <p class="a-text-18">
+                Enable your employees to do good, aligned with their skills and purpose. Tap into our wide network of social partners to scale glocal impact and measure your progress with integrated
+                SDG reporting.
+              </p>
+              <div class="padding-25"></div>
+              <div class="a-solution-button-wrapper"><a href="/companies" class="a-button-arrow w-button">More Information</a></div>
             </div>
-            <div class="home-about-item-wrapper">
+            <div id="w-node-b66f1d1b-f8d6-9b8e-a8b3-ce12fa6fd194-b1f40d0c" class="a-solution-card">
               <img
                 src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e6f01d41c09a89c1e0b5ef_61dd89d6e234b85baad149b3_Public-Private.png"
                 loading="lazy"
-                width="139"
-                height="139"
                 alt="Public-Private Partnerships"
-                class="image home-about-item-icon"
+                class="a-solution-image"
               />
-              <div class="home-about-item-content">
-                <h3 class="title home-about-item">Public-Private Partnerships</h3>
-                <p class="paragraph home-about-item">
-                  The ideal partnership. Municipality, volunteer centre and Deedmob work together to connect the city with the power of volunteering. Social initiatives are linked to business to make
-                  an impact together. Communities become so much stronger. Click to find out more.<br />
-                </p>
-                <a href="/public-private-partnerships" class="button-secondary _2-buttons solution-button w-button">More information</a>
-              </div>
+              <div class="padding-25"></div>
+              <h3 class="a-h6">Public-Private Partnerships</h3>
+              <div class="padding-25"></div>
+              <p class="a-text-18">
+                Partner up with local government, volunteer centres and companies to multiply the impact of volunteering. Combine expertise, effort and funding to enable social action in local
+                communities.
+              </p>
+              <div class="padding-25"></div>
+              <div class="a-solution-button-wrapper"><a href="/public-private-partnerships" class="a-button-arrow w-button">More Information</a></div>
             </div>
-            <div class="home-about-item-wrapper">
+            <div id="w-node-b311ea56-bbc0-dacd-4e30-4a8b436cd4c2-b1f40d0c" class="a-solution-card">
               <img
                 src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e6f01e696fa8e0f0f86373_61dd904c6f843c4a23dbc059_Education%20(2).png"
                 loading="lazy"
-                width="139"
-                height="139"
                 alt="Government &amp; Emergency Response"
-                class="image home-about-item-icon"
+                class="a-solution-image"
               />
-              <div class="home-about-item-content">
-                <h3 class="title home-about-item">Government &amp; Emergency Response</h3>
-                <p class="paragraph home-about-item">
-                  Deedmob enables partners to act quickly in times of crisis and to reach a next level in intergovernmental cooperation. Curious to see what Deedmob can do for you? Find out more
-                  information by clicking on the button below!
-                </p>
-                <a href="/governments-emergency-response" class="button-secondary _2-buttons solution-button government-button w-button">More information</a>
-              </div>
+              <div class="padding-25"></div>
+              <h3 class="a-h6">Government &amp; Emergency<br />Response</h3>
+              <div class="padding-25"></div>
+              <p class="a-text-18">
+                Strengthen crisis response through collaboration with all stakeholders on one single platform. Provide safe and accessible means of volunteer coordination and employment when you need
+                it the most.
+              </p>
+              <div class="padding-25"></div>
+              <div class="a-solution-button-wrapper"><a href="/governments-emergency-response" class="a-button-arrow w-button">More Information</a></div>
             </div>
-            <div class="home-about-item-wrapper">
+            <div id="w-node-b400c7b2-88f1-d06c-6d69-7b95241a6272-b1f40d0c" class="a-solution-card">
               <img
                 src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e6f01da28b5d320c073ba1_61dd8f0584207f272266995d_Education%20(1).png"
                 loading="lazy"
-                width="139"
-                height="139"
                 alt="Education"
-                class="image home-about-item-icon"
+                class="a-solution-image"
               />
-              <div class="home-about-item-content">
-                <h3 class="title home-about-item">Education</h3>
-                <p class="paragraph home-about-item">
-                  Whether it&#x27;s an education government program or as a university looking to do more for society with students, we are your partner. With Deedmob, students and scholars are paired
-                  with local communities to make an impact together. Click to find out more. <br />
-                </p>
-                <a href="/education" class="button-secondary _2-buttons solution-button w-button">More information</a>
-              </div>
+              <div class="padding-25"></div>
+              <h3 class="a-h6">Education</h3>
+              <div class="padding-25"></div>
+              <p class="a-text-18">
+                Enable students to give back and develop skills through volunteering. MDT and MAS projects make it fun and accessible for young people to make a difference, now and in the future.
+              </p>
+              <div class="padding-25"></div>
+              <div class="a-solution-button-wrapper"><a href="/education" class="a-button-arrow w-button">More Information</a></div>
             </div>
-            <div class="home-about-item-wrapper">
+            <div id="w-node-_6574a47a-83bc-16dc-fbf8-e6451ab03be4-b1f40d0c" class="a-solution-card">
               <img
                 src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61e6f01f6c75837fe5877683_61dd881e8480a1acf500844b_Untitled%20design%20(18).png"
                 loading="lazy"
-                width="139"
-                height="139"
                 alt="Charities"
-                class="image home-about-item-icon"
+                class="a-solution-image"
               />
-              <div class="home-about-item-content">
-                <h3 class="title home-about-item">Charities</h3>
-                <p class="paragraph home-about-item">
-                  Numerous foundations and charities use Deedmob&#x27;s technology to coordinate and inform volunteers worldwide. Do you want to learn more about our charity volunteering tools? Click
-                  the button below to see our solutions!<br />
-                </p>
-                <a href="/charities" class="button-secondary _2-buttons solution-button w-button">More information</a>
-              </div>
+              <div class="padding-25"></div>
+              <h3 class="a-h6">Charities</h3>
+              <div class="padding-25"></div>
+              <p class="a-text-18">
+                Discover a wide arrange of available platforms to post your opportunities, or create your own platform. Inspire and coordinate a pool of flexible volunteers, all in one easy to use
+                tool.
+              </p>
+              <div class="padding-25"></div>
+              <div class="a-solution-button-wrapper"><a href="/charities" class="a-button-arrow w-button">More Information</a></div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section about-achievements wf-section"><div class="container-default w-container"></div></section>
-      <section class="section cta wf-section">
-        <div class="container-default w-container">
-          <div class="cta-wrapper">
-            <div class="cta-content-wrapper">
-              <div data-w-id="56ea7759-5707-1e17-37f2-9a0db020344c" class="cta-content">
-                <h2 class="title text-color-neutral-100 cta">Start your own Deedmob platform!<span class="text-no-wrap"></span></h2>
-                <p class="paragraph text-color-neutral-300 cta">Request a demo to see what Deedmob&#x27;s solutions can mean for your company.<span class="text-no-wrap"></span></p>
-              </div>
-              <div data-w-id="56ea7759-5707-1e17-37f2-9a0db0203455" class="_2-buttons-wrapper cta">
-                <a href="#" data-w-id="56ea7759-5707-1e17-37f2-9a0db0203456" class="button-primary button-white _2-buttons w-button">Request a demo</a>
-              </div>
+      <section class="section a-start wf-section">
+        <div class="a-container _1300">
+          <div class="a-start-component">
+            <div class="a-start-content">
+              <h2 class="a-h3 a-white-text">Grow your impact with Deedmob</h2>
+              <div class="padding-25"></div>
+              <div class="a-text-16">Join our community of partners that are leading positive change and create a do-good experience volunteers will love.</div>
+              <div class="padding-25"></div>
+              <a href="/request-a-demo" class="a-button _16px w-button">See your platform in action</a>
             </div>
-            <img
-              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8b05a83577a_shape-1-cta-saaslify-template.svg"
-              loading="lazy"
-              data-w-id="56ea7759-5707-1e17-37f2-9a0db020345a"
-              alt=""
-              class="image cta-shape-1"
-            /><img
-              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c88432835779_shape-2-cta-saaslify-template.svg"
-              loading="lazy"
-              data-w-id="56ea7759-5707-1e17-37f2-9a0db020345b"
-              alt=""
-              class="image cta-shape-2"
-            /><img
-              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8b05a83577a_shape-1-cta-saaslify-template.svg"
-              loading="lazy"
-              data-w-id="56ea7759-5707-1e17-37f2-9a0db020345c"
-              alt=""
-              class="image cta-shape-3"
-            /><img
-              src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8c27583577b_shape-3-cta-saaslify-template.svg"
-              loading="lazy"
-              data-w-id="56ea7759-5707-1e17-37f2-9a0db020345d"
-              alt=""
-              class="image cta-shape-4"
-            />
+            <div class="a-start-image-wrapper">
+              <img
+                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/6376143b61d895ef4c8a4f9c_start%201.webp"
+                loading="lazy"
+                style="opacity: 0"
+                data-w-id="285a09a2-928b-61b5-a136-e34a09bf6e31"
+                srcset="
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376143b61d895ef4c8a4f9c_start%201-p-500.png   500w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376143b61d895ef4c8a4f9c_start%201-p-800.webp  800w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376143b61d895ef4c8a4f9c_start%201.webp       1260w
+                "
+                sizes="(max-width: 479px) 82vw, (max-width: 767px) 68vw, (max-width: 991px) 62vw, (max-width: 1919px) 610px, 800px"
+                alt=""
+                class="a-start-image"
+              /><img
+                src="https://assets.website-files.com/61dc11a06409c8209f8356c7/6376143ad30a6444e41a5f4a_start%202.webp"
+                loading="lazy"
+                style="
+                  -webkit-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -moz-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -ms-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  opacity: 0;
+                "
+                data-w-id="035b66fd-4465-7460-1976-f648d43fe27b"
+                srcset="
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376143ad30a6444e41a5f4a_start%202-p-500.webp   500w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376143ad30a6444e41a5f4a_start%202-p-800.webp   800w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376143ad30a6444e41a5f4a_start%202-p-1080.webp 1080w,
+                  https://assets.website-files.com/61dc11a06409c8209f8356c7/6376143ad30a6444e41a5f4a_start%202.webp        1260w
+                "
+                sizes="(max-width: 479px) 82vw, (max-width: 767px) 68vw, (max-width: 991px) 62vw, (max-width: 1919px) 610px, 800px"
+                alt=""
+                class="a-start-image _2"
+              />
+            </div>
           </div>
         </div>
       </section>
-      <section class="section wf-section">
-        <div class="container-small-530px testimonials">
-          <h2
-            data-w-id="a0cad7ff-2035-4e91-5cef-464c8f78d309"
-            style="
-              -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              -moz-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              -ms-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              opacity: 0;
-            "
-            class="title testimonials"
-          >
-            Take a look at our past customers <span class="text-accent">success stories</span>
-          </h2>
-        </div>
-        <div class="container-default w-container">
+      <section class="section a-customers wf-section">
+        <div class="a-container _1300 w-container">
+          <div class="center-align">
+            <h1
+              data-w-id="1bafe829-fa5f-204c-3bac-11c11747cb94"
+              style="
+                -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="a-h3"
+            >
+              Impact examples of meaningful volunteer management
+            </h1>
+            <div class="padding-50"></div>
+          </div>
           <div
-            data-delay="4000"
-            data-animation="cross"
-            class="testimonials-slider w-slider"
-            data-autoplay="true"
-            data-easing="ease"
+            data-w-id="8ab70bb6-1cad-e05f-4887-11a1fd9abf31"
             style="
               -webkit-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
               -moz-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
@@ -652,501 +1114,180 @@
               transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
               opacity: 0;
             "
-            data-hide-arrows="false"
-            data-disable-swipe="false"
-            data-w-id="67d51976-6d70-62d7-073a-2f3afec9b0fd"
-            data-autoplay-limit="0"
-            data-nav-spacing="3"
-            data-duration="500"
-            data-infinite="true"
+            class="a-customers-component"
           >
-            <div class="testimonials-mask w-slider-mask">
-              <div class="testimonial-slide w-slide">
-                <div class="testimonial-wrapper">
-                  <div class="testimonial-content">
-                    <img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8555e83574b_icon-1-testimonials-saaslify-template.svg"
-                      loading="lazy"
-                      alt=""
-                      class="image testimonial-icon"
-                    />
-                    <h3 class="title testimonial">“Deedmob improved the way we reach citizens!”</h3>
-                    <p class="paragraph testimonial">Deedmob has really improved the way we reach citizens. Their service is professional and pricing is very reasonable</p>
-                    <div class="testimonial-content-bottom">
-                      <div class="testimonial-content-bottom-line-accent"></div>
-                      <div class="testimonial-about-content">
-                        <div class="testimonial-name">Rob de Jong</div>
-                        <div class="testimonial-company">Director Deventer Doet</div>
+            <div
+              data-delay="4000"
+              data-animation="slide"
+              class="a-customers-slider w-slider"
+              data-autoplay="true"
+              data-easing="ease"
+              data-hide-arrows="false"
+              data-disable-swipe="false"
+              data-autoplay-limit="0"
+              data-nav-spacing="3"
+              data-duration="500"
+              data-infinite="true"
+            >
+              <div class="w-slider-mask">
+                <div class="a-slide-customers w-slide">
+                  <div class="a-customers-flex">
+                    <div class="a-customers-content">
+                      <div class="a-h5">Saving previous time with easy matching, well spent on supporting local organisations with advice and education</div>
+                      <div class="padding-16"></div>
+                      <div class="a-text-18">
+                        <span class="a-grey-text"
+                          >“As our insight into supply and demand has improved, we can also provide better assistance. We can now offer targeted support, while fulfilling a central role and connecting
+                          organisations and people. The platform is a great aid for realising our objectives!”<br
+                        /></span>
+                      </div>
+                      <div class="padding-30"></div>
+                      <div class="a-customers-name-block">
+                        <img src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636bd4d5cb95e2802d0d5b48_Vector%2024.svg" loading="lazy" alt="" class="a-customers-vector" />
+                        <div class="a-customers-right-name">
+                          <div class="a-text-18"><strong>Ivonne Saueressig-de Jong</strong></div>
+                          <div class="a-text-16"><span class="a-grey-2-text">Volunteer Broker at Vrijwilligerspunt Dalfsen</span></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="testimonial-images-wrapper">
                     <img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8cec983576c_shape-3-first-testimonial-saaslify-template.svg"
+                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/637642d945b57f85b91372c5_Quotes%20Homepage%20(3).png"
                       loading="lazy"
-                      alt=""
-                      class="image testimonial-first-shape-3"
-                    /><img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c86646835753_shape-2-first-testimonial-saaslify-template.svg"
-                      loading="lazy"
-                      alt=""
-                      class="image testimonial-first-shape-2"
-                    /><img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8ae75835755_shape-1-first-testimonial-saaslify-template.svg"
-                      loading="lazy"
-                      alt=""
-                      class="image testimonial-first-shape-1"
-                    /><img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/621ccaf90f5abcbd5c647e5a_Quotes%20Homepage.png"
-                      loading="lazy"
-                      width="593"
-                      alt="Rob de Jong, Director Deventer Doet"
-                      class="image testimonial"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="testimonial-slide w-slide">
-                <div class="testimonial-wrapper">
-                  <div class="testimonial-content">
-                    <img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c80b2d83574d_icon-2-testimonials-saaslify-template.svg"
-                      loading="lazy"
-                      alt=""
-                      class="image testimonial-icon"
-                    />
-                    <h3 class="title testimonial">&quot;The results have been amazing! </h3>
-                    <p class="paragraph testimonial">
-                      Last year we started our social impact programme together with Deedmob and the results have been amazing. We’re looking forward to what the future brings!<br />
-                    </p>
-                    <div class="testimonial-content-bottom">
-                      <div class="testimonial-content-bottom-line-accent testimonial-second"></div>
-                      <div class="testimonial-about-content">
-                        <div class="testimonial-name">Bart Bolger</div>
-                        <div class="testimonial-company">VP HR at TomTom<br /></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="testimonial-images-wrapper">
-                    <img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c814a283576f_shape-3-second-testimonial-saaslify-template.svg"
-                      loading="eager"
-                      alt=""
-                      class="image testimonial-second-shape-3"
-                    /><img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8fa1d83576e_shape-2-second-testimonial-saaslify-template.svg"
-                      loading="eager"
-                      alt=""
-                      class="image testimonial-second-shape-2"
-                    /><img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c84914835752_shape-1-second-testimonial-saaslify-template.svg"
-                      loading="eager"
-                      alt=""
-                      class="image testimonial-second-shape-1"
-                    /><img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/621ccbb500297d968ea06790_Quotes%20Homepage%20(2).png"
-                      loading="lazy"
-                      sizes="(max-width: 479px) 74vw, (max-width: 767px) 53vw, (max-width: 991px) 51vw, 488.9985656738281px"
+                      sizes="(max-width: 479px) 72vw, (max-width: 991px) 41vw, (max-width: 1919px) 38vw, 628.271484375px"
                       srcset="
-                        https://assets.website-files.com/61dc11a06409c8209f8356c7/621ccbb500297d968ea06790_Quotes%20Homepage%20(2)-p-500.png 500w,
-                        https://assets.website-files.com/61dc11a06409c8209f8356c7/621ccbb500297d968ea06790_Quotes%20Homepage%20(2).png       750w
+                        https://assets.website-files.com/61dc11a06409c8209f8356c7/637642d945b57f85b91372c5_Quotes%20Homepage%20(3)-p-500.png 500w,
+                        https://assets.website-files.com/61dc11a06409c8209f8356c7/637642d945b57f85b91372c5_Quotes%20Homepage%20(3).png       750w
                       "
-                      alt="Bart Bolger, VP HR at TomTom"
-                      class="image testimonial"
+                      alt=""
+                      class="a-curtomers-image"
                     />
                   </div>
                 </div>
-              </div>
-              <div class="testimonial-slide w-slide">
-                <div class="testimonial-wrapper">
-                  <div class="testimonial-content">
-                    <img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8129383574c_icon-3-testimonials-saaslify-template.svg"
-                      loading="lazy"
-                      alt=""
-                      class="image testimonial-icon"
-                    />
-                    <h3 class="title testimonial">“Managing our activities has never been easier.”</h3>
-                    <p class="paragraph testimonial">
-                      Deedmob has helped us focus on what’s important as a charity. From engaging the right people for our cause to keeping a clear overview of our volunteer database, managing our
-                      activities has never been easier.
-                    </p>
-                    <div class="testimonial-content-bottom">
-                      <div class="testimonial-content-bottom-line-accent testimonial-third"></div>
-                      <div class="testimonial-about-content">
-                        <div class="testimonial-name">Reinoud Beimers</div>
-                        <div class="testimonial-company">General Manager 10000 HOURS</div>
+                <div class="a-slide-customers w-slide">
+                  <div class="a-customers-flex">
+                    <div class="a-customers-content">
+                      <div class="a-h5">Providing 500+ local organisations with their own shopfront for volunteering, resulting in 4000+ signups</div>
+                      <div class="padding-16"></div>
+                      <div class="a-text-18">
+                        <span class="a-grey-text"
+                          >“Our service can now be much more about self-help and enabling users to benefit from all the platform can offer, as their own volunteer management system, rather than us
+                          helping to search for or publish opportunities for them. We can then focus on supporting people who may need more help, and developing our guidance and support to groups who
+                          are finding it hard to involve volunteers.”<br
+                        /></span>
+                      </div>
+                      <div class="padding-30"></div>
+                      <div class="a-customers-name-block">
+                        <img src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636bd4d5cb95e2802d0d5b48_Vector%2024.svg" loading="lazy" alt="" class="a-customers-vector" />
+                        <div class="a-customers-right-name">
+                          <div class="a-text-18"><strong>Chloe Skinner</strong></div>
+                          <div class="a-text-16">
+                            <span class="a-grey-2-text">Volunteering Platform Manager at Spark Somerset<br /></span>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="testimonial-images-wrapper">
                     <img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c80581835751_shape-3-third-testimonial-saaslify-template.svg"
-                      loading="eager"
-                      alt=""
-                      class="image testimonial-third-shape-3"
-                    /><img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c844f083576d_shape-2-third-testimonial-saaslify-template.svg"
-                      loading="eager"
-                      alt=""
-                      class="image testimonial-third-shape-2"
-                    /><img
-                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/621ccb6cd43c6b089ed328e1_Quotes%20Homepage%20(1).png"
+                      src="https://assets.website-files.com/61dc11a06409c8209f8356c7/637643f561d89537a28d6dd7_Quotes%20Homepage%20(4).png"
                       loading="lazy"
-                      alt="Reinoud Beimers, General Manager 10.000 Hours"
-                      class="image testimonial"
+                      sizes="(max-width: 479px) 72vw, (max-width: 991px) 41vw, (max-width: 1919px) 38vw, 628.271484375px"
+                      srcset="
+                        https://assets.website-files.com/61dc11a06409c8209f8356c7/637643f561d89537a28d6dd7_Quotes%20Homepage%20(4)-p-500.png 500w,
+                        https://assets.website-files.com/61dc11a06409c8209f8356c7/637643f561d89537a28d6dd7_Quotes%20Homepage%20(4).png       750w
+                      "
+                      alt=""
+                      class="a-curtomers-image"
                     />
                   </div>
                 </div>
               </div>
+              <div class="dn w-slider-arrow-left"><div class="w-icon-slider-left"></div></div>
+              <div class="dn w-slider-arrow-right"><div class="w-icon-slider-right"></div></div>
+              <div class="a-slide-nav w-slider-nav w-round"></div>
             </div>
-            <div class="testimonials-left-arrow w-slider-arrow-left"><div class="w-icon-slider-left"></div></div>
-            <div class="testimonials-right-arrow w-slider-arrow-right"><div class="w-icon-slider-right"></div></div>
-            <div class="testimonials-slide-nav w-slider-nav w-round"></div>
           </div>
-          <div
-            data-w-id="b111b41e-34e6-e96f-267f-2ca76bed60a8"
-            style="
-              -webkit-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              -moz-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              -ms-transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              transform: translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-              opacity: 0;
-            "
-            class="flex-vc testimonials"
-          >
-            <a href="/request-a-demo" class="button-primary w-button">Request a demo</a>
+          <div class="center-align">
+            <div class="padding-70"></div>
+            <a href="/request-a-demo" class="a-button w-button">Request a demo</a>
           </div>
         </div>
       </section>
-      <footer class="footer">
-        <div class="container-default footer-container w-container">
-          <div data-w-id="a6a558c1-15d3-709a-79fc-899085c4cc4b" class="footer-content-top">
-            <a href="#" class="footer-logo-container w-inline-block"
-              ><img src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dea4fb58ec3931f9be8821_deedmob-logo-white.svg" loading="lazy" alt="Deedmob logo" class="footer-logo"
-            /></a>
-            <div>
-              <p class="paragraph text-color-neutral-100 footer-main-content">Activate your community, create a movement for good. Deedmob as your partner to modernise volunteering.<br />‍</p>
-              <div class="title text-color-neutral-100 footer-title">Sign up to our newsletter</div>
-              <div data-w-id="982b79ed-911b-800d-7a98-35a137f7edfc" class="newsletter-form-block w-form">
-                <form id="wf-form-Newsletter-signup-form" name="wf-form-Newsletter-signup-form" data-name="Newsletter signup form" method="get" class="newsletter-form">
-                  <input type="email" class="input-2 newsletter w-input" maxlength="256" name="Email" data-name="Email" placeholder="Enter your email" id="email" required="" /><input
+      <footer class="section a-footer wf-section">
+        <div class="a-container _1300 w-container">
+          <div class="w-layout-grid a-footer-component">
+            <div id="w-node-eedd2bcf-9ffd-42f7-5e30-27bdcb06dd37-cb06dd34" class="a-footer-block _1">
+              <a href="/" aria-current="page" class="a-footer-logo-link w-inline-block w--current"
+                ><img src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636b9fb1d39d306e7acbe4ae_IMAGE.webp" loading="lazy" alt="deedmob logo" class="a-logo-footer"
+              /></a>
+              <div class="padding-30"></div>
+              <div class="a-text-16">Activate your community, create a movement for good. Deedmob as your partner to modernise volunteering.</div>
+              <div class="padding-140"></div>
+            </div>
+            <div id="w-node-eedd2bcf-9ffd-42f7-5e30-27bdcb06dd3e-cb06dd34" class="a-footer-block empty"></div>
+            <div id="w-node-eedd2bcf-9ffd-42f7-5e30-27bdcb06dd3f-cb06dd34" class="a-footer-block _2">
+              <div class="a-text-17"><strong class="a-white-text">Sign up to our newsletter</strong></div>
+              <div class="padding-30 padding-16"></div>
+              <div class="a-form-footer w-form">
+                <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2">
+                  <input type="text" class="a-text-field-footer w-input" maxlength="256" name="Email-4" data-name="Email 4" placeholder="Enter your email" id="Email-4" required="" /><input
                     type="submit"
-                    value="Sign up "
+                    value="Sign Up"
                     data-wait="Please wait..."
-                    class="button-primary-2 newsletter w-button"
+                    class="a-footer-submit-button w-button"
                   />
                 </form>
-                <div class="success-message-2 w-form-done"><div>✅ Signed up</div></div>
-                <div class="error-message w-form-fail"><div>Oops! Something went wrong.</div></div>
+                <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div>
+                <div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>
               </div>
             </div>
-          </div>
-          <div data-w-id="77890907-5c73-7e43-ca61-d07008355ab0" class="footer-content">
-            <div class="footer-content-right">
-              <div class="footer-menu-main-content">
-                <div class="footer-menu-wrapper">
-                  <div class="title text-color-neutral-100 footer-title">Quick Links</div>
-                  <div class="footer-menu-content">
-                    <ul role="list" class="footer-nav w-list-unstyled">
-                      <li class="footer-nav-item"><a href="/" aria-current="page" class="footer-nav-link-2 w--current">Home</a></li>
-                      <li class="footer-nav-item"><a href="/about" class="footer-nav-link-2">About</a></li>
-                      <li class="footer-nav-item"><a href="/contact" class="footer-nav-link-2">Contact</a></li>
-                      <li class="footer-nav-item"><a href="/privacy-policy" class="footer-nav-link-2">Privacy Policy</a></li>
-                    </ul>
-                    <ul role="list" class="footer-nav w-list-unstyled">
-                      <li class="footer-nav-item"><a href="/blog" class="footer-nav-link-2">Blog</a></li>
-                      <li class="footer-nav-item"><a href="/team" class="footer-nav-link-2">Team</a></li>
-                      <li class="footer-nav-item"><a href="/news" class="footer-nav-link-2">News</a></li>
-                    </ul>
-                  </div>
+            <div id="w-node-eedd2bcf-9ffd-42f7-5e30-27bdcb06dd4e-cb06dd34" class="a-footer-block _3">
+              <div class="a-text-17">Quick Links</div>
+              <div class="padding-30"></div>
+              <div class="a-footer-link-flex">
+                <div class="a-footer-links-block">
+                  <a href="/" aria-current="page" class="a-footer-link w--current">Home</a><a href="/about/about-deedmob" class="a-footer-link">About</a
+                  ><a href="/contact" class="a-footer-link">Contact</a><a href="/privacy-policy" class="a-footer-link">Privacy Policy</a>
                 </div>
-              </div>
-              <div class="footer-menu-main-content">
-                <div class="footer-menu-wrapper">
-                  <div class="title text-color-neutral-100 footer-title">Solutions</div>
-                  <div class="footer-menu-content">
-                    <ul role="list" class="footer-nav last w-list-unstyled">
-                      <li class="footer-nav-item"><a href="/volunteer-centres" class="footer-nav-link-2">Volunteer Centres</a></li>
-                      <li class="footer-nav-item"><a href="/companies" class="footer-nav-link-2">Companies</a></li>
-                      <li class="footer-nav-item"><a href="/education" class="footer-nav-link-2">Education</a></li>
-                    </ul>
-                    <ul role="list" class="footer-nav last w-list-unstyled">
-                      <li class="footer-nav-item"><a href="/governments-emergency-response" class="footer-nav-link-2">Government &amp; Emergency</a></li>
-                      <li class="footer-nav-item"><a href="/public-private-partnerships" class="footer-nav-link-2">Public-Private Partnerships</a></li>
-                      <li class="footer-nav-item"><a href="/charities" class="footer-nav-link-2">Charities</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="footer-support-wrapper">
-                <div class="title text-color-neutral-100 footer-title">Contact us</div>
-                <div class="w-layout-grid footer-support-grid">
-                  <a href="mailto:hello@deedmob.com" class="footer-support-link-2 w-inline-block"
-                    ><div class="image-wrapper footer-support-icon">
-                      <img
-                        src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c87c79835771_icon-1-support-footer-saaslify-template.svg"
-                        loading="lazy"
-                        alt="Mail"
-                        class="image footer-support-icon"
-                      />
-                    </div>
-                    <div class="footer-support-content">
-                      <div class="title text-color-neutral-100 footer-support">Email us</div>
-                      <div class="footer-support-text-2">hello@deedmob.com</div>
-                    </div></a
-                  ><a id="contact-us-button" href="#" target="_blank" class="footer-support-link-2 w-inline-block"
-                    ><div class="image-wrapper footer-support-icon">
-                      <img
-                        src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8de97835772_icon-3-support-footer-saaslify-template.svg"
-                        loading="lazy"
-                        alt="WeChat"
-                        class="image footer-support-icon"
-                      />
-                    </div>
-                    <div class="footer-support-content">
-                      <div class="title text-color-neutral-100 footer-support">Chat with us</div>
-                      <div class="footer-support-text-2">Open Live Chat</div>
-                    </div></a
-                  >
+                <div class="a-footer-links-block">
+                  <a href="/community/blog" class="a-footer-link">Blog</a><a href="/about/team" class="a-footer-link">Team</a><a href="/community/news" class="a-footer-link">News</a
+                  ><a href="/about/impact" class="a-footer-link">Impact</a>
                 </div>
               </div>
             </div>
-          </div>
-          <div data-w-id="b98c10b7-5023-2c00-5780-5f2a6367656c" class="footer-content-bottom">
-            <div class="footer-small-print">Copyright © Deedmob B.V. 2022 - Koningsplein 1 2, 1017BB Amsterdam, The Netherlands</div>
-            <div class="footer-social-media-wrapper">
-              <a rel="noopener noreferrer" href="https://www.facebook.com/deedmob" target="_blank" class="footer-social-media-link"></a
-              ><a rel="noopener noreferrer" href="https://twitter.com/deedmobglobal" target="_blank" class="footer-social-media-link icon-size-12px"></a
-              ><a rel="noopener noreferrer" href="https://instagram.com/deedmob" target="_blank" class="footer-social-media-link icon-size-13px"></a
-              ><a rel="noopener noreferrer" href="https://www.linkedin.com/company/deedmob" target="_blank" class="footer-social-media-link icon-size-12px"></a
-              ><a rel="noopener noreferrer" href="https://www.youtube.com/channel/UCTSU9rgBocaa2Qn0eIUlEuw" target="_blank" class="footer-social-media-link icon-size-10px"></a>
-            </div>
-          </div>
-          <img
-            src="https://assets.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8365e835782_shape-1-footer-saaslify-template.svg"
-            loading="lazy"
-            data-w-id="d3e26ecf-4bfd-66df-8497-99a90a9136fb"
-            alt=""
-            class="image footer-shape-1"
-          />
-        </div>
-        <div class="set-all-components-to-display-none-and-use-this-div-to-create-a-symbol">
-          <div fs-cc="banner" class="fs-cc-banner_component">
-            <div class="fs-cc-banner_container">
-              <div class="fs-cc-banner_text">
-                By clicking <strong>“Accept”</strong>, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. View our
-                <a href="/privacy-policy" class="fs-cc-banner_text-link">Privacy Policy</a> for more information.
-              </div>
-              <div class="fs-cc-banner_buttons-wrapper">
-                <a fs-cc="open-preferences" href="#" class="fs-cc-banner_button fs-cc-button-customize w-button">Customize</a><a fs-cc="allow" href="#" class="fs-cc-banner_button w-button">Accept</a>
+            <div id="w-node-eedd2bcf-9ffd-42f7-5e30-27bdcb06dd65-cb06dd34" class="a-footer-block _4">
+              <div class="a-text-17">Solutions</div>
+              <div class="padding-30"></div>
+              <div class="a-footer-link-flex">
+                <div class="a-footer-links-block">
+                  <a href="/volunteer-centres" class="a-footer-link">Volunteer Centres</a><a href="/companies" class="a-footer-link">Companies</a
+                  ><a href="/education" class="a-footer-link">Education</a>
+                </div>
+                <div class="a-footer-links-block">
+                  <a href="/governments-emergency-response" class="a-footer-link">Government &amp; Emergency</a
+                  ><a href="/public-private-partnerships" class="a-footer-link">Public-Private Partnerships</a><a href="/charities" class="a-footer-link">Charities</a>
+                </div>
               </div>
             </div>
-            <div fs-cc="interaction" class="fs-cc-banner_trigger"></div>
-          </div>
-          <div fs-cc="manager" class="fs-cc-manager_component">
-            <div fs-cc="open-preferences" class="fs-cc-manager_button">
-              <div class="fs-cc-manager_icon w-embed">
-                <svg viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g clip-path="url(#clip0)">
-                    <path
-                      d="M52.631 30.3899C52.229 30.4443 51.8161 30.4769 51.3924 30.4769C47.5135 30.4769 44.2322 27.9344 43.1022 24.4358C42.9066 23.8382 42.4177 23.371 41.7984 23.2624C35.3553 22.0346 30.4877 16.3847 30.4877 9.5831C30.4877 6.72555 31.3461 4.07445 32.8237 1.86881C33.1714 1.34728 32.8781 0.641046 32.2588 0.521529C30.5529 0.173843 28.8036 0 27 0C12.093 0 0 12.093 0 27C0 41.907 12.093 54 27 54C40.4402 54 51.5553 44.2213 53.6415 31.3678C53.7392 30.7811 53.2068 30.303 52.631 30.3899Z"
-                      fill="#4264D1"
-                    />
-                    <path
-                      d="M14.8093 21.7738C16.7355 21.7738 18.297 20.2123 18.297 18.2861C18.297 16.3599 16.7355 14.7984 14.8093 14.7984C12.883 14.7984 11.3215 16.3599 11.3215 18.2861C11.3215 20.2123 12.883 21.7738 14.8093 21.7738Z"
-                      fill="#6CE2FF"
-                    />
-                    <path
-                      d="M16.5477 38.3215C17.9879 38.3215 19.1554 37.154 19.1554 35.7138C19.1554 34.2737 17.9879 33.1062 16.5477 33.1062C15.1075 33.1062 13.9401 34.2737 13.9401 35.7138C13.9401 37.154 15.1075 38.3215 16.5477 38.3215Z"
-                      fill="#6CE2FF"
-                    />
-                    <path
-                      d="M38.2129 7.06237L37.963 8.56177C37.7565 9.78953 38.4519 10.9956 39.6254 11.441L41.8419 12.2668C43.2978 12.8101 44.9167 11.9626 45.297 10.4523L46.0901 7.3014C46.5791 5.33481 44.7429 3.58551 42.8089 4.16137L40.06 4.98712C39.093 5.26961 38.3759 6.07364 38.2129 7.06237Z"
-                      fill="#6CE2FF"
-                    />
-                    <path
-                      d="M47.0354 16.5477L45.9815 17.0692C45.1557 17.4821 44.7972 18.4708 45.1557 19.3183L46.0032 21.2958C46.5139 22.4909 48.1111 22.7191 48.9477 21.7195L50.3058 20.0897C50.9469 19.3183 50.8056 18.1774 50.0125 17.5799L48.8608 16.7106C48.3284 16.3195 47.6221 16.2543 47.0354 16.5477Z"
-                      fill="#6CE2FF"
-                    />
-                    <path
-                      d="M52.2615 13.06C53.2216 13.06 53.9999 12.2816 53.9999 11.3215C53.9999 10.3614 53.2216 9.5831 52.2615 9.5831C51.3014 9.5831 50.5231 10.3614 50.5231 11.3215C50.5231 12.2816 51.3014 13.06 52.2615 13.06Z"
-                      fill="#6CE2FF"
-                    />
-                    <path
-                      d="M30.2704 50.7296C15.3634 50.7296 3.27042 38.6366 3.27042 23.7296C3.27042 17.1018 5.66076 11.039 9.61569 6.34528C3.73763 11.2998 0 18.7099 0 27C0 41.907 12.093 54 27 54C35.2901 54 42.7002 50.2732 47.6439 44.3952C42.9501 48.3501 36.8873 50.7296 30.2704 50.7296Z"
-                      fill="#4264D1"
-                    />
-                    <path
-                      d="M42.2222 10.2459C40.7662 9.70263 39.897 8.19236 40.1469 6.64951L40.4403 4.86761L40.0274 4.98713C39.0712 5.26963 38.365 6.07365 38.202 7.06238L37.9521 8.56178C37.7457 9.78955 38.4411 10.9956 39.6145 11.4411L41.831 12.2668C43.0044 12.7014 44.2648 12.2342 44.9167 11.2563L42.2222 10.2459Z"
-                      fill="#4264D1"
-                    />
-                    <path
-                      d="M47.8612 20.1658L46.905 17.9276C46.7203 17.5038 46.7095 17.0584 46.8181 16.6455L45.9815 17.0692C45.1557 17.4821 44.7972 18.4708 45.1557 19.3183L46.0032 21.2958C46.5139 22.491 48.1111 22.7191 48.9477 21.7195L49.2845 21.3175C48.6869 21.198 48.1328 20.8069 47.8612 20.1658Z"
-                      fill="#4264D1"
-                    />
-                    <path
-                      d="M16.6563 19.9268C14.7332 19.9268 13.1686 18.3622 13.1686 16.4391C13.1686 15.961 13.2664 15.4938 13.4402 15.0809C12.1907 15.6133 11.3107 16.8519 11.3107 18.2861C11.3107 20.2093 12.8753 21.7739 14.7984 21.7739C16.2435 21.7739 17.4821 20.8938 18.0036 19.6443C17.6016 19.829 17.1344 19.9268 16.6563 19.9268Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M17.9059 36.9634C16.4608 36.9634 15.2982 35.79 15.2982 34.3557C15.2982 33.9863 15.3743 33.6386 15.5155 33.3235C14.592 33.7256 13.9401 34.6491 13.9401 35.7248C13.9401 37.1698 15.1135 38.3324 16.5477 38.3324C17.6234 38.3324 18.5469 37.6805 18.9489 36.757C18.623 36.8873 18.2753 36.9634 17.9059 36.9634Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M33.0954 41.8093C35.0216 41.8093 36.5831 40.2477 36.5831 38.3215C36.5831 36.3953 35.0216 34.8338 33.0954 34.8338C31.1692 34.8338 29.6077 36.3953 29.6077 38.3215C29.6077 40.2477 31.1692 41.8093 33.0954 41.8093Z"
-                      fill="#6CE2FF"
-                    />
-                    <path
-                      d="M34.9425 39.9513C33.0193 39.9513 31.4547 38.3867 31.4547 36.4636C31.4547 35.9855 31.5525 35.5183 31.7264 35.1054C30.4769 35.6378 29.5968 36.8765 29.5968 38.3107C29.5968 40.2338 31.1614 41.7984 33.0845 41.7984C34.5296 41.7984 35.7682 40.9183 36.2898 39.6688C35.8877 39.8535 35.4314 39.9513 34.9425 39.9513Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M27.8063 22.9281C27.9601 21.9804 27.3165 21.0874 26.3688 20.9336C25.421 20.7798 24.5281 21.4234 24.3743 22.3711C24.2205 23.3188 24.864 24.2118 25.8118 24.3656C26.7595 24.5194 27.6525 23.8758 27.8063 22.9281Z"
-                      fill="#6CE2FF"
-                    />
-                    <path
-                      d="M42.6785 35.6487C42.798 35.6487 42.9284 35.6161 43.0371 35.5618C43.4391 35.3553 43.602 34.8664 43.4065 34.4644L42.5373 32.726C42.3308 32.3239 41.8419 32.161 41.4399 32.3565C41.0379 32.563 40.8749 33.0519 41.0705 33.4539L41.9397 35.1924C42.0918 35.4857 42.3743 35.6487 42.6785 35.6487Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M33.0954 30.4225C33.2149 30.4225 33.3453 30.39 33.4539 30.3356L35.1923 29.4664C35.5944 29.26 35.7573 28.771 35.5618 28.369C35.3553 27.967 34.8664 27.804 34.4644 27.9996L32.726 28.8688C32.3239 29.0753 32.161 29.5642 32.3565 29.9662C32.5087 30.2596 32.802 30.4225 33.0954 30.4225Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M8.85515 28.2386C8.9964 28.5211 9.28976 28.6841 9.58312 28.6841C9.70263 28.6841 9.83302 28.6515 9.94167 28.5972C10.3437 28.3908 10.5067 27.9018 10.3111 27.4998L9.44187 25.7614C9.23543 25.3594 8.7465 25.1964 8.34449 25.392C7.94247 25.5984 7.7795 26.0873 7.97507 26.4894L8.85515 28.2386Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M22.2845 41.9505L20.5461 42.8197C20.1441 43.0262 19.9811 43.5151 20.1767 43.9171C20.3179 44.1996 20.6113 44.3626 20.9046 44.3626C21.0242 44.3626 21.1545 44.33 21.2632 44.2757L23.0016 43.4064C23.4036 43.2 23.5666 42.7111 23.371 42.3091C23.1755 41.907 22.6865 41.7441 22.2845 41.9505Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M23.2189 9.00724L22.3497 8.13802C22.0346 7.82293 21.5131 7.82293 21.198 8.13802C20.8829 8.45311 20.8829 8.97464 21.198 9.28973L22.0672 10.1589C22.2302 10.3219 22.4366 10.398 22.6431 10.398C22.8495 10.398 23.0559 10.3219 23.2189 10.1589C23.5449 9.84385 23.5449 9.32233 23.2189 9.00724Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M19.4596 28.1626C19.1445 28.4777 19.1445 28.9992 19.4596 29.3143L20.3288 30.1835C20.4918 30.3465 20.6982 30.4226 20.9047 30.4226C21.1111 30.4226 21.3175 30.3465 21.4805 30.1835C21.7956 29.8684 21.7956 29.3469 21.4805 29.0318L20.6113 28.1626C20.2853 27.8475 19.7747 27.8475 19.4596 28.1626Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M29.6729 47.0354V47.9046C29.6729 48.3501 30.0423 48.7195 30.4877 48.7195C30.9332 48.7195 31.3026 48.3501 31.3026 47.9046V47.0354C31.3026 46.5899 30.9332 46.2205 30.4877 46.2205C30.0423 46.2205 29.6729 46.5791 29.6729 47.0354Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M25.8374 15.3851L26.7067 14.5159C27.0217 14.2008 27.0217 13.6793 26.7067 13.3642C26.3916 13.0491 25.87 13.0491 25.5549 13.3642L24.6857 14.2334C24.3706 14.5485 24.3706 15.07 24.6857 15.3851C24.8487 15.5481 25.0551 15.6241 25.2616 15.6241C25.468 15.6241 25.6745 15.5372 25.8374 15.3851Z"
-                      fill="white"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0">
-                      <rect width="54" height="54" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
+            <div id="w-node-eedd2bcf-9ffd-42f7-5e30-27bdcb06dd78-cb06dd34" class="a-footer-block _5">
+              <div class="a-text-17">Contact us</div>
+              <div class="padding-30"></div>
+              <a href="mailto:hello@deedmob.com" class="a-footer-contact-card w-inline-block"
+                ><img src="https://assets.website-files.com/61dc11a06409c8209f8356c7/636bdfb7f698e1962f042139_Frame.svg" loading="lazy" alt="" class="a-footer-contact-icon" />
+                <div class="a-footer-contact-content">
+                  <div class="a-text-15">Email us</div>
+                  <div class="a-text-13 a-grey-3-text">hello@deedmob.com</div>
+                </div></a
+              >
             </div>
-            <div fs-cc="interaction" class="fs-cc-manager_trigger"></div>
           </div>
-          <div fs-cc="preferences" fs-cc-scroll="disable" class="fs-cc-prefs_component w-form">
-            <form id="cookie-preferences" name="wf-form-Cookie-Preferences" data-name="Cookie Preferences" method="get" class="fs-cc-prefs_form">
-              <div fs-cc="close" class="fs-cc-prefs_close">
-                <div class="fs-cc-prefs_close-icon w-embed">
-                  <svg fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 16 16">
-                    <path d="M9.414 8l4.293-4.293-1.414-1.414L8 6.586 3.707 2.293 2.293 3.707 6.586 8l-4.293 4.293 1.414 1.414L8 9.414l4.293 4.293 1.414-1.414L9.414 8z"></path>
-                  </svg>
-                </div>
-              </div>
-              <div class="fs-cc-prefs_content">
-                <div class="fs-cc-prefs_space-small"><div class="fs-cc-prefs_title">Privacy Preference Center</div></div>
-                <div class="fs-cc-prefs_space-small">
-                  <div class="fs-cc-prefs_text">
-                    When you visit websites, they may store or retrieve data in your browser. This storage is often necessary for the basic functionality of the website. The storage may be used for
-                    marketing, analytics, and personalization of the site, such as storing your preferences. Privacy is important to us, so you have the option of disabling certain types of storage
-                    that may not be necessary for the basic functioning of the website. Blocking categories may impact your experience on the website.
-                  </div>
-                </div>
-                <div class="fs-cc-prefs_space-medium">
-                  <a fs-cc="deny" href="#" class="fs-cc-prefs_button fs-cc-button-alt w-button">Reject all cookies</a
-                  ><a fs-cc="allow" href="#" class="fs-cc-prefs_button w-button">Allow all cookies</a>
-                </div>
-                <div class="fs-cc-prefs_space-small"><div class="fs-cc-prefs_title">Manage Consent Preferences by Category</div></div>
-                <div class="fs-cc-prefs_option">
-                  <div class="fs-cc-prefs_toggle-wrapper">
-                    <div class="fs-cc-prefs_label">Essential</div>
-                    <div class="fs-cc-prefs_text"><strong>Always Active</strong></div>
-                  </div>
-                  <div class="fs-cc-prefs_text">These items are required to enable basic website functionality.</div>
-                </div>
-                <div class="fs-cc-prefs_option">
-                  <div class="fs-cc-prefs_toggle-wrapper">
-                    <div class="fs-cc-prefs_label">Marketing</div>
-                    <label class="w-checkbox fs-cc-prefs_checkbox-field"
-                      ><input type="checkbox" id="marketing-2" name="marketing-2" data-name="Marketing 2" fs-cc-checkbox="marketing" class="w-checkbox-input fs-cc-prefs_checkbox" /><span
-                        for="marketing-2"
-                        class="fs-cc-prefs_checkbox-label w-form-label"
-                        >Essential</span
-                      >
-                      <div class="fs-cc-prefs_toggle"></div
-                    ></label>
-                  </div>
-                  <div class="fs-cc-prefs_text">
-                    These items are used to deliver advertising that is more relevant to you and your interests. They may also be used to limit the number of times you see an advertisement and measure
-                    the effectiveness of advertising campaigns. Advertising networks usually place them with the website operator’s permission.
-                  </div>
-                </div>
-                <div class="fs-cc-prefs_option">
-                  <div class="fs-cc-prefs_toggle-wrapper">
-                    <div class="fs-cc-prefs_label">Personalization</div>
-                    <label class="w-checkbox fs-cc-prefs_checkbox-field"
-                      ><input
-                        type="checkbox"
-                        id="personalization-2"
-                        name="personalization-2"
-                        data-name="Personalization 2"
-                        fs-cc-checkbox="personalization"
-                        class="w-checkbox-input fs-cc-prefs_checkbox" /><span for="personalization-2" class="fs-cc-prefs_checkbox-label w-form-label">Essential</span>
-                      <div class="fs-cc-prefs_toggle"></div
-                    ></label>
-                  </div>
-                  <div class="fs-cc-prefs_text">
-                    These items allow the website to remember choices you make (such as your user name, language, or the region you are in) and provide enhanced, more personal features. For example, a
-                    website may provide you with local weather reports or traffic news by storing data about your current location.
-                  </div>
-                </div>
-                <div class="fs-cc-prefs_option">
-                  <div class="fs-cc-prefs_toggle-wrapper">
-                    <div class="fs-cc-prefs_label">Analytics</div>
-                    <label class="w-checkbox fs-cc-prefs_checkbox-field"
-                      ><input type="checkbox" id="analytics-2" name="analytics-2" data-name="Analytics 2" fs-cc-checkbox="analytics" class="w-checkbox-input fs-cc-prefs_checkbox" /><span
-                        for="analytics-2"
-                        class="fs-cc-prefs_checkbox-label w-form-label"
-                        >Essential</span
-                      >
-                      <div class="fs-cc-prefs_toggle"></div
-                    ></label>
-                  </div>
-                  <div class="fs-cc-prefs_text">
-                    These items help the website operator understand how its website performs, how visitors interact with the site, and whether there may be technical issues. This storage type usually
-                    doesn’t collect information that identifies a visitor.
-                  </div>
-                </div>
-                <div class="fs-cc-prefs_buttons-wrapper"><a fs-cc="submit" href="#" class="fs-cc-prefs_button w-button">Confirm my preferences and close</a></div>
-                <input type="submit" value="Submit" data-wait="Please wait..." class="fs-cc-prefs_submit-hide w-button" />
-                <div class="w-embed">
-                  <style>
-                    /* smooth scrolling on iOS devices */
-                    .fs-cc-prefs_content {
-                      -webkit-overflow-scrolling: touch;
-                    }
-                  </style>
-                </div>
-              </div>
-            </form>
-            <div class="w-form-done"></div>
-            <div class="w-form-fail"></div>
-            <div fs-cc="close" class="fs-cc-prefs_overlay"></div>
-            <div fs-cc="interaction" class="fs-cc-prefs_trigger"></div>
+          <div data-w-id="eedd2bcf-9ffd-42f7-5e30-27bdcb06dd83" class="a-footer-bottom">
+            <div class="a-text-17 a-grey-3-text">Copyright © Deedmob B.V. 2022 - Koningsplein 1 2, 1017BB Amsterdam, The Netherlands</div>
+            <div class="a-footer-socials-wrapper">
+              <a rel="noopener noreferrer" href="https://www.facebook.com/deedmob" target="_blank" class="a-footer-social-link"></a
+              ><a rel="noopener noreferrer" href="https://twitter.com/deedmobglobal" target="_blank" class="a-footer-social-link"></a
+              ><a rel="noopener noreferrer" href="https://instagram.com/deedmob" target="_blank" class="a-footer-social-link"></a
+              ><a rel="noopener noreferrer" href="https://www.youtube.com/channel/UCTSU9rgBocaa2Qn0eIUlEuw" target="_blank" class="a-footer-social-link"></a
+              ><a rel="noopener noreferrer" href="https://www.linkedin.com/company/deedmob" target="_blank" class="a-footer-social-link"></a>
+            </div>
           </div>
         </div>
       </footer>
@@ -1157,7 +1298,7 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
-    <script src="https://assets.website-files.com/61dc11a06409c8209f8356c7/js/deedmob.d5aa8e6f8.js" type="text/javascript"></script>
+    <script src="https://assets.website-files.com/61dc11a06409c8209f8356c7/js/deedmob.7e4268967.js" type="text/javascript"></script>
     <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
     <script type="fs-cc">
       window.intercomSettings = {
@@ -1227,5 +1368,48 @@
     <noscript>
       <img height="1" width="1" style="display: none" alt="" src="https://px.ads.linkedin.com/collect/?pid=3690722&fmt=gif" />
     </noscript>
+    <script>
+      window.intercomSettings = {
+        api_base: "https://api-iam.intercom.io",
+        app_id: "shomkn5t",
+      };
+    </script>
+
+    <script>
+      // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/shomkn5t'
+      (function () {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === "function") {
+          ic("reattach_activator");
+          ic("update", w.intercomSettings);
+        } else {
+          var d = document;
+          var i = function () {
+            i.c(arguments);
+          };
+          i.q = [];
+          i.c = function (args) {
+            i.q.push(args);
+          };
+          w.Intercom = i;
+          var l = function () {
+            var s = d.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://widget.intercom.io/widget/shomkn5t";
+            var x = d.getElementsByTagName("script")[0];
+            x.parentNode.insertBefore(s, x);
+          };
+          if (document.readyState === "complete") {
+            l();
+          } else if (w.attachEvent) {
+            w.attachEvent("onload", l);
+          } else {
+            w.addEventListener("load", l, false);
+          }
+        }
+      })();
+    </script>
   </body>
 </html>
