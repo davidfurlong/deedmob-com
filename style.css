@@ -1855,6 +1855,9 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+.wf-layout-layout {
+  display: grid;
+}
 .w-layout-grid {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
