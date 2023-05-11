@@ -8150,7 +8150,7 @@ figcaption {
 .gallery-grid-container {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template: "."/1fr 1fr 1fr 1fr;
+  grid-template: "." "."/1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   align-self: center;
   margin-top: 40px;
@@ -13427,7 +13427,7 @@ figcaption {
     font-size: 20px;
   }
   .grid-2 {
-    grid-template: "Area"/1fr 1fr 1fr 1fr;
+    grid-template: "Area" "." "." "."/1fr 1fr 1fr 1fr;
   }
   .collection-item {
     grid-template-columns: 1fr 1fr;
