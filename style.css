@@ -3223,6 +3223,7 @@ figcaption {
   border: 1px solid #193765;
   border-radius: 1000000px;
   align-items: center;
+  margin-bottom: 20px;
   padding: 18px 40px;
   font-weight: 700;
   line-height: 1.111em;
@@ -3523,7 +3524,7 @@ figcaption {
 }
 .section.post {
   padding-top: 50px;
-  padding-bottom: 144px;
+  padding-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
@@ -5551,6 +5552,11 @@ figcaption {
 }
 .image.button-category-icon-current.current {
   filter: invert() brightness(200%);
+}
+.image.imagepostdownload {
+  width: 30%;
+  max-width: 1220px;
+  object-fit: cover;
 }
 .order-item-wrapper {
   flex-wrap: wrap;
@@ -13046,8 +13052,8 @@ figcaption {
     padding-bottom: 180px;
   }
   .section.post {
-    padding-top: 61px;
-    padding-bottom: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .section.features-hero {
     padding-top: 50px;
@@ -13227,6 +13233,11 @@ figcaption {
   }
   .image.contact {
     margin-right: 40px;
+  }
+  .image.imagepostdownload {
+    max-width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
   }
   .header-wrapper {
     justify-content: space-between;
@@ -14475,6 +14486,9 @@ figcaption {
   .a-buttons-wrapper-solutionpage-copy {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+  }
+  .link-block-4 {
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -19570,6 +19584,7 @@ figcaption {
     padding-bottom: 74px;
   }
   .section.post {
+    padding-top: 20px;
     padding-bottom: 74px;
   }
   .section.features-hero {
