@@ -2788,6 +2788,12 @@ textarea.w-select {
   min-height: 75px;
   padding-bottom: 56.25%;
 }
+.w-pagination-previous-icon {
+  margin-right: 4px;
+}
+.w-pagination-next-icon {
+  margin-left: 4px;
+}
 @media screen and (max-width: 767px) {
   .w-commerce-commercelayoutcontainer {
     flex-direction: column;
@@ -4560,6 +4566,15 @@ figcaption {
   font-size: 15px;
   font-weight: 700;
   line-height: 1.2em;
+}
+.title.h1-size {
+  color: #193765;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.107em;
+}
+.title.h1-size.category-text {
+  margin-bottom: 0;
 }
 .split-content.checkout-left,
 .split-content.checkout-right {
@@ -12971,6 +12986,116 @@ figcaption {
   justify-content: center;
   display: flex;
 }
+.empty-state-2,
+.empty-state-3 {
+  color: #193765;
+  text-align: center;
+  background-color: #fcf5de;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 40px 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.empty-state-3.small {
+  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.blog-tag-collection-list-wrapper {
+  margin-bottom: 40px;
+}
+.tag-item {
+  flex-wrap: wrap;
+  margin-right: 18px;
+  display: flex;
+}
+.post-item-content-bottom-2 {
+  border-top: 1px solid #d5d9e0;
+  flex-flow: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: -15px;
+  padding-top: 32px;
+  display: flex;
+}
+.image-23.post-item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.01);
+}
+.image-23.post-item-category-icon {
+  max-width: 21px;
+  margin-right: 8px;
+}
+.item-link-wrapper-2 {
+  color: #193765;
+  align-items: center;
+  font-weight: 700;
+  line-height: 1.111em;
+  display: flex;
+}
+.item-link-wrapper-2.post-item {
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+.post-item-category-wrapper-2 {
+  color: #193765;
+  background-color: #fff;
+  border: 1px solid #f3f5f8;
+  border-radius: 10000px;
+  align-items: center;
+  padding: 14px 26px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.125em;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  box-shadow: 0 2px 7px rgba(25, 55, 101, 0.07);
+}
+.card-2 {
+  background-color: #fff;
+  border: 1px solid #f3f5f8;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(25, 55, 101, 0.04);
+}
+.card-2.post-item-card {
+  min-height: 100%;
+  color: #6f7f96;
+  flex-direction: column;
+  text-decoration: none;
+  transition: border-color 0.3s, transform 0.4s, box-shadow 0.3s;
+  display: flex;
+  transform: translate(0);
+}
+.card-2.post-item-card:hover {
+  color: #6f7f96;
+  border-color: #d5d9e0;
+  transform: translateY(-8px);
+  box-shadow: 0 0 rgba(25, 55, 101, 0.04);
+}
+.post-item-date-2 {
+  color: #334d74;
+  margin-bottom: 15px;
+  line-height: 1.111em;
+}
+.paragraph-9.post-item-paragraph {
+  margin-bottom: 0;
+  text-decoration: none;
+  overflow: visible;
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     height: 100%;
@@ -14490,6 +14615,14 @@ figcaption {
   .link-block-4 {
     margin-top: 20px;
   }
+  .empty-state-2,
+  .empty-state-3 {
+    flex: 1;
+    display: block;
+  }
+  .paragraph-9.post-item-paragraph {
+    text-decoration: none;
+  }
 }
 @media screen and (max-width: 991px) {
   h1 {
@@ -14990,6 +15123,9 @@ figcaption {
   .title.text-color-neutral-100.footer-title {
     max-width: 338px;
     margin-bottom: 25px;
+  }
+  .title.h1-size {
+    font-size: 47px;
   }
   .split-content.checkout-left {
     margin-bottom: 40px;
@@ -17415,6 +17551,9 @@ figcaption {
   }
   .title.text-color-neutral-100.footer-title {
     margin-bottom: 20px;
+  }
+  .title.h1-size {
+    font-size: 39px;
   }
   .split-content.home-integrations-left {
     margin-bottom: 60px;
@@ -19981,6 +20120,9 @@ figcaption {
     margin-bottom: 0;
     font-size: 16px;
   }
+  .title.h1-size {
+    font-size: 32px;
+  }
   .split-content.header-right {
     margin-right: 15px;
   }
@@ -22376,6 +22518,18 @@ figcaption {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+  }
+  .post-item-content-bottom-2 {
+    padding-top: 27px;
+  }
+  .post-item-category-wrapper-2 {
+    padding: 12px 20px;
+    top: 15px;
+    right: 15px;
+  }
+  .card-2 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 #w-node-_2caf46a2-3eaa-85f4-601e-4bb507a41ea3-b1f40d0c,
