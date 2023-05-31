@@ -22695,6 +22695,10 @@ figcaption {
   .card-2.post-featured {
     padding: 29px 25px 34px;
   }
+  .collection-list {
+    flex-direction: column;
+    align-items: center;
+  }
   .image-24.card-post-featured-author {
     width: 46px;
     max-height: 46px;
