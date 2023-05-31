@@ -2622,7 +2622,20 @@ textarea.w-select {
   justify-content: center;
   display: flex;
 }
-.w-pagination-previous,
+.w-pagination-previous {
+  color: #333;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 9px 20px;
+  font-size: 14px;
+  display: block;
+}
+.w-pagination-previous-icon {
+  margin-right: 4px;
+}
 .w-pagination-next {
   color: #333;
   background-color: #fafafa;
@@ -2633,6 +2646,9 @@ textarea.w-select {
   padding: 9px 20px;
   font-size: 14px;
   display: block;
+}
+.w-pagination-next-icon {
+  margin-left: 4px;
 }
 .w-commerce-commerceaddtocartform {
   margin: 0 0 15px;
@@ -2787,12 +2803,6 @@ textarea.w-select {
 .w-embed-youtubevideo:empty {
   min-height: 75px;
   padding-bottom: 56.25%;
-}
-.w-pagination-previous-icon {
-  margin-right: 4px;
-}
-.w-pagination-next-icon {
-  margin-left: 4px;
 }
 @media screen and (max-width: 767px) {
   .w-commerce-commercelayoutcontainer {
@@ -3309,6 +3319,7 @@ figcaption {
   background-color: #73cfa8;
 }
 .button-primary.newsletter {
+  margin-bottom: 0;
   padding: 14px 26px;
   position: absolute;
   right: 8px;
@@ -4575,6 +4586,24 @@ figcaption {
 }
 .title.h1-size.category-text {
   margin-bottom: 0;
+}
+.title.h1-size {
+  color: #193765;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.107em;
+}
+.title.h1-size.category-text {
+  margin-bottom: 0;
+}
+.title.h3-size {
+  color: #193765;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.375em;
+}
+.title.h3-size.card-post-featured {
+  margin-bottom: 10px;
 }
 .split-content.checkout-left,
 .split-content.checkout-right {
@@ -6676,6 +6705,7 @@ figcaption {
   background-color: #fff;
   border: 1px solid #f3f5f8;
   border-radius: 1000px;
+  flex-direction: row;
   align-items: center;
   margin-bottom: 18px;
   padding: 14px 26px;
@@ -13086,6 +13116,14 @@ figcaption {
   transform: translateY(-8px);
   box-shadow: 0 0 rgba(25, 55, 101, 0.04);
 }
+.card-2.post-featured {
+  width: 100%;
+  max-height: 514px;
+  max-width: 532px;
+  padding: 67px 55px;
+  position: absolute;
+  right: 0;
+}
 .post-item-date-2 {
   color: #334d74;
   margin-bottom: 15px;
@@ -13095,6 +13133,89 @@ figcaption {
   margin-bottom: 0;
   text-decoration: none;
   overflow: visible;
+}
+.empty-state-4 {
+  color: #193765;
+  text-align: center;
+  background-color: #fcf5de;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 40px 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.empty-state-4.small {
+  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.collection-list-wrapper-4 {
+  margin-top: 40px;
+}
+.collection-item-4 {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+}
+.collection-list {
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+}
+.card-post-featured-author-name-2 {
+  color: #193765;
+  margin-bottom: 5px;
+  font-weight: 700;
+  line-height: 1.111em;
+}
+.image-24.post-featured {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  flex: 0 auto;
+}
+.image-24.card-post-featured-author {
+  width: 58px;
+  max-height: 58px;
+  min-height: 58px;
+  min-width: 58px;
+  background-color: #e7f2ff;
+  border-radius: 100000000px;
+  margin-right: 14px;
+}
+.card-post-featured-badge-2 {
+  color: #193765;
+  text-align: center;
+  background-color: #ffdc79;
+  border-radius: 10000px;
+  margin-bottom: 18px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.125em;
+  display: inline-block;
+  overflow: hidden;
+}
+.paragraph-10.card-post-featured {
+  margin-bottom: 24px;
+}
+.post-featured-wrapper-2 {
+  color: #6f7f96;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+}
+.post-featured-wrapper-2:hover {
+  color: #6f7f96;
 }
 @media screen and (min-width: 1920px) {
   .container-default {
@@ -14622,6 +14743,10 @@ figcaption {
   }
   .paragraph-9.post-item-paragraph {
     text-decoration: none;
+  }
+  .empty-state-4 {
+    flex: 1;
+    display: block;
   }
 }
 @media screen and (max-width: 991px) {
@@ -17026,6 +17151,16 @@ figcaption {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
   }
+  .card-2.post-featured {
+    max-width: 50%;
+    padding: 54px 44px;
+  }
+  .card-post-featured-badge-2 {
+    margin-bottom: 14px;
+  }
+  .paragraph-10.card-post-featured {
+    max-width: 323px;
+  }
 }
 @media screen and (max-width: 767px) {
   h1 {
@@ -17554,6 +17689,12 @@ figcaption {
   }
   .title.h1-size {
     font-size: 39px;
+  }
+  .title.h3-size {
+    font-size: 22px;
+  }
+  .title.h3-size.card-post-featured {
+    max-width: 419px;
   }
   .split-content.home-integrations-left {
     margin-bottom: 60px;
@@ -19571,6 +19712,23 @@ figcaption {
   .a-buttons-wrapper-solutionpage-copy {
     grid-column-gap: 12px;
   }
+  .card-2.post-featured {
+    max-height: none;
+    max-width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 35px 35px 41px;
+    position: static;
+  }
+  .card-post-featured-badge-2 {
+    margin-bottom: 10px;
+  }
+  .paragraph-10.card-post-featured {
+    max-width: 419px;
+  }
+  .post-featured-wrapper-2 {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 479px) {
   h1 {
@@ -20122,6 +20280,9 @@ figcaption {
   }
   .title.h1-size {
     font-size: 32px;
+  }
+  .title.h3-size {
+    font-size: 20px;
   }
   .split-content.header-right {
     margin-right: 15px;
@@ -22530,6 +22691,26 @@ figcaption {
   .card-2 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .card-2.post-featured {
+    padding: 29px 25px 34px;
+  }
+  .image-24.card-post-featured-author {
+    width: 46px;
+    max-height: 46px;
+    min-height: 46px;
+    min-width: 46px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .card-post-featured-badge-2 {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  .paragraph-10.card-post-featured {
+    margin-bottom: 20px;
   }
 }
 #w-node-_2caf46a2-3eaa-85f4-601e-4bb507a41ea3-b1f40d0c,
