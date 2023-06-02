@@ -4384,6 +4384,7 @@ figcaption {
   margin-bottom: 8px;
 }
 .title.post-item-title {
+  text-align: left;
   margin-bottom: 6px;
 }
 .title.values {
