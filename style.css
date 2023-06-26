@@ -3900,6 +3900,7 @@ figcaption {
 }
 .paragraph.post-excerpt {
   max-width: 700px;
+  color: #334d74;
   margin-bottom: 32px;
   margin-left: auto;
   margin-right: auto;
@@ -4431,6 +4432,7 @@ figcaption {
   margin-right: 30px;
 }
 .title.post {
+  color: #003449;
   margin-bottom: 16px;
 }
 .title.card-author {
@@ -5927,6 +5929,9 @@ figcaption {
   flex-direction: column;
   margin-bottom: 58px;
 }
+.content-top.blog-hero.social-shares-content-top {
+  margin-bottom: 0;
+}
 .content-top.blog {
   margin-bottom: 52px;
 }
@@ -6138,7 +6143,8 @@ figcaption {
 }
 .bg.post {
   min-height: 23%;
-  background-color: #fcf5de;
+  color: #003449;
+  background-color: #2c3e50;
   border-bottom: 288px solid #fff;
   border-left: 100vw solid transparent;
   position: absolute;
@@ -6810,12 +6816,14 @@ figcaption {
   color: #6f7f96;
 }
 .post-author-name {
-  color: #193765;
+  color: #003449;
+  -webkit-text-stroke-color: #fff;
   margin-bottom: 6px;
   font-weight: 700;
   line-height: 1.111em;
 }
 .post-date {
+  color: #334d74;
   line-height: 1.111em;
 }
 .card-author-image-wrapper {
@@ -8500,7 +8508,7 @@ figcaption {
 }
 .div-block-9 {
   width: 100%;
-  background-color: #fcf5de;
+  background-color: transparent;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -8508,6 +8516,7 @@ figcaption {
   display: flex;
 }
 .solution-heading {
+  color: #003449;
   text-align: left;
   text-transform: uppercase;
 }
@@ -8753,6 +8762,7 @@ figcaption {
   text-align: left;
 }
 .solution-heading-name {
+  color: #003449;
   text-align: center;
   font-size: 45px;
 }
@@ -9477,7 +9487,8 @@ figcaption {
 }
 .div-block-18 {
   width: 100%;
-  background-color: #fcf5de;
+  -webkit-text-stroke-color: transparent;
+  background-color: transparent;
   align-items: center;
   display: flex;
 }
@@ -9970,7 +9981,7 @@ figcaption {
   max-width: 600px;
   flex-direction: column;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
@@ -12648,7 +12659,13 @@ figcaption {
   padding-right: 92px;
 }
 .rich-text-block-5 {
+  color: #f8feff;
   text-align: center;
+  display: block;
+  position: static;
+}
+.rich-text-block-5.style-heading {
+  color: #f8feff;
 }
 .rich-text-block-6 {
   margin-bottom: 20px;
@@ -13120,7 +13137,7 @@ figcaption {
 .card-2.post-featured {
   width: 100%;
   max-height: 514px;
-  max-width: 532px;
+  max-width: 50%;
   padding: 67px 55px;
   position: absolute;
   right: 0;
@@ -13562,6 +13579,48 @@ figcaption {
 .image-25 {
   flex: 1;
 }
+.text-block-39 {
+  font-size: 15px;
+  text-decoration: none;
+}
+.a-button-smaller {
+  color: #2c3e50;
+  background-color: #00aff3;
+  border: 1px solid #00aff3;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  transition-property: all;
+}
+.a-button-smaller:hover {
+  color: #00aff3;
+  background-color: #2c3e50;
+}
+.a-button-smaller.secondary {
+  color: #fff;
+  background-color: #2c3e50;
+  border: 1px solid #fff;
+  padding: 10px;
+  font-family: Open Sans, sans-serif;
+}
+.a-button-smaller.secondary:hover {
+  color: #fff;
+  background-color: #00aff3;
+  border-color: #00aff3;
+}
+.a-button-smaller.small {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 166%;
+}
+.a-button-smaller._16px {
+  font-size: 16px;
+  line-height: 166%;
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     height: 100%;
@@ -13759,6 +13818,9 @@ figcaption {
   .paragraph.card-post-featured {
     text-align: center;
   }
+  .paragraph.post-excerpt {
+    color: #334d74;
+  }
   .card.achievements {
     margin-bottom: 50px;
   }
@@ -13811,6 +13873,9 @@ figcaption {
   }
   .title.blog-hero {
     margin-right: 0;
+  }
+  .title.post {
+    color: #003449;
   }
   .split-content.header-left {
     flex-wrap: nowrap;
@@ -13897,6 +13962,14 @@ figcaption {
   }
   .card-post-featured-badge {
     text-decoration: none;
+  }
+  .post-author-name {
+    color: #003449;
+    -webkit-text-stroke-color: #003449;
+  }
+  .post-date {
+    color: #334d74;
+    -webkit-text-stroke-color: #334d74;
   }
   .card-author-content {
     flex-direction: column;
@@ -15191,6 +15264,18 @@ figcaption {
   .a-carousel-wrapper-dutch-sp-vc {
     width: 100vw;
   }
+  .a-button-smaller {
+    padding: 16px 42px;
+    font-size: 24px;
+    line-height: 166%;
+  }
+  .a-button-smaller.small {
+    padding: 18px 26px;
+    font-size: 19px;
+  }
+  .a-button-smaller._16px {
+    font-size: 21px;
+  }
 }
 @media screen and (max-width: 991px) {
   h1 {
@@ -15811,7 +15896,12 @@ figcaption {
     justify-content: center;
   }
   .image-wrapper.post-featured {
-    max-width: 1000%;
+    z-index: 2;
+    max-width: 100%;
+    flex-direction: row;
+    order: 0;
+    position: relative;
+    overflow: hidden;
   }
   .image-wrapper.post {
     border-radius: 22px;
@@ -16250,11 +16340,18 @@ figcaption {
     padding: 76px 44px;
   }
   .post-featured-item {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
     padding-left: 40px;
     padding-right: 40px;
+    display: flex;
   }
   .post-featured-wrapper {
+    z-index: 2;
     flex-direction: column;
+    position: relative;
+    overflow: visible;
   }
   .card-post-featured-badge {
     margin-bottom: 14px;
@@ -17616,14 +17713,19 @@ figcaption {
     grid-row-gap: 16px;
   }
   .card-2.post-featured {
-    max-width: 50%;
+    max-width: 100%;
     padding: 54px 44px;
+    display: block;
+    position: relative;
   }
   .card-post-featured-badge-2 {
     margin-bottom: 14px;
   }
   .paragraph-10.card-post-featured {
     max-width: 323px;
+  }
+  .post-featured-wrapper-2 {
+    flex-flow: column;
   }
   .a-technology-content-copy {
     width: 400px;
@@ -17692,6 +17794,20 @@ figcaption {
   }
   .a-header-container._1300 {
     display: block;
+  }
+  .collection-list-2 {
+    flex-direction: row;
+    display: block;
+  }
+  .collection-list-wrapper-5 {
+    flex: 0 auto;
+  }
+  .a-button-smaller {
+    padding: 9px 22px;
+    font-size: 15px;
+  }
+  .a-button-smaller._16px {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -20301,6 +20417,16 @@ figcaption {
   }
   .logo-card {
     height: 9vh;
+  }
+  .a-button-smaller {
+    padding: 6px 20px;
+    font-size: 13px;
+  }
+  .a-button-smaller.small {
+    font-weight: 600;
+  }
+  .a-button-smaller._16px {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 479px) {
