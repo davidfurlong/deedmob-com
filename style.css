@@ -16938,7 +16938,10 @@ figcaption {
   .social-share-blog {
     width: auto;
     max-width: 100%;
+    flex-direction: column;
     order: 1;
+    align-items: center;
+    display: flex;
     position: relative;
   }
   .social-shares-container {
@@ -19511,7 +19514,10 @@ figcaption {
   .social-share-blog {
     width: auto;
     max-width: 100%;
+    flex-direction: column;
     flex: 0 auto;
+    align-items: center;
+    display: flex;
     position: relative;
   }
   .social-shares-container {
@@ -22511,8 +22517,10 @@ figcaption {
   }
   .social-share-blog {
     width: 100%;
+    flex-direction: column;
     padding-left: 25px;
     padding-right: 25px;
+    display: flex;
     position: relative;
   }
   .div-block-21.social-shares-container,
