@@ -13580,6 +13580,7 @@ figcaption {
   flex: 1;
 }
 .text-block-39 {
+  color: #193765;
   font-size: 15px;
   text-decoration: none;
 }
@@ -13599,8 +13600,8 @@ figcaption {
 }
 .a-button-smaller.secondary {
   color: #fff;
-  background-color: #2c3e50;
-  border: 1px solid #fff;
+  background-color: #fff;
+  border: 1px solid #003449;
   padding: 10px;
   font-family: Open Sans, sans-serif;
 }
@@ -13608,6 +13609,7 @@ figcaption {
   color: #fff;
   background-color: #00aff3;
   border-color: #00aff3;
+  text-decoration: none;
 }
 .a-button-smaller.small {
   padding-left: 20px;
