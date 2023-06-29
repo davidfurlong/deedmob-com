@@ -13777,7 +13777,12 @@ figcaption {
   max-width: 100vw;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  opacity: 1;
+  outline-offset: 0px;
   text-align: left;
+  border: 1px solid transparent;
+  border-radius: 0;
+  outline: 3px solid transparent;
   flex-direction: column;
   justify-content: space-around;
   align-items: stretch;
@@ -15809,6 +15814,7 @@ figcaption {
   }
   .section.a-hero.spsection1 {
     padding-top: 100px;
+    padding-bottom: 0;
   }
   .section.a-numbers {
     padding-top: 60px;
@@ -18145,7 +18151,7 @@ figcaption {
   .solution-page-navattic-demo {
     flex-direction: column;
     align-items: stretch;
-    margin-top: -60px;
+    margin-top: 20px;
   }
   .solution-page-navattic-demo.post-image {
     max-width: 100%;
@@ -18335,6 +18341,9 @@ figcaption {
   .section.a-hero {
     min-height: 480px;
     padding-top: 80px;
+  }
+  .section.a-hero.spsection1 {
+    padding-bottom: 20px;
   }
   .section.a-numbers {
     padding-top: 40px;
@@ -20788,6 +20797,9 @@ figcaption {
   .logo-slider-image {
     height: 70px;
   }
+  .solution-page-navattic-demo {
+    display: none;
+  }
   .solution-page-navattic-demo.post-image {
     margin-bottom: 92px;
   }
@@ -21007,6 +21019,9 @@ figcaption {
     min-height: 540px;
     background-size: 140%;
     overflow: hidden;
+  }
+  .section.a-hero.spsection1 {
+    padding-bottom: 40px;
   }
   .licenses-image {
     border-radius: 12px;
@@ -23889,8 +23904,10 @@ figcaption {
     margin-top: 10px;
   }
   .solution-page-navattic-demo {
-    margin-top: -60px;
+    margin-top: 20px;
     padding-bottom: 0;
+    display: none;
+    overflow: visible;
   }
   .solution-page-navattic-demo.post-image {
     margin-bottom: 74px;
