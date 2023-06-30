@@ -11652,6 +11652,9 @@ figcaption {
   padding-top: 0;
   padding-bottom: 0;
 }
+.a-container._1300.solutionrecruitmentsection {
+  max-width: 60vw;
+}
 .a-hero-content {
   width: 875px;
   max-width: 100%;
@@ -13643,10 +13646,10 @@ figcaption {
   font-size: 16px;
   line-height: 166%;
 }
-.solution-page-container-67 {
+.solution-page-container-50vw {
   z-index: 1;
   width: 1110px;
-  max-width: 92vw;
+  max-width: 50vw;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   text-align: left;
@@ -13657,11 +13660,11 @@ figcaption {
   margin-right: auto;
   position: relative;
 }
-.solution-page-container-67.home-hero {
+.solution-page-container-50vw.home-hero {
   z-index: 1;
   position: relative;
 }
-.solution-page-container-67.footer-container {
+.solution-page-container-50vw.footer-container {
   z-index: 1;
   flex-direction: column;
   justify-content: center;
@@ -13669,22 +13672,22 @@ figcaption {
   display: flex;
   position: relative;
 }
-.solution-page-container-67.post-image {
+.solution-page-container-50vw.post-image {
   max-width: 933px;
   margin-bottom: 143px;
   position: relative;
 }
-.solution-page-container-67.careers-hero {
+.solution-page-container-50vw.careers-hero {
   z-index: 1;
   position: relative;
 }
-.solution-page-container-67.pricing {
+.solution-page-container-50vw.pricing {
   z-index: 1;
   align-items: center;
   display: flex;
   position: relative;
 }
-.solution-page-container-67._1300 {
+.solution-page-container-50vw._1300 {
   width: 1300px;
   padding-top: 0;
   padding-bottom: 0;
@@ -15154,6 +15157,9 @@ figcaption {
     width: 1730px;
     max-width: 67%;
   }
+  .a-container._1300.solution-page-container-67 {
+    max-width: 60vw;
+  }
   .a-hero-content {
     width: 1200px;
   }
@@ -15485,7 +15491,6 @@ figcaption {
   }
   .a-technology-component-copy {
     width: 1300px;
-    max-width: 67vw;
     min-height: 726px;
     padding-left: 0;
     padding-right: 0;
@@ -15571,24 +15576,25 @@ figcaption {
   .a-button-smaller._16px {
     font-size: 21px;
   }
-  .solution-page-container-67 {
+  .solution-page-container-50vw {
     width: 14800px;
-    max-width: 67vw;
+    max-width: 50vw;
     flex-direction: column;
   }
-  .solution-page-container-67.home-hero {
+  .solution-page-container-50vw.home-hero {
     z-index: 1;
     position: relative;
   }
-  .solution-page-container-67.post-image {
+  .solution-page-container-50vw.post-image {
     max-width: 933px;
   }
-  .solution-page-container-67._1300 {
+  .solution-page-container-50vw._1300 {
     width: 1730px;
     max-width: 67%;
   }
   .a-container-67 {
     width: 14800px;
+    max-width: 60vw;
     flex-direction: column;
   }
   .a-container-67.home-hero {
@@ -18220,19 +18226,19 @@ figcaption {
   .a-button-smaller._16px {
     font-size: 14px;
   }
-  .solution-page-container-67 {
+  .solution-page-container-50vw {
     flex-direction: column;
     align-items: stretch;
     margin-top: -60px;
   }
-  .solution-page-container-67.post-image {
+  .solution-page-container-50vw.post-image {
     max-width: 100%;
     margin-bottom: 114px;
   }
-  .solution-page-container-67.pricing {
+  .solution-page-container-50vw.pricing {
     align-items: stretch;
   }
-  .solution-page-container-67._1300 {
+  .solution-page-container-50vw._1300 {
     display: block;
   }
   .a-container-67 {
@@ -20922,7 +20928,7 @@ figcaption {
   .a-button-smaller._16px {
     font-size: 13px;
   }
-  .solution-page-container-67.post-image,
+  .solution-page-container-50vw.post-image,
   .a-container-67.post-image {
     margin-bottom: 92px;
   }
@@ -24038,11 +24044,11 @@ figcaption {
   .small-instructions {
     line-height: 1em;
   }
-  .solution-page-container-67 {
+  .solution-page-container-50vw {
     margin-top: -60px;
     padding-bottom: 0;
   }
-  .solution-page-container-67.post-image {
+  .solution-page-container-50vw.post-image {
     margin-bottom: 74px;
   }
   .a-container-67 {
