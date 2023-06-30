@@ -11977,7 +11977,7 @@ figcaption {
 .a-text-17 {
   margin-bottom: 0;
   font-family: Open Sans, sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 166%;
 }
 .a-text-17._401 {
@@ -12163,7 +12163,7 @@ figcaption {
   margin-bottom: 0;
   padding-left: 16px;
   font-family: Open Sans, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
 }
 .a-text-field-footer::-ms-input-placeholder {
   color: #939aa4;
@@ -12179,7 +12179,7 @@ figcaption {
   border-radius: 28px;
   padding: 6px 25px;
   font-family: Open Sans, sans-serif;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 600;
   line-height: 166%;
   transition: all 0.3s;
@@ -12192,7 +12192,7 @@ figcaption {
   color: #d5d9e0;
   margin-bottom: 21px;
   font-family: Open Sans, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   text-decoration: none;
   transition-property: all;
@@ -15194,6 +15194,9 @@ figcaption {
     width: auto;
     max-width: 60vw;
   }
+  .a-container._1300.footer-container {
+    max-width: 80vw;
+  }
   .a-hero-content {
     width: 1200px;
   }
@@ -15312,7 +15315,7 @@ figcaption {
     width: 350px;
   }
   .a-text-17 {
-    font-size: 22px;
+    font-size: 19px;
     line-height: 166%;
   }
   .a-text-17.text-color-neutral-300.cta {
@@ -15343,7 +15346,7 @@ figcaption {
   }
   .a-footer-link {
     margin-bottom: 27px;
-    font-size: 21px;
+    font-size: 17px;
   }
   .a-footer-link-flex {
     grid-column-gap: 53px;
