@@ -10979,7 +10979,7 @@ figcaption {
 .a-text-18 {
   margin-bottom: 0;
   font-family: Open Sans, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 166%;
 }
 .a-text-18._401 {
@@ -12785,7 +12785,7 @@ figcaption {
   max-width: 100%;
   color: #193765;
   font-family: Open Sans, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-style: normal;
 }
 .accordion-item {
@@ -12817,7 +12817,7 @@ figcaption {
 .item_paragraph {
   max-width: 100%;
   font-family: Open Sans, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .cover_footer {
   width: 100%;
@@ -12860,6 +12860,7 @@ figcaption {
   margin-top: 1em;
   margin-bottom: 3em;
   font-family: Open Sans, sans-serif;
+  font-size: 1em;
 }
 .accordion_head-wrapper {
   width: 100%;
@@ -12871,6 +12872,7 @@ figcaption {
   max-width: 50ch;
   color: #193765;
   text-align: center;
+  font-size: 45px;
 }
 .item_description {
   color: #000;
@@ -14076,9 +14078,10 @@ figcaption {
     padding-bottom: 50px;
   }
   .section.a-hero {
+    height: 70vh;
     max-width: 100%;
-    min-height: 1200px;
-    padding-top: 160px;
+    min-height: auto;
+    padding-top: 40px;
   }
   .section.a-hero.spsection1 {
     height: auto;
@@ -15154,7 +15157,7 @@ figcaption {
   }
   .a-button.small {
     padding: 18px 26px;
-    font-size: 17px;
+    font-size: 16px;
   }
   .a-button._16px {
     font-size: 17px;
@@ -15170,8 +15173,8 @@ figcaption {
     margin-top: -25px;
   }
   .a-container-navbar {
-    width: 1730px;
-    min-width: 1730px;
+    width: 1500px;
+    min-width: 1500px;
     justify-content: flex-start;
     font-size: 24px;
     line-height: 166%;
@@ -15189,6 +15192,9 @@ figcaption {
   }
   .a-nav-menu {
     justify-content: flex-start;
+  }
+  .a-navbar-space {
+    flex: 1;
   }
   .a-container {
     width: 14800px;
@@ -15217,6 +15223,7 @@ figcaption {
   }
   .a-hero-content {
     width: 60vw;
+    max-width: 70%;
   }
   .padding-25 {
     padding-bottom: 32px;
@@ -15230,6 +15237,13 @@ figcaption {
   .a-buttons-wrapper {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+  }
+  .a-hero-image {
+    height: 100%;
+    object-fit: contain;
+  }
+  .a-hero-image-2 {
+    height: 100%;
   }
   .a-technology-component {
     max-width: 100%;
@@ -15445,6 +15459,7 @@ figcaption {
   .cover_wrapper {
     text-align: left;
     padding-left: 2em;
+    font-size: 18px;
   }
   .juana {
     text-align: center;
@@ -15472,10 +15487,12 @@ figcaption {
   }
   .text_medium.cover_description {
     max-width: 100%;
+    font-size: 1.1em;
   }
   .text-orange {
     width: 100%;
     text-align: center;
+    font-size: 53px;
   }
   .item_description.sdg4 {
     color: #c5192d;
@@ -15618,6 +15635,7 @@ figcaption {
   }
   .a-header-container {
     width: 14800px;
+    max-width: 60vw;
     flex-direction: column;
   }
   .a-header-container.home-hero {
@@ -23714,7 +23732,7 @@ figcaption {
   .a-start-content {
     width: 100%;
     text-align: center;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
   }
   .a-start-image-wrapper {
     width: 100%;
@@ -24182,6 +24200,7 @@ figcaption {
   .image-26 {
     max-width: 100%;
     margin-top: 10px;
+    display: none;
   }
   .solution-page-navattic-demo {
     margin-top: 20px;
