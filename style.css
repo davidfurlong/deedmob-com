@@ -17975,6 +17975,9 @@ figcaption {
   .padding-40 {
     padding-bottom: 30px;
   }
+  .padding-40.demopage {
+    display: none;
+  }
   .padding-60 {
     padding-bottom: 44px;
   }
@@ -20692,6 +20695,9 @@ figcaption {
   }
   .padding-40 {
     padding-bottom: 22px;
+  }
+  .padding-40.demopage {
+    display: none;
   }
   .padding-60 {
     padding-bottom: 32px;
@@ -23678,6 +23684,9 @@ figcaption {
   .a-container._1300.solutionrecruitmentsection,
   .a-container._1300.solution-page-container-67.undernumbersblock {
     margin-top: 0;
+  }
+  .padding-40.demopage {
+    display: none;
   }
   .a-buttons-wrapper {
     width: 220px;
