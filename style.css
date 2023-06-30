@@ -10787,13 +10787,13 @@ figcaption {
 }
 .a-h2.a-white-text {
   font-family: Domine, sans-serif;
-  font-size: 36px;
+  font-size: 45px;
 }
 .a-h3 {
   color: #003449;
   margin-bottom: 0;
   font-family: Domine, sans-serif;
-  font-size: 30px;
+  font-size: 33px;
   line-height: 130%;
 }
 .a-h3.a-white-text {
@@ -10974,12 +10974,12 @@ figcaption {
 }
 .a-text-20.a-white-text {
   font-family: Open Sans, sans-serif;
-  font-size: 15px;
+  font-size: 19px;
 }
 .a-text-18 {
   margin-bottom: 0;
   font-family: Open Sans, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 166%;
 }
 .a-text-18._401 {
@@ -11142,6 +11142,9 @@ figcaption {
 .a-text-18.text-color-neutral-100.footer-main-content {
   max-width: 416px;
   margin-bottom: 20px;
+}
+.a-text-18.a-grey-text {
+  font-size: 17px;
 }
 .a-text-14 {
   margin-bottom: 0;
@@ -11673,9 +11676,11 @@ figcaption {
 }
 .a-yellow-text {
   color: #f3af00;
+  font-size: 59px;
 }
 .a-blue-text {
   color: #00aff3;
+  font-size: 59px;
 }
 .padding-25 {
   padding-bottom: 25px;
@@ -11752,11 +11757,12 @@ figcaption {
 }
 .a-technology-component {
   max-width: 100%;
-  min-height: 545px;
+  min-height: auto;
   background-color: transparent;
   border-radius: 10px;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 0;
   padding-left: 60px;
   padding-right: 60px;
@@ -12679,14 +12685,17 @@ figcaption {
 }
 .bold-text-5 {
   font-family: Domine, sans-serif;
+  font-size: 59px;
 }
 .bold-text-6 {
   font-family: Domine, sans-serif;
+  font-size: 59px;
   position: static;
 }
 .bold-text-7,
 .bold-text-8 {
   font-family: Domine, sans-serif;
+  font-size: 59px;
 }
 .div-block-27 {
   margin-left: -51px;
@@ -13913,6 +13922,9 @@ figcaption {
   justify-content: center;
   display: block;
 }
+.image-27 {
+  background-color: rgba(243, 175, 0, 0.15);
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     height: 100%;
@@ -15048,8 +15060,11 @@ figcaption {
   .a-h2 {
     font-size: 60px;
   }
+  .a-h2.a-white-text {
+    font-size: 43px;
+  }
   .a-h3 {
-    font-size: 32px;
+    font-size: 33px;
   }
   .a-h3.a-white-text {
     font-size: 29px;
@@ -15070,6 +15085,9 @@ figcaption {
   .a-text-20.card-value {
     display: inline;
   }
+  .a-text-20.a-white-text {
+    font-size: 21px;
+  }
   .a-text-18 {
     text-align: center;
     font-size: 16px;
@@ -15087,14 +15105,14 @@ figcaption {
   }
   .a-text-18.a-grey-text {
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
   }
   .a-text-18.impact-examples-text,
   .a-text-18.slider-text-name {
     text-align: left;
   }
   .a-text-18.solution-page-text-block {
-    font-size: 14px;
+    font-size: 16px;
   }
   .a-text-14.text-color-neutral-300.cta {
     z-index: 5;
@@ -15123,11 +15141,11 @@ figcaption {
     font-size: 33px;
   }
   .a-h6 {
-    font-size: 23px;
+    font-size: 24px;
   }
   .a-button {
     padding: 16px 42px;
-    font-size: 24px;
+    font-size: 17px;
     line-height: 166%;
     display: inline-block;
   }
@@ -15198,7 +15216,7 @@ figcaption {
     max-width: 80vw;
   }
   .a-hero-content {
-    width: 1200px;
+    width: 60vw;
   }
   .padding-25 {
     padding-bottom: 32px;
@@ -15733,6 +15751,9 @@ figcaption {
   }
   .bold-text-9 {
     font-size: 15px;
+  }
+  .bold-text-10 {
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -18311,7 +18332,7 @@ figcaption {
     font-size: 14px;
   }
   .solution-page-container-50vw {
-    max-width: 70vw;
+    max-width: 80vw;
     flex-direction: column;
     align-items: stretch;
     margin-top: -60px;
