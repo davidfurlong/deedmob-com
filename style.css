@@ -11653,10 +11653,12 @@ figcaption {
 }
 .a-container._1300 {
   width: 1300px;
+  max-width: 60vw;
   padding-top: 0;
   padding-bottom: 0;
 }
-.a-container._1300.solutionrecruitmentsection {
+.a-container._1300.solutionrecruitmentsection,
+.a-container._1300.solution-page-container-67 {
   max-width: 60vw;
 }
 .a-hero-content {
@@ -13745,6 +13747,9 @@ figcaption {
   width: 1300px;
   padding-top: 0;
   padding-bottom: 0;
+}
+.a-container-67._1300.solution-page-container-67 {
+  max-width: 60vw;
 }
 .marquee-horizontal {
   z-index: 200;
