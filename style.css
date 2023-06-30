@@ -13819,9 +13819,8 @@ figcaption {
   flex-direction: column;
   justify-content: space-around;
   align-items: stretch;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 20px;
+  padding-bottom: 0;
   position: relative;
 }
 .solution-page-navattic-demo.home-hero {
@@ -14097,6 +14096,7 @@ figcaption {
   .section.a-hero.spsection1 {
     height: auto;
     align-items: flex-start;
+    margin-bottom: 0;
     padding-bottom: 0;
   }
   .section.logo-carousel {
@@ -15744,6 +15744,7 @@ figcaption {
     max-width: 80vw;
     flex-direction: column;
     margin-top: 0;
+    margin-bottom: 40px;
   }
   .solution-page-navattic-demo.home-hero {
     z-index: 1;
@@ -18412,6 +18413,7 @@ figcaption {
     flex-direction: column;
     align-items: stretch;
     margin-top: 20px;
+    margin-bottom: 40px;
     padding-bottom: 0;
   }
   .solution-page-navattic-demo.post-image {
