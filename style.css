@@ -11669,6 +11669,9 @@ figcaption {
 .a-container._1300.solution-page-container-67 {
   max-width: 60vw;
 }
+.a-container._1300.footer-container {
+  max-width: 75vw;
+}
 .a-hero-content {
   width: 875px;
   max-width: 100%;
@@ -11773,12 +11776,12 @@ figcaption {
 }
 .a-technology-content {
   width: 497px;
-  max-width: 90%;
+  max-width: 48%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 129px;
-  padding-bottom: 129px;
+  padding-top: 0;
+  padding-bottom: 0;
   display: flex;
 }
 .a-technology-image-wrapper {
@@ -13937,6 +13940,12 @@ figcaption {
 .solution-page-images-outer-end {
   padding: 10px 20px;
 }
+.solution-page-cooperation {
+  grid-column-gap: 32px;
+  grid-row-gap: 40px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     height: 100%;
@@ -15213,6 +15222,7 @@ figcaption {
   }
   .a-container {
     width: 14800px;
+    max-width: 60vw;
     flex-direction: column;
   }
   .a-container.home-hero {
@@ -15262,7 +15272,7 @@ figcaption {
   }
   .a-technology-component {
     max-width: 100%;
-    min-height: 726px;
+    min-height: auto;
     padding-left: 126px;
     padding-right: 126px;
   }
@@ -15271,8 +15281,8 @@ figcaption {
   }
   .a-technology-content {
     width: 676px;
-    padding-top: 172px;
-    padding-bottom: 172px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .a-technology-image-wrapper {
     width: 48%;
@@ -15438,6 +15448,7 @@ figcaption {
   }
   .a-footer-socials-wrapper {
     align-self: center;
+    margin-right: 0;
   }
   .a-footer-social-link {
     width: 37px;
@@ -15789,6 +15800,10 @@ figcaption {
   }
   .bold-text-10 {
     font-size: 24px;
+  }
+  .solution-page-cooperation {
+    grid-column-gap: 42px;
+    grid-row-gap: 54px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -17963,7 +17978,8 @@ figcaption {
     max-width: 92vw;
     display: block;
   }
-  .a-container._1300.solution-page-container-67 {
+  .a-container._1300.solution-page-container-67,
+  .a-container._1300.footer-container {
     max-width: 92vw;
   }
   .a-yellow-text,
@@ -17993,7 +18009,7 @@ figcaption {
     padding-right: 0%;
   }
   .a-technology-component {
-    min-height: 370px;
+    min-height: auto;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -18456,6 +18472,10 @@ figcaption {
   }
   .div-block-35 {
     display: flex;
+  }
+  .solution-page-cooperation {
+    grid-column-gap: 24px;
+    grid-row-gap: 30px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -20741,7 +20761,7 @@ figcaption {
     margin-top: 40px;
   }
   .a-solutions-component {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .a-solution-image {
     width: 50px;
@@ -21126,6 +21146,9 @@ figcaption {
   .button-interactive-demo {
     grid-column-gap: 12px;
     display: none;
+  }
+  .solution-page-cooperation {
+    grid-template-columns: 1fr;
   }
 }
 @media screen and (max-width: 479px) {
@@ -23676,12 +23699,13 @@ figcaption {
     justify-content: flex-end;
   }
   .a-container {
-    margin-top: -60px;
+    margin-top: 0;
     padding-bottom: 0;
   }
   .a-container.post-image {
     margin-bottom: 74px;
   }
+  .a-container._1300,
   .a-container._1300.a-container-solution-page,
   .a-container._1300.solutionrecruitmentsection,
   .a-container._1300.solution-page-container-67.undernumbersblock {
@@ -23744,7 +23768,7 @@ figcaption {
     order: -1;
     margin-top: 0;
     margin-left: 0;
-    display: block;
+    display: none;
     position: relative;
   }
   .a-image-technology {
@@ -23908,7 +23932,7 @@ figcaption {
     width: 300px;
     max-width: 100%;
     grid-column-gap: 32px;
-    grid-row-gap: 40px;
+    grid-row-gap: 32px;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
@@ -24275,6 +24299,11 @@ figcaption {
   }
   .solution-page-images-outer-end {
     display: none;
+  }
+  .solution-page-cooperation {
+    grid-row-gap: 32px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
   }
 }
 #w-node-_2caf46a2-3eaa-85f4-601e-4bb507a41ea3-b1f40d0c,
