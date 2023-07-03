@@ -24584,22 +24584,6 @@ figcaption {
 #w-node-c08d63dc-53e6-68a3-0e96-ce9ad4098664-e9f40fda {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
-#w-node-_8baf552c-44fb-9d9e-9e2e-b346646e3c42-4af40fe5,
-#w-node-ec94819b-8814-add2-7a21-6bf4730fd72b-4af40fe5,
-#w-node-_306938a8-86a5-f81e-0a83-a0460668ba50-4af40fe5,
-#w-node-_4f3b094c-42ce-2e5a-4ee3-7bfb8827b3a9-4af40fe5,
-#w-node-_8c4a5d1e-3909-36fd-358c-26bbb1103caf-4af40fe5,
-#w-node-_7a6ba148-01a7-a4f3-a76a-7dd3433d3ac9-4af40fe5 {
-  align-self: center;
-  justify-self: center;
-}
-#w-node-a2bd8863-b77d-9869-e2f6-bd1bba69ee7c-4af40fe5 {
-  grid-area: span 1 / span 2 / span 1 / span 2;
-}
-#w-node-fc9fd1ae-48e7-c4a3-b7bf-8a9784d55828-4af40fe5 {
-  grid-area: span 1 / span 2 / span 1 / span 2;
-  justify-self: start;
-}
 #w-node-_8baf552c-44fb-9d9e-9e2e-b346646e3c42-f9f40fea,
 #w-node-ec94819b-8814-add2-7a21-6bf4730fd72b-f9f40fea,
 #w-node-_306938a8-86a5-f81e-0a83-a0460668ba50-f9f40fea,
@@ -24785,13 +24769,6 @@ figcaption {
   #w-node-_0f1eec4c-92df-d0e3-5ad5-fc97272250a3-8df40fc8 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
-  #w-node-_306938a8-86a5-f81e-0a83-a0460668ba50-4af40fe5 {
-    align-self: center;
-  }
-  #w-node-_4f3b094c-42ce-2e5a-4ee3-7bfb8827b3a9-4af40fe5 {
-    align-self: center;
-    justify-self: center;
-  }
   #w-node-_8baf552c-44fb-9d9e-9e2e-b346646e3c42-f9f40fea {
     justify-self: center;
   }
@@ -24889,10 +24866,6 @@ figcaption {
     grid-area: span 1 / span 1 / span 1 / span 1;
     align-self: start;
   }
-  #w-node-a2bd8863-b77d-9869-e2f6-bd1bba69ee7c-4af40fe5,
-  #w-node-fc9fd1ae-48e7-c4a3-b7bf-8a9784d55828-4af40fe5 {
-    grid-column: span 1 / span 1;
-  }
   #w-node-_4f3b094c-42ce-2e5a-4ee3-7bfb8827b3a9-f9f40fea {
     grid-area: Area-4;
   }
@@ -24928,7 +24901,6 @@ figcaption {
   #w-node-ad2d5314-f5e6-0836-c3e9-21889a8fd7fe-e9f40fda {
     grid-column: span 1 / span 1;
   }
-  #w-node-fc9fd1ae-48e7-c4a3-b7bf-8a9784d55828-4af40fe5,
   #w-node-_8cc71f1d-77a4-eb1b-64f0-e2b3717f2e00-f9f40fea,
   #w-node-_4ee6f5e1-cb5a-fd8b-5f6f-c52f0f6a3b96-d0f40feb {
     justify-self: stretch;
