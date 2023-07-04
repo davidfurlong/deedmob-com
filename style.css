@@ -3616,10 +3616,14 @@ figcaption {
   position: relative;
 }
 .section.contact {
+  text-align: left;
   background-color: #2c3e50;
+  justify-content: center;
+  align-items: stretch;
   padding-top: 0;
   padding-bottom: 0;
-  position: relative;
+  display: flex;
+  position: static;
   overflow: hidden;
 }
 .section.contact-links {
@@ -3704,6 +3708,10 @@ figcaption {
   background-color: #2c3e50;
   padding-top: 120px;
   padding-bottom: 110px;
+}
+.section.events-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .utility-page-wrap._404 {
   padding-top: 130px;
@@ -4048,9 +4056,11 @@ figcaption {
   min-height: 100%;
   color: #6f7f96;
   flex-direction: column;
+  justify-content: flex-start;
   text-decoration: none;
   transition: border-color 0.3s, transform 0.4s, box-shadow 0.3s;
   display: flex;
+  overflow: hidden;
   transform: translate(0);
 }
 .card.post-item-card:hover {
@@ -4076,11 +4086,15 @@ figcaption {
   width: 100%;
   text-align: center;
   flex: 0 auto;
+  align-self: stretch;
   padding: 38px 50px 30px;
-  display: block;
+  display: flex;
 }
 .card.value.event {
   width: 100%;
+}
+.card.value.recording-session {
+  justify-content: center;
 }
 .card.team {
   height: 100%;
@@ -4433,7 +4447,7 @@ figcaption {
   color: #334d74;
 }
 .title.blog-hero {
-  margin-bottom: 0;
+  margin-bottom: 40px;
   margin-right: 0;
 }
 .title.blog-hero.white-text {
@@ -6926,6 +6940,8 @@ figcaption {
 }
 .feature-wrapper {
   text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .container-medium-674px {
   max-width: 674px;
@@ -8091,11 +8107,14 @@ figcaption {
 .text-span-13 {
   font-size: 12px;
 }
-.workshop-heading {
+.webinar-heading {
   text-align: left;
   font-size: 43px;
 }
-.subheading-workshops {
+.webinar-heading.event-heading {
+  text-align: center;
+}
+.subheading-webinar {
   font-size: 22px;
 }
 .heading-9 {
@@ -9299,6 +9318,14 @@ figcaption {
   color: #193765;
   background-color: #73cfa8;
   border-color: #73cfa8;
+}
+.past-events-grid {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
 }
 .diplications {
   grid-column-gap: 27px;
@@ -13946,6 +13973,139 @@ figcaption {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.container-events {
+  max-width: 70vw;
+  min-width: 70vw;
+  text-align: left;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+  position: static;
+}
+.logo-collection-webinar {
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+}
+.logo-block-webinar {
+  max-width: 40%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.image-29 {
+  max-width: 100%;
+}
+.speakers-webinar {
+  max-width: 80vw;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.section-4 {
+  background-color: #2c3e50;
+  justify-content: center;
+  display: flex;
+}
+.section-recap {
+  background-color: #2c3e50;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.heading-44 {
+  max-width: 50vw;
+  text-align: center;
+  margin-top: 20px;
+}
+.rich-text-block-7 {
+  text-align: left;
+}
+.body-3 {
+  background-color: #2c3e50;
+}
+.container-speakers {
+  max-width: 70vw;
+  min-width: 70vw;
+  text-align: left;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+  position: static;
+}
+.title-speaker {
+  color: #193765;
+  font-weight: 700;
+}
+.webinar-item-content {
+  flex-direction: column;
+  flex: 1;
+  padding: 35px 48px 41px;
+  display: flex;
+}
+.past {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+.upcoming-events-wrapper {
+  margin-top: 20px;
+}
+.event-wrapper-cards {
+  z-index: 2;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+.button-event-registration {
+  color: #2c3e50;
+  background-color: #00aff3;
+  border: 1px solid #00aff3;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-family: Open Sans, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  transition-property: all;
+}
+.button-event-registration:hover {
+  color: #00aff3;
+  background-color: #2c3e50;
+}
+.button-event-registration.secondary {
+  color: #fff;
+  background-color: #2c3e50;
+  border: 1px solid #fff;
+  font-family: Open Sans, sans-serif;
+}
+.button-event-registration.secondary:hover {
+  color: #fff;
+  background-color: #00aff3;
+  border-color: #00aff3;
+}
+.button-event-registration.small {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 166%;
+}
+.button-event-registration._16px {
+  font-size: 14px;
+  line-height: 166%;
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     height: 100%;
@@ -14084,6 +14244,9 @@ figcaption {
   .section.contact {
     border-style: none;
   }
+  .section.contact.events-section {
+    padding-bottom: 0;
+  }
   .section.category {
     padding-top: 96px;
     padding-bottom: 180px;
@@ -14160,14 +14323,13 @@ figcaption {
     margin-bottom: 50px;
   }
   .card.value {
-    max-width: 49%;
     object-fit: fill;
     flex-direction: column;
     flex: 0 auto;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 0;
-    display: block;
+    display: flex;
     position: relative;
   }
   .card.value.event {
@@ -14342,8 +14504,11 @@ figcaption {
   .button-primary-2.newsletter {
     margin-bottom: 0;
   }
-  .workshop-heading {
+  .webinar-heading {
     padding-top: 20px;
+  }
+  .webinar-heading.event-heading {
+    font-size: 37px;
   }
   .heading-9 {
     margin-bottom: 33px;
@@ -15806,6 +15971,46 @@ figcaption {
     grid-column-gap: 42px;
     grid-row-gap: 54px;
   }
+  .container-events {
+    min-width: 70vw;
+  }
+  .logo-block-webinar {
+    max-width: 35%;
+  }
+  .image-28 {
+    max-width: 100%;
+  }
+  .speakers-webinar {
+    max-width: none;
+  }
+  .rich-text-block-7 {
+    text-align: left;
+  }
+  .container-speakers {
+    min-width: 70vw;
+  }
+  .title-speaker {
+    font-weight: 700;
+  }
+  .event-wrapper-cards {
+    display: flex;
+  }
+  .button-event-registration {
+    padding: 16px 42px;
+    font-size: 17px;
+    line-height: 166%;
+    display: inline-block;
+  }
+  .button-event-registration.w--current {
+    font-size: 16px;
+  }
+  .button-event-registration.small {
+    padding: 18px 26px;
+    font-size: 16px;
+  }
+  .button-event-registration._16px {
+    font-size: 17px;
+  }
 }
 @media screen and (max-width: 991px) {
   h1 {
@@ -16040,6 +16245,9 @@ figcaption {
   .section.contact.demo-section {
     padding-top: 0;
   }
+  .section.contact.events-section {
+    padding-bottom: 0;
+  }
   .section.category {
     padding-top: 61px;
     padding-bottom: 115px;
@@ -16131,8 +16339,8 @@ figcaption {
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
     justify-content: flex-start;
-    align-items: stretch;
-    padding-top: 79px;
+    align-items: center;
+    padding-top: 30px;
     display: flex;
     position: static;
     overflow: hidden;
@@ -16141,6 +16349,9 @@ figcaption {
     width: 100%;
     flex: 0 auto;
     order: -1;
+  }
+  .card.value.recording-session {
+    order: 1;
   }
   .card.press.last {
     padding-top: 65px;
@@ -16929,6 +17140,10 @@ figcaption {
   .features-main-content._2 {
     flex-direction: column;
   }
+  .feature-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .team-members-wrapper {
     margin-bottom: 89px;
   }
@@ -17067,6 +17282,9 @@ figcaption {
   .image-4 {
     margin-left: 107px;
     margin-right: 107px;
+  }
+  .webinar-heading.event-heading {
+    font-size: 36px;
   }
   .cards-grid-container {
     grid-column-gap: 20px;
@@ -18480,6 +18698,42 @@ figcaption {
     grid-column-gap: 24px;
     grid-row-gap: 30px;
   }
+  .container-events {
+    max-width: 90vw;
+    min-width: 90vw;
+  }
+  .logo-collection-webinar {
+    max-width: 100%;
+  }
+  .speakers-webinar {
+    max-width: none;
+    flex-direction: row;
+    display: block;
+    position: relative;
+  }
+  .container-speakers {
+    max-width: 90vw;
+    min-width: 90vw;
+  }
+  .webinar-item-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .event-wrapper-cards {
+    flex-direction: column;
+    order: 0;
+    align-items: stretch;
+  }
+  .button-event-registration {
+    padding: 9px 22px;
+    font-size: 15px;
+  }
+  .button-event-registration.w--current {
+    font-size: 13px;
+  }
+  .button-event-registration._16px {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 767px) {
   h1 {
@@ -18644,6 +18898,9 @@ figcaption {
   .section.contact {
     padding-top: 50px;
     padding-bottom: 91px;
+  }
+  .section.contact.events-section {
+    padding-bottom: 0;
   }
   .section.category,
   .section.pricing-category,
@@ -19818,10 +20075,10 @@ figcaption {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .workshop-heading {
+  .webinar-heading {
     font-size: 42px;
   }
-  .subheading-workshops {
+  .subheading-webinar {
     font-size: 22px;
   }
   .cards-section {
@@ -21153,6 +21410,30 @@ figcaption {
   .solution-page-cooperation {
     grid-template-columns: 1fr;
   }
+  .logo-block-webinar {
+    max-width: 50%;
+  }
+  .speakers-webinar {
+    max-width: 100vw;
+    flex-direction: column;
+  }
+  .heading-44 {
+    text-align: center;
+  }
+  .webinar-item-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .button-event-registration {
+    padding: 6px 20px;
+    font-size: 13px;
+  }
+  .button-event-registration.small {
+    font-weight: 600;
+  }
+  .button-event-registration._16px {
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 479px) {
   h1 {
@@ -21358,6 +21639,9 @@ figcaption {
   .section.contact {
     padding-top: 40px;
     padding-bottom: 73px;
+  }
+  .section.contact.events-section {
+    padding-bottom: 0;
   }
   .section.category,
   .section.pricing-category,
@@ -22790,11 +23074,14 @@ figcaption {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .workshop-heading {
+  .webinar-heading {
     font-size: 36px;
   }
-  .subheading-workshops {
-    font-size: 23px;
+  .webinar-heading.event-heading {
+    font-size: 27px;
+  }
+  .subheading-webinar {
+    font-size: 19px;
   }
   .bold-text-2 {
     font-size: 16px;
@@ -22884,6 +23171,9 @@ figcaption {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
+  }
+  .info-main-speaker {
+    font-size: 16px;
   }
   .div-block-8 {
     max-width: 100%;
@@ -24308,6 +24598,30 @@ figcaption {
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr;
   }
+  .container-events {
+    max-width: 100vw;
+  }
+  .speakers-webinar {
+    flex-direction: column;
+  }
+  .rich-text-block-7 {
+    text-align: center;
+    font-size: 16px;
+  }
+  .container-speakers {
+    max-width: 100vw;
+  }
+  .paragraph-14 {
+    font-size: 16px;
+  }
+  .title-speaker {
+    color: #586577;
+    font-style: italic;
+    font-weight: 400;
+  }
+  .webinar-item-content {
+    padding: 29px 20px 34px;
+  }
 }
 #w-node-_2caf46a2-3eaa-85f4-601e-4bb507a41ea3-b1f40d0c,
 #w-node-_4fbe33d3-3e9a-b802-0cba-22a28b1321c9-b1f40d0c,
@@ -24441,19 +24755,6 @@ figcaption {
 #w-node-fc9fd1ae-48e7-c4a3-b7bf-8a9784d55828-1af40dc4 {
   grid-area: span 1 / span 2 / span 1 / span 2;
   justify-self: start;
-}
-#w-node-_934eb7a7-6744-d884-ce1e-f36f94fbd117-e4f40dd2 {
-  align-self: center;
-  justify-self: start;
-}
-#w-node-_934eb7a7-6744-d884-ce1e-f36f94fbd118-e4f40dd2 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: center;
-  justify-self: center;
-}
-#w-node-_934eb7a7-6744-d884-ce1e-f36f94fbd119-e4f40dd2 {
-  align-self: center;
-  justify-self: end;
 }
 #w-node-_8baf552c-44fb-9d9e-9e2e-b346646e3c42-46f40df7,
 #w-node-ec94819b-8814-add2-7a21-6bf4730fd72b-46f40df7 {
@@ -24728,9 +25029,6 @@ figcaption {
   #w-node-_4f3b094c-42ce-2e5a-4ee3-7bfb8827b3a9-1af40dc4 {
     align-self: center;
     justify-self: center;
-  }
-  #w-node-_934eb7a7-6744-d884-ce1e-f36f94fbd119-e4f40dd2 {
-    align-self: center;
   }
   #w-node-_4f3b094c-42ce-2e5a-4ee3-7bfb8827b3a9-46f40df7 {
     grid-area: Area-5;
