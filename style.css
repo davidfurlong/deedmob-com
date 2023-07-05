@@ -15284,7 +15284,7 @@ figcaption {
     font-size: 21px;
   }
   .a-text-18 {
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     line-height: 166%;
   }
@@ -15519,6 +15519,9 @@ figcaption {
   .a-customers-vector {
     width: 110px;
     margin-right: 37px;
+  }
+  .a-grey-text {
+    text-align: left;
   }
   .a-grey-text.impact-examples-text {
     text-align: left;
