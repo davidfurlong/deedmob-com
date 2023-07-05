@@ -14109,6 +14109,10 @@ figcaption {
   font-size: 14px;
   line-height: 166%;
 }
+.rich-text-block-8 {
+  text-align: center;
+  align-self: auto;
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     height: 100%;
