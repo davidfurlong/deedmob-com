@@ -4138,8 +4138,8 @@ figcaption {
   border-style: none;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 40px;
+  padding-right: 0;
 }
 .card.value.card-speakers {
   padding-left: 40px;
@@ -15124,7 +15124,7 @@ figcaption {
     justify-content: center;
     align-self: stretch;
     align-items: flex-start;
-    padding-left: 10px;
+    padding-left: 40px;
     padding-right: 10px;
   }
   .card.author {
