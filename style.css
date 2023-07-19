@@ -26435,14 +26435,15 @@ figcaption {
     font-size: 14px;
   }
   .bold-text-12 {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.7em;
   }
   .bold-text-13,
   .webinar-type-tag {
-    font-size: 16px;
+    font-size: 15px;
   }
   .div-block-36 {
+    text-align: center;
     margin-bottom: 10px;
   }
   .webinar-date {
