@@ -4124,6 +4124,8 @@ figcaption {
 .card.value.recording-session {
   justify-content: center;
   align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .card.value.image-card {
   width: 55%;
@@ -8169,7 +8171,7 @@ figcaption {
 }
 .webinar-heading.event-heading {
   text-align: left;
-  line-height: 1.4em;
+  line-height: 1.3em;
 }
 .subheading-webinar {
   font-size: 22px;
@@ -14828,14 +14830,12 @@ figcaption {
 .bold-text-12,
 .bold-text-13 {
   color: #00aff3;
+  font-size: 15px;
 }
-.webinar-duration {
-  color: #000;
-  font-weight: 700;
-  display: inline-block;
-}
+.webinar-duration,
 .webinar-type-tag {
   color: #00aff3;
+  font-size: 15px;
   font-weight: 700;
   display: inline-block;
 }
@@ -14855,11 +14855,13 @@ figcaption {
   margin-bottom: 20px;
 }
 .bold-text-14 {
-  color: #000;
+  color: #00aff3;
+  font-size: 15px;
 }
 .webinar-date {
   color: #003449;
   text-indent: 8px;
+  font-size: 15px;
   font-weight: 700;
   display: inline-block;
 }
@@ -14869,6 +14871,7 @@ figcaption {
 .rich-text-block-9 {
   color: #003449;
   font-size: 17px;
+  line-height: 1.5em;
 }
 .logo-block-deedmob {
   max-width: 40%;
@@ -15158,6 +15161,9 @@ figcaption {
   .card.value.event {
     width: 100%;
   }
+  .card.value.recording-session {
+    padding: 40px 100px;
+  }
   .card.value.image-card {
     box-shadow: none;
     background-color: transparent;
@@ -15347,7 +15353,7 @@ figcaption {
   .webinar-heading.event-heading {
     margin-bottom: 30px;
     font-size: 45px;
-    line-height: 1.6em;
+    line-height: 1.3em;
   }
   .heading-9 {
     margin-bottom: 33px;
@@ -16961,15 +16967,19 @@ figcaption {
   .multilingual-card.value-copy.event {
     width: 100%;
   }
-  .text-block-41 {
-    font-size: 25px;
+  .text-block-41,
+  .bold-text-12 {
+    font-size: 20px;
+  }
+  .bold-text-13 {
+    font-size: 19px;
   }
   .webinar-duration {
-    color: #000;
-    font-size: 25px;
+    color: #00aff3;
+    font-size: 20px;
   }
   .webinar-type-tag {
-    font-size: 25px;
+    font-size: 20px;
   }
   .indent {
     color: #000;
@@ -16984,8 +16994,12 @@ figcaption {
     flex-direction: row;
     display: block;
   }
+  .bold-text-14 {
+    color: #00aff3;
+    font-size: 20px;
+  }
   .webinar-date {
-    font-size: 25px;
+    font-size: 20px;
   }
   .time-div-webinar {
     margin-bottom: 40px;
