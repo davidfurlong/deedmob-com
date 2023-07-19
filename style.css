@@ -22992,6 +22992,9 @@ figcaption {
   .button-event-opposite._16px {
     font-size: 13px;
   }
+  .speakers-div {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 479px) {
   h1 {
@@ -23358,6 +23361,17 @@ figcaption {
     order: 1;
     align-self: auto;
     padding: 27px 10px 40px;
+  }
+  .card.value.recording-session {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .card.value.card-event-info {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card.value.card-speakers {
+    padding-left: 10px;
   }
   .card.team {
     padding: 33px 25px 22px;
@@ -26189,6 +26203,9 @@ figcaption {
   .webinar-item-content {
     padding: 29px 10px 34px;
   }
+  .event-wrapper-cards {
+    padding-left: 10px;
+  }
   .button-event-registration {
     padding-left: 40px;
     padding-right: 40px;
@@ -26438,6 +26455,9 @@ figcaption {
     padding-left: 40px;
     padding-right: 40px;
     font-size: 16px;
+  }
+  .speakers-div {
+    flex-direction: column;
   }
 }
 #w-node-_2caf46a2-3eaa-85f4-601e-4bb507a41ea3-b1f40d0c,
