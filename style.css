@@ -4136,6 +4136,10 @@ figcaption {
   width: 45%;
   box-shadow: none;
   border-style: none;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .card.value.card-speakers {
   padding-left: 40px;
@@ -14043,7 +14047,7 @@ figcaption {
 }
 .logo-collection-webinar {
   max-width: 100%;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin-top: 20px;
   display: flex;
@@ -14846,6 +14850,7 @@ figcaption {
   display: inline-block;
 }
 .div-block-36 {
+  text-align: left;
   margin-bottom: 20px;
 }
 .bold-text-14 {
@@ -15116,8 +15121,11 @@ figcaption {
     overflow: hidden;
   }
   .card.value.card-event-info {
+    justify-content: center;
     align-self: stretch;
     align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .card.author {
     flex-direction: column;
@@ -16765,6 +16773,7 @@ figcaption {
     grid-row-gap: 54px;
   }
   .container-events {
+    max-width: 70vw;
     min-width: 70vw;
   }
   .logo-collection-webinar {
@@ -16795,6 +16804,7 @@ figcaption {
     font-size: 22px;
   }
   .container-speakers {
+    max-width: 70vw;
     min-width: 70vw;
   }
   .title-speaker {
@@ -16920,6 +16930,10 @@ figcaption {
   .webinar-division {
     text-indent: 4px;
     font-size: 25px;
+  }
+  .div-block-36 {
+    flex-direction: row;
+    display: block;
   }
   .webinar-date {
     font-size: 25px;
@@ -17292,9 +17306,12 @@ figcaption {
   .card.value.recording-session {
     order: 1;
   }
-  .card.value.image-card,
+  .card.value.image-card {
+    width: 100%;
+  }
   .card.value.card-event-info {
     width: 100%;
+    align-items: center;
   }
   .card.press.last {
     padding-top: 65px;
