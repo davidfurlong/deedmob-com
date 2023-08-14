@@ -17523,6 +17523,9 @@ figcaption {
   .title.faqs {
     margin-bottom: 10px;
   }
+  .title.post-item-title {
+    text-align: center;
+  }
   .title.h3-size.card-post-featured {
     max-width: 450px;
     text-align: left;
@@ -18009,6 +18012,9 @@ figcaption {
   .post-item-content {
     padding-left: 35px;
     padding-right: 35px;
+  }
+  .post-item-content-top {
+    text-align: center;
   }
   .header-bg {
     min-height: 167px;
