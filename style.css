@@ -3901,6 +3901,7 @@ figcaption {
   font-size: 16px;
 }
 .paragraph.post-item-paragraph {
+  text-align: center;
   margin-bottom: 0;
   text-decoration: none;
   overflow: visible;
@@ -3939,6 +3940,7 @@ figcaption {
   margin-bottom: 26px;
 }
 .paragraph.card-post-featured {
+  text-align: center;
   margin-bottom: 24px;
 }
 .paragraph.post-excerpt {
@@ -4458,7 +4460,7 @@ figcaption {
   margin-bottom: 8px;
 }
 .title.post-item-title {
-  text-align: left;
+  text-align: center;
   margin-bottom: 6px;
 }
 .title.values {
@@ -4489,6 +4491,7 @@ figcaption {
   margin-bottom: 18px;
 }
 .title.h3-size.card-post-featured {
+  text-align: center;
   margin-bottom: 10px;
 }
 .title.h3-size.team-page-about-title {
@@ -15134,6 +15137,7 @@ figcaption {
     position: relative;
   }
   .paragraph.post-item-paragraph {
+    text-align: center;
     text-decoration: none;
   }
   .paragraph.card-value {
@@ -15206,6 +15210,7 @@ figcaption {
     position: relative;
   }
   .title.post-item-title {
+    text-align: center;
     text-decoration: none;
   }
   .title.h3-size.card-post-featured {
@@ -17528,7 +17533,7 @@ figcaption {
   }
   .title.h3-size.card-post-featured {
     max-width: 450px;
-    text-align: left;
+    text-align: center;
   }
   .title.blog-hero {
     z-index: 999;
@@ -24291,6 +24296,10 @@ figcaption {
   }
   .newsletter-wrapper {
     padding: 49px 25px;
+  }
+  .post-featured-item {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .card-post-featured-badge {
     margin-bottom: 5px;
