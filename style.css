@@ -4146,6 +4146,7 @@ figcaption {
   padding-right: 0;
 }
 .card.value.card-speakers {
+  flex-direction: column;
   padding-left: 40px;
 }
 .card.team {
