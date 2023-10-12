@@ -3698,7 +3698,7 @@ figcaption {
   height: 100vh;
   min-height: 900px;
   background-color: var(--blue-3);
-  background-image: url(https://uploads-ssl.webflow.com/61dc11a06409c8209f8356c7/63761714b92e1c42b71c9990_hero%20bg.webp);
+  background-image: url(https://assets-global.website-files.com/61dc11a06409c8209f8356c7/63761714b92e1c42b71c9990_hero%20bg.webp);
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3825,14 +3825,14 @@ figcaption {
 }
 .input.blog-search-input {
   min-height: 65px;
-  background-image: url(https://uploads-ssl.webflow.com/61dc11a06409c8209f8356c7/61dc11a06409c813ee8357fb_icon-1-search-saaslify-template.svg);
+  background-image: url(https://assets-global.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c813ee8357fb_icon-1-search-saaslify-template.svg);
   background-position: 29px;
   background-repeat: no-repeat;
   background-size: auto;
   padding-left: 62px;
 }
 .input.blog-search-input:focus {
-  background-image: url(https://uploads-ssl.webflow.com/61dc11a06409c8209f8356c7/61dc11a06409c8ecfd8357fc_icon-2-search-saaslify-template.svg);
+  background-image: url(https://assets-global.website-files.com/61dc11a06409c8209f8356c7/61dc11a06409c8ecfd8357fc_icon-2-search-saaslify-template.svg);
 }
 .input.newsletter {
   min-height: 65px;
@@ -11975,7 +11975,7 @@ figcaption {
 .a-button-arrow {
   color: var(--blue-2);
   background-color: transparent;
-  background-image: url(https://uploads-ssl.webflow.com/61dc11a06409c8209f8356c7/636bb12e4aff1c0b166a7476_arrow.svg);
+  background-image: url(https://assets-global.website-files.com/61dc11a06409c8209f8356c7/636bb12e4aff1c0b166a7476_arrow.svg);
   background-position: 95% 52%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -13180,7 +13180,7 @@ figcaption {
 .div-block-28 {
   width: 100%;
   height: 100%;
-  background-image: url(https://uploads-ssl.webflow.com/61dc11a06409c8209f8356c7/63aee6be13fcc87c8333ab02_Blue%20and%20Orange%20Spring%20Sale%20eCommerce%20Website%20Banner.png);
+  background-image: url(https://assets-global.website-files.com/61dc11a06409c8209f8356c7/63aee6be13fcc87c8333ab02_Blue%20and%20Orange%20Spring%20Sale%20eCommerce%20Website%20Banner.png);
   background-position: 0 0;
   background-size: auto;
 }
