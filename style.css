@@ -272,6 +272,9 @@ html[data-w-dynpage] [data-w-cloak] {
 .w-code-block {
   margin: unset;
 }
+pre.w-code-block code {
+  all: inherit;
+}
 .w-webflow-badge,
 .w-webflow-badge * {
   z-index: auto;
@@ -4545,6 +4548,7 @@ figcaption {
   color: var(--neutral-700);
 }
 .title.blog-hero {
+  text-align: center;
   margin-bottom: 40px;
   margin-right: 0;
 }
@@ -14972,6 +14976,19 @@ figcaption {
   align-items: flex-start;
   display: flex;
 }
+.container-medium-1000px {
+  max-width: 834px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.container-medium-1000px.post {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     height: 100%;
@@ -17090,6 +17107,9 @@ figcaption {
   .div-block-38 {
     align-items: center;
     display: flex;
+  }
+  .container-medium-1000px.post {
+    max-width: 1000px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -26519,6 +26539,10 @@ figcaption {
   .speakers-div {
     flex-direction: column;
   }
+  .container-medium-1000px {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 #w-node-_2caf46a2-3eaa-85f4-601e-4bb507a41ea3-b1f40d0c,
 #w-node-_4fbe33d3-3e9a-b802-0cba-22a28b1321c9-b1f40d0c,
@@ -26824,7 +26848,13 @@ figcaption {
 #w-node-b66f1d1b-f8d6-9b8e-a8b3-ce12fa6fd194-3a09a134,
 #w-node-_0f1eec4c-92df-d0e3-5ad5-fc972722508b-3a09a134,
 #w-node-_0f1eec4c-92df-d0e3-5ad5-fc9727225097-3a09a134,
-#w-node-_0f1eec4c-92df-d0e3-5ad5-fc97272250a3-3a09a134 {
+#w-node-_0f1eec4c-92df-d0e3-5ad5-fc97272250a3-3a09a134,
+#w-node-_7b02b621-f7f0-60a5-62a3-a63a667f712a-0908acc5,
+#w-node-_801bd570-edee-b3be-8209-531b8864e791-0908acc5,
+#w-node-b66f1d1b-f8d6-9b8e-a8b3-ce12fa6fd194-0908acc5,
+#w-node-b311ea56-bbc0-dacd-4e30-4a8b436cd4c2-0908acc5,
+#w-node-b400c7b2-88f1-d06c-6d69-7b95241a6272-0908acc5,
+#w-node-_6574a47a-83bc-16dc-fbf8-e6451ab03be4-0908acc5 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 @media screen and (min-width: 1920px) {
@@ -26890,7 +26920,9 @@ figcaption {
   #w-node-b66f1d1b-f8d6-9b8e-a8b3-ce12fa6fd194-2286fa72,
   #w-node-b400c7b2-88f1-d06c-6d69-7b95241a6272-2286fa72,
   #w-node-b66f1d1b-f8d6-9b8e-a8b3-ce12fa6fd194-3a09a134,
-  #w-node-_0f1eec4c-92df-d0e3-5ad5-fc97272250a3-3a09a134 {
+  #w-node-_0f1eec4c-92df-d0e3-5ad5-fc97272250a3-3a09a134,
+  #w-node-b66f1d1b-f8d6-9b8e-a8b3-ce12fa6fd194-0908acc5,
+  #w-node-b400c7b2-88f1-d06c-6d69-7b95241a6272-0908acc5 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
