@@ -4808,7 +4808,7 @@ figcaption {
   margin-bottom: 40px;
 }
 .image-wrapper {
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   display: flex;
   overflow: visible;
@@ -6677,6 +6677,13 @@ figcaption {
   max-width: 492px;
   margin-bottom: 0;
   padding-bottom: 1px;
+  display: flex;
+}
+.post-featured-item {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   display: flex;
 }
 .post-featured-wrapper {
@@ -16263,6 +16270,9 @@ figcaption {
 }
 .text-block-42 {
   margin-bottom: 15px;
+}
+.heading-45 {
+  font-size: 24px;
 }
 @media screen and (min-width: 1920px) {
   .container-default {
