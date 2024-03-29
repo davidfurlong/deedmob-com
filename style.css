@@ -3801,6 +3801,8 @@ figcaption {
   background-color: var(--neutral-400);
   width: 100%;
   min-height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .divider.utility-pages {
   margin-top: 60px;
@@ -16273,6 +16275,9 @@ figcaption {
 }
 .heading-45 {
   font-size: 24px;
+}
+.list {
+  list-style-type: decimal;
 }
 @media screen and (min-width: 1920px) {
   .container-default {
