@@ -3686,8 +3686,14 @@ figcaption {
   padding-bottom: 110px;
 }
 .section.events-section {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
   padding-top: 40px;
   padding-bottom: 0;
+  display: flex;
 }
 .section.contact-page {
   background-color: var(--blue-3);
@@ -14097,6 +14103,7 @@ figcaption {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
+  grid-auto-flow: row;
   display: grid;
 }
 .nl-card {
@@ -29793,6 +29800,7 @@ figcaption {
 #w-node-b311ea56-bbc0-dacd-4e30-4a8b436cd4c2-2286fa72,
 #w-node-b400c7b2-88f1-d06c-6d69-7b95241a6272-2286fa72,
 #w-node-_6574a47a-83bc-16dc-fbf8-e6451ab03be4-2286fa72,
+#w-node-_866bae63-4db9-212c-cb73-0b6e030565c9-9f3f1d2a,
 #w-node-af360cb4-9049-ee82-41a3-e2dab3b35af6-3a09a134,
 #w-node-_0302cfef-1324-4cc5-be7b-cb208a857ec9-3a09a134,
 #w-node-_179dcc7a-b200-b081-19aa-1a86b95bd7f4-3a09a134,
