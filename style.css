@@ -16279,6 +16279,12 @@ figcaption {
 .list {
   list-style-type: decimal;
 }
+.paragraph-15,
+.paragraph-16,
+.paragraph-17,
+.paragraph-18 {
+  margin-bottom: 0;
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     flex-direction: column;
