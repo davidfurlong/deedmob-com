@@ -13938,6 +13938,9 @@ figcaption {
 .solution-page-images-outer-end {
   padding: 10px 20px;
 }
+.dutch-only {
+  display: block;
+}
 .solution-page-cooperation {
   grid-column-gap: 32px;
   grid-row-gap: 40px;
@@ -18194,6 +18197,9 @@ figcaption {
   }
   .bold-text-10 {
     font-size: 24px;
+  }
+  .dutch-only {
+    display: block;
   }
   .solution-page-cooperation {
     grid-column-gap: 42px;
