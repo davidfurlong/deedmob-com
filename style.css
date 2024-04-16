@@ -18674,6 +18674,10 @@ figcaption {
     flex-direction: column;
     align-items: center;
   }
+  .feature-wrapper-webinar-speakers {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 @media screen and (max-width: 991px) {
   h1 {
@@ -21695,7 +21699,7 @@ figcaption {
     font-size: 14px;
   }
   .speakers-div {
-    display: flex;
+    display: block;
   }
   .intermezzo-card-101-horizontal.faqs {
     max-width: 670px;
