@@ -18221,10 +18221,10 @@ figcaption {
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
     align-self: auto;
-    align-items: flex-start;
+    align-items: center;
     justify-items: stretch;
     max-width: none;
-    display: grid;
+    display: flex;
   }
   .section-4,
   .section-recap {
@@ -18417,6 +18417,9 @@ figcaption {
   .div-block-38 {
     align-items: center;
     display: flex;
+  }
+  .speakers-div {
+    justify-items: center;
   }
   .container-medium-835px.post {
     max-width: 1000px;
@@ -21692,7 +21695,7 @@ figcaption {
     font-size: 14px;
   }
   .speakers-div {
-    display: block;
+    display: flex;
   }
   .intermezzo-card-101-horizontal.faqs {
     max-width: 670px;
@@ -29885,8 +29888,7 @@ figcaption {
   #w-node-_306938a8-86a5-f81e-0a83-a0460668ba50-1af40dc4 {
     align-self: center;
   }
-  #w-node-_4f3b094c-42ce-2e5a-4ee3-7bfb8827b3a9-1af40dc4,
-  #w-node-_9955a699-841f-3e72-809a-392f8fee1227-e4f40dd2 {
+  #w-node-_4f3b094c-42ce-2e5a-4ee3-7bfb8827b3a9-1af40dc4 {
     align-self: center;
     justify-self: center;
   }
