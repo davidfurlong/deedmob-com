@@ -16302,6 +16302,14 @@ figcaption {
   padding-left: 20px;
   padding-right: 20px;
 }
+.video-3 {
+  object-fit: fill;
+  min-width: 20em;
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     flex-direction: column;
@@ -18683,6 +18691,9 @@ figcaption {
   .feature-wrapper-webinar-speakers {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .video-3 {
+    min-width: 19em;
   }
 }
 @media screen and (max-width: 991px) {
@@ -22254,6 +22265,9 @@ figcaption {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .video-3 {
+    min-width: 35vw;
+  }
 }
 @media screen and (max-width: 767px) {
   h1 {
@@ -25619,6 +25633,9 @@ figcaption {
   }
   .intermezzo-text-only {
     max-width: none;
+  }
+  .video-3 {
+    min-width: 85vw;
   }
 }
 @media screen and (max-width: 479px) {
