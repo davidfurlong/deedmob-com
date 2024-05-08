@@ -1844,6 +1844,13 @@ textarea.w-select {
 .wf-layout-layout {
   display: grid;
 }
+.w-code-component > * {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 :root {
   --neutral-600: #6f7f96;
   --neutral-800: #193765;
