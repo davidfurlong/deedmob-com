@@ -4122,6 +4122,10 @@ figcaption {
   padding-left: 40px;
   padding-right: 0;
 }
+.card.value.card-event-info.card-events {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .card.value.card-speakers {
   flex-direction: column;
   padding-left: 40px;
@@ -16568,6 +16572,10 @@ figcaption {
     padding-left: 40px;
     padding-right: 10px;
   }
+  .card.value.card-event-info.card-events {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .card.author {
     flex-direction: column;
   }
@@ -19061,6 +19069,9 @@ figcaption {
   .card.value.card-event-info {
     align-items: center;
     width: 100%;
+  }
+  .card.value.card-event-info.card-events {
+    padding-left: 0;
   }
   .card.press.last {
     padding-top: 65px;
