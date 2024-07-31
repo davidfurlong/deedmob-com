@@ -16309,6 +16309,9 @@ figcaption {
   position: relative;
   overflow: visible;
 }
+.rich-text-block-10 {
+  width: 100%;
+}
 @media screen and (min-width: 1920px) {
   .container-default {
     flex-direction: column;
