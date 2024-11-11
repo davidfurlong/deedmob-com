@@ -11623,7 +11623,7 @@ figcaption {
   display: grid;
 }
 .a-carousel-block.no-ladscape {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .a-carousel-block.landscape {
   display: none;
